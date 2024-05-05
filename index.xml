@@ -6,6 +6,14 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 05 May 2024 21:51:01 &#43;0200</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>使用RDKit生成无背景的化学结构式--附Python代码</title>
+    <link>http://example.org/second/</link>
+    <pubDate>Sun, 05 May 2024 21:51:01 &#43;0200</pubDate>
+    <author>小恐龙</author>
+    <guid>http://example.org/second/</guid>
+    <description><![CDATA[前言 笔者发现传统的用RDKit画图画出来有白色背景，放在PowerPoint里面很不爽。参考了这一篇文献找到了代码。 1 2 3 4 5 6 7 8 9 10 11 12]]></description>
+</item>
+<item>
     <title>测试文档</title>
     <link>http://example.org/first_post/</link>
     <pubDate>Sun, 05 May 2024 20:35:46 &#43;0200</pubDate>
