@@ -11,13 +11,5 @@
     <guid>http://example.org/categories/%E5%AD%A6%E6%9C%AF/</guid>
     <description><![CDATA[]]></description>
 </item>
-<item>
-    <title>Documentation</title>
-    <link>http://example.org/categories/documentation/</link>
-    <pubDate>Sun, 05 May 2024 20:35:46 &#43;0200</pubDate>
-    <author>小恐龙</author>
-    <guid>http://example.org/categories/documentation/</guid>
-    <description><![CDATA[]]></description>
-</item>
 </channel>
 </rss>
