@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>化学信息学 - Tag - 小恐龙的自留地</title>
+        <link>http://example.org/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/</link>
+        <description>化学信息学 - Tag - 小恐龙的自留地</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 05 May 2024 21:51:01 &#43;0200</lastBuildDate><atom:link href="http://example.org/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/" rel="self" type="application/rss+xml" /><item>
+    <title>使用RDKit生成无背景的化学结构式--附Python代码</title>
+    <link>http://example.org/second/</link>
+    <pubDate>Sun, 05 May 2024 21:51:01 &#43;0200</pubDate>
+    <author>小恐龙</author>
+    <guid>http://example.org/second/</guid>
+    <description><![CDATA[前言 笔者发现传统的用RDKit画图画出来有白色背景，放在PowerPoint里面很不爽。参考了这一篇文献找到了代码。 1 2 3 4 5 6 7 8 9 10 11 12]]></description>
+</item>
+</channel>
+</rss>
