@@ -9,7 +9,7 @@ ChEMBL 算是各位化学从业者喜闻乐见的数据库。~~（因为他不�
 
 #### 应用实例
 
-一位励志发JACS的同学希望收集ChEMBL上**杂环化合物（Heterocyclic compound）**的 **溶解度（Solubility）**数据，我们应该怎么找呢？
+一位励志发JACS的同学希望收集ChEMBL上**杂环化合物Heterocyclic compound**的 **溶解度Solubility**数据，我们应该怎么找呢？
 
 **示例代码**：
 
