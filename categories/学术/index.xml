@@ -3,10 +3,18 @@
         <title>学术 - Category - 小恐龙的自留地</title>
         <link>http://example.org/categories/%E5%AD%A6%E6%9C%AF/</link>
         <description>学术 - Category - 小恐龙的自留地</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 05 May 2024 21:51:01 &#43;0200</lastBuildDate><atom:link href="http://example.org/categories/%E5%AD%A6%E6%9C%AF/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 11 Aug 2024 17:25:35 &#43;0200</lastBuildDate><atom:link href="http://example.org/categories/%E5%AD%A6%E6%9C%AF/" rel="self" type="application/rss+xml" /><item>
+    <title>使用ChEMBL Python API 搜索化合物信息</title>
+    <link>http://example.org/chembl/</link>
+    <pubDate>Sun, 11 Aug 2024 17:25:35 &#43;0200</pubDate>
+    <author>小恐龙</author>
+    <guid>http://example.org/chembl/</guid>
+    <description><![CDATA[前言 ChEMBL 算是各位化学从业者喜闻乐见的数据库。（因为他不要钱） 但是如果我们想要批量收集我们想要的内容，用网页版挨个寻找属实有点麻烦了。那么，有没]]></description>
+</item>
+<item>
     <title>使用RDKit生成无背景的化学结构式--附Python代码</title>
     <link>http://example.org/second/</link>
-    <pubDate>Sun, 05 May 2024 21:51:01 &#43;0200</pubDate>
+    <pubDate>Mon, 05 Aug 2024 21:51:01 &#43;0200</pubDate>
     <author>小恐龙</author>
     <guid>http://example.org/second/</guid>
     <description><![CDATA[前言 笔者发现传统的用RDKit画图画出来有白色背景，放在PowerPoint里面很不爽。参考了这一篇文献找到了代码。 1 2 3 4 5 6 7 8 9 10 11 12]]></description>
