@@ -7,7 +7,7 @@ ChEMBL 算是各位化学从业者喜闻乐见的数据库。~~（因为他不�
 
 其实除了我们熟知的ChEMBL[网页](https://www.ebi.ac.uk/chembl/) ， ChEMBL 还贴心的提供了可以用Python 搜索的 ChEMBL web service client 服务。只要我们在Python代码中输入想要的关键词，就可以批量搜索到我们想要的内容然后保存为CSV 文件用于后续处理。~~（比如赛博炼丹）~~
 
-#### 事例
+#### 应用实例
 
 一位励志发JACS的同学希望收集ChEMBL上**杂环化合物（Heterocyclic compound）**的 **溶解度（Solubility）**数据，我们应该怎么找呢？
 
