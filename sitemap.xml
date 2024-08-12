@@ -1,12 +1,18 @@
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml"
-    ><url>
-            <loc>http://example.org/categories/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/chembl/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/categories/%E5%AD%A6%E6%9C%AF/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/second/</loc><lastmod>2024-08-05T21:51:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>http://example.org/zh-cn/sitemap.xml</loc>
+    
+      <lastmod>2024-08-11T17:25:35+02:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://example.org/en/sitemap.xml</loc>
+    
+      <lastmod>2024-08-12T14:21:01+02:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>

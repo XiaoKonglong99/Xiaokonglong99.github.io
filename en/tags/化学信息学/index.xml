@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>化学信息学 - Tag - Little Dinosaur&#39;s Corner</title>
+        <link>http://localhost:1313/en/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/</link>
+        <description>化学信息学 - Tag - Little Dinosaur&#39;s Corner</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 05 Aug 2024 21:51:01 &#43;0200</lastBuildDate><atom:link href="http://localhost:1313/en/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/" rel="self" type="application/rss+xml" /><item>
+    <title>使用RDKit生成无背景的化学结构式--附Python代码</title>
+    <link>http://localhost:1313/en/transparent/</link>
+    <pubDate>Mon, 05 Aug 2024 21:51:01 &#43;0200</pubDate>
+    <author>小恐龙 | Little Dinosaur</author>
+    <guid>http://localhost:1313/en/transparent/</guid>
+    <description><![CDATA[前言
+笔者发现传统的用RDKit画图画出来有白色背景，放在PowerPoint里面很不爽。参考了这一篇文献找到了代码。
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 from rdkit import Chem from rdkit import rdBase from rdkit.Chem import Draw from rdkit.Chem.Draw import rdMolDraw2D from rdkit.Chem import rdDepictor rdDepictor.SetPreferCoordGen(True) from rdkit.Chem import rdMolDescriptors from rdkit.Chem import rdFMCS from rdkit import DataStructs import io from PIL import Image def show_png(data): bio = io.BytesIO(data) img = Image.]]></description>
+</item>
+</channel>
+</rss>
