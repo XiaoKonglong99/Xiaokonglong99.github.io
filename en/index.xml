@@ -3,9 +3,20 @@
         <title>Little Dinosaur&#39;s Corner</title>
         <link>/en/</link>
         <description>This is my brand new Hugo website</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 12 Aug 2024 14:21:01 &#43;0200</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 12 Aug 2024 15:00:01 &#43;0200</lastBuildDate>
             <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>InDraw -- Convert Figures to SMILES with AI</title>
+    <link>/en/structure-ocr/</link>
+    <pubDate>Mon, 12 Aug 2024 15:00:01 &#43;0200</pubDate>
+    <author>小恐龙 | Little Dinosaur</author>
+    <guid>/en/structure-ocr/</guid>
+    <description><![CDATA[InDraw for web is a powerful online chemical structure drawing tool. It can convert chemical figures (in articles, for example) to SMILES so that we can edit the structures ourselves. Currently, it only supports Chinese. Let&rsquo;s see how it works.
+Step 1. Register Step 2. Convert Find a figure of chemical structure, paste it into the canvas。
+Attention: ⚠️
+Don&rsquo;t forget to manually check it before using it! Make sure the backgroud of the figure is clean if possible.]]></description>
+</item>
+<item>
     <title>Draw TRANSPARENT Chemical Structure with RDKit --With Python Code</title>
     <link>/en/transparent/</link>
     <pubDate>Mon, 12 Aug 2024 14:21:01 &#43;0200</pubDate>

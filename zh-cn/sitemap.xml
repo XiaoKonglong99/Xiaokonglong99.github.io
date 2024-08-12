@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>/zh-cn/categories/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/zh-cn/categories/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/categories/"
@@ -11,7 +11,16 @@
                     hreflang="zh-cn"
                     href="/zh-cn/categories/"
                     /></url><url>
-            <loc>/zh-cn/posts/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/zh-cn/structure-ocr/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="/en/structure-ocr/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="/zh-cn/structure-ocr/"
+                    /></url><url>
+            <loc>/zh-cn/posts/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/posts/"
@@ -20,7 +29,7 @@
                     hreflang="zh-cn"
                     href="/zh-cn/posts/"
                     /></url><url>
-            <loc>/zh-cn/tags/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/zh-cn/tags/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/tags/"
@@ -29,9 +38,9 @@
                     hreflang="zh-cn"
                     href="/zh-cn/tags/"
                     /></url><url>
-            <loc>/zh-cn/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/zh-cn/chembl/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/zh-cn/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/zh-cn/tags/%E9%BB%91%E7%A7%91%E6%8A%80/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/zh-cn/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/zh-cn/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/"
@@ -40,7 +49,8 @@
                     hreflang="zh-cn"
                     href="/zh-cn/"
                     /></url><url>
-            <loc>/zh-cn/categories/%E5%AD%A6%E6%9C%AF/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/zh-cn/categories/%E5%AD%A6%E6%9C%AF/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/zh-cn/chembl/</loc><lastmod>2024-08-11T17:25:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/zh-cn/transparent/</loc><lastmod>2024-08-05T21:51:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
