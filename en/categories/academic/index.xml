@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Academic - Category - Little Dinosaur&#39;s Corner</title>
-        <link>http://example.org/en/categories/academic/</link>
+        <link>/en/categories/academic/</link>
         <description>Academic - Category - Little Dinosaur&#39;s Corner</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 12 Aug 2024 14:21:01 &#43;0200</lastBuildDate><atom:link href="http://example.org/en/categories/academic/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 12 Aug 2024 14:21:01 &#43;0200</lastBuildDate><atom:link href="/en/categories/academic/" rel="self" type="application/rss+xml" /><item>
     <title>Draw TRANSPARENT Chemical Structure with RDKit --With Python Code</title>
-    <link>http://example.org/en/transparent/</link>
+    <link>/en/transparent/</link>
     <pubDate>Mon, 12 Aug 2024 14:21:01 &#43;0200</pubDate>
     <author>小恐龙 | Little Dinosaur</author>
-    <guid>http://example.org/en/transparent/</guid>
+    <guid>/en/transparent/</guid>
     <description><![CDATA[Background It&rsquo;s hard to remove the white background of molecular 2D figures created directly with RDKit. They don&rsquo;t look good when placed in PowerPoint. This article provided a way to make TRANSPARENT ones.
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 from rdkit import Chem from rdkit import rdBase from rdkit.Chem import Draw from rdkit.]]></description>
 </item>

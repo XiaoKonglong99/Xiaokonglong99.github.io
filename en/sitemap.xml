@@ -2,50 +2,50 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/en/categories/academic/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/en/categories/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/categories/academic/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/en/categories/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/categories/"
+                        href="/zh-cn/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/en/categories/"
+                    href="/en/categories/"
                     /></url><url>
-            <loc>http://example.org/en/tags/cheminformatics/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/en/transparent/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/tags/cheminformatics/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/en/transparent/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/transparent/"
+                        href="/zh-cn/transparent/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/en/transparent/"
+                    href="/en/transparent/"
                     /></url><url>
-            <loc>http://example.org/en/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/"
+                        href="/zh-cn/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/en/"
+                    href="/en/"
                     /></url><url>
-            <loc>http://example.org/en/posts/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/posts/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/posts/"
+                        href="/zh-cn/posts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/en/posts/"
+                    href="/en/posts/"
                     /></url><url>
-            <loc>http://example.org/en/tags/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/tags/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://example.org/zh-cn/tags/"
+                        href="/zh-cn/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://example.org/en/tags/"
+                    href="/en/tags/"
                     /></url></urlset>

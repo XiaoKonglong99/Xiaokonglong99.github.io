@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - 分类 - 小恐龙的自留地</title>
-        <link>http://example.org/zh-cn/categories/</link>
+        <link>/zh-cn/categories/</link>
         <description>Categories - 分类 - 小恐龙的自留地</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 11 Aug 2024 17:25:35 &#43;0200</lastBuildDate><atom:link href="http://example.org/zh-cn/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 11 Aug 2024 17:25:35 &#43;0200</lastBuildDate><atom:link href="/zh-cn/categories/" rel="self" type="application/rss+xml" /><item>
     <title>学术</title>
-    <link>http://example.org/zh-cn/categories/%E5%AD%A6%E6%9C%AF/</link>
+    <link>/zh-cn/categories/%E5%AD%A6%E6%9C%AF/</link>
     <pubDate>Sun, 11 Aug 2024 17:25:35 &#43;0200</pubDate>
     <author>小恐龙 | Little Dinosaur</author>
-    <guid>http://example.org/zh-cn/categories/%E5%AD%A6%E6%9C%AF/</guid>
+    <guid>/zh-cn/categories/%E5%AD%A6%E6%9C%AF/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
