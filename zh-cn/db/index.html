@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Sci Data | 非肽类大环化合物渗透性数据库 - 小恐龙的自留地</title><meta name="Description" content="这是我的全新 Hugo 网站"><meta property="og:url" content="/zh-cn/db/">
+  <meta property="og:site_name" content="小恐龙的自留地">
+  <meta property="og:title" content="Sci Data | 非肽类大环化合物渗透性数据库">
+  <meta property="og:description" content="Sci Data | 非肽类大环化合物渗透性数据库 导读 近日，瑞典乌普萨拉大学Jan Kihlberg 课题组在 Scientific Data 发表了题为A membrane permeability database for nonpeptidic macrocycles的论文。乌普萨拉大学化学系Vasanthanathan Poongavanam 副教授 (Docent) 和 Jan Kihlberg 教授为论文共同通讯作者，硕士研究生冯秋实为论文第一作者，Danjo De Chavez博士为参与作者。
+Lipinski类药五规则作为一种高效筛选类药分子的定量准则，规定了类药分子应具备的特征：分子量小于500、氢键给体不超过5个、氢键受体不超过10个、油水分配系数对数值不超过5。然而，近期研究表明，约半数与人类疾病相关的靶点难以被传统的、符合五规则的小分子药物所干预。虽然大分子生物制剂为此提供了替代方案，但生物制剂无法穿透细胞且不适合口服给药，这限制了其对许多细胞内靶点的应用价值。
+在Lipinski化学空间之外的&#34;超越五规则&#34;（beyond Ro5，bRo5）化学空间中，大环化合物因其独特优势而备受关注。这类由12个及以上原子构成的大环结构化合物能够与传统难治靶点产生有效相互作用。然而，大环化合物在溶解度、细胞渗透性和代谢稳定性等关键口服生物利用度指标方面仍面临挑战。
+鉴于细胞渗透性的实验测定往往耗时且成本高昂，计算机模拟方法提供了更具成本效益的预测途径。在此研究中，该课题组通过收集科学文献、专利和生物活性数据库的数据，建立了一个符合FAIR原则（Findable, Accessible, Interoperable, and Reusable，即可查找、可访问、可互操作、可重用）的全面数据库，包含4216个大环化合物的5638条细胞渗透性实验数据。该数据库可作为机器学习和深度学习预测模型的训练数据集。此外，该研究团队还引入了&#34;酰胺比率&#34;（Amide Ratio, AR）这一创新性分子描述符，首次实现了大环化合物的定量分类。这一免费在线资源将显著促进新型大环药物的开发设计。
+数据收集 研究团队从三个主要来源收集数据:科学文献、专利文献和综合性化学数据库。首先研究团队利用PubMed和Google Scholar,结合&#34;macrocycle&#34;和 “permeability&#34;或者特定的渗透性测量模型（PAMPA，Caco-2， MDCK 和 RRCK）为关键词进行文献检索，并利用同样的检索方式在Google Patents搜索引擎收集来自发明专利的非肽类大环化合物的渗透性数据。除此之外，该团队还使用了ChEMBL数据库的官方Python接口（ChEMBL API Python client）进行自动化批量数据收集。为确保数据质量,研究人员对所有收集的数据进行了严格的人工审查和标准化处理,包括删除混合物和无机物、结构标准化以及数据单位统一等步骤。
+数据分析 数据库各子项分析 最终建立的数据库包含5638条来自不同实验方法的膜渗透性数据,其中84%来自科学文献、4%来自专利文献、11%来自ChEMBL数据库。数据库中的渗透性数据主要来自五类实验方法。其中PAMPA占比最高,达67%(3767条),值得注意的是91%的PAMPA渗透性数据来自同一篇文献。Caco-2细胞实验数据占26%(1502条),包含顶端到基底(PappAB)和基底到顶端(PappBA)两个方向的表观渗透系数(Papp）,以及加入转运体抑制剂后的相应值(PappAB&#43;Inh. 和PappBA&#43;Inh.）。通过计算外排比(ER = Papp BA/Papp AB),可评估化合物是否存在主动外排以及外排的程度。MDCK细胞实验贡献了264条数据,主要用于评估被动和主动跨膜转运特性。
+分子特性分析 研究团队对数据库中的大环化合物进行了全面的分子性质分析。首先，利用 TMAP（Tree-MAP）对不同渗透性模型测得的化合物数据进行了可视化分析。其次，统计结果显示，虽然约半数化合物的分子量超过 500 Da，但大多数化合物在极性（氢键给体 HBD、氢键受体 HBA、拓扑极性表面积 TPSA）和脂溶性（cLogP）方面仍符合 Lipinski 规则的界限。数据库中约 9% 的化合物属于’超越五规则’空间，这些分子可能在调节难治靶点方面具有独特优势。
+肽类与非肽类大环化合物的划分 在此之前，学界一直缺乏一个标准化的定量指标来描述大环化合物的肽类特征。为解决这一问题，研究团队提出了&#34;酰胺比率”(AR)这一全新的分子描述符。首先考虑大环中的酰胺键数量(Number of Amide Bond, nAB)，每个酰胺键（包括普通的NH-酰胺键和N-烷基化的酰胺键）都由三个原子(-C-N-Cα-)构成。 然后将上述结果除以大环的环大小(Macrocycle Ring Size, MRS)，即大环中所有原子的总数。故AR的计算公式为：AR = (nAB × 3)/MRS">
+  <meta property="og:locale" content="zh-CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-03T16:11:35+01:00">
+    <meta property="article:modified_time" content="2025-01-03T16:11:35+01:00">
+    <meta property="article:tag" content="化学信息学">
+    <meta property="og:image" content="/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/logo.png"><meta name="twitter:title" content="Sci Data | 非肽类大环化合物渗透性数据库">
+<meta name="twitter:description" content="Sci Data | 非肽类大环化合物渗透性数据库 导读 近日，瑞典乌普萨拉大学Jan Kihlberg 课题组在 Scientific Data 发表了题为A membrane permeability database for nonpeptidic macrocycles的论文。乌普萨拉大学化学系Vasanthanathan Poongavanam 副教授 (Docent) 和 Jan Kihlberg 教授为论文共同通讯作者，硕士研究生冯秋实为论文第一作者，Danjo De Chavez博士为参与作者。
+Lipinski类药五规则作为一种高效筛选类药分子的定量准则，规定了类药分子应具备的特征：分子量小于500、氢键给体不超过5个、氢键受体不超过10个、油水分配系数对数值不超过5。然而，近期研究表明，约半数与人类疾病相关的靶点难以被传统的、符合五规则的小分子药物所干预。虽然大分子生物制剂为此提供了替代方案，但生物制剂无法穿透细胞且不适合口服给药，这限制了其对许多细胞内靶点的应用价值。
+在Lipinski化学空间之外的&quot;超越五规则&quot;（beyond Ro5，bRo5）化学空间中，大环化合物因其独特优势而备受关注。这类由12个及以上原子构成的大环结构化合物能够与传统难治靶点产生有效相互作用。然而，大环化合物在溶解度、细胞渗透性和代谢稳定性等关键口服生物利用度指标方面仍面临挑战。
+鉴于细胞渗透性的实验测定往往耗时且成本高昂，计算机模拟方法提供了更具成本效益的预测途径。在此研究中，该课题组通过收集科学文献、专利和生物活性数据库的数据，建立了一个符合FAIR原则（Findable, Accessible, Interoperable, and Reusable，即可查找、可访问、可互操作、可重用）的全面数据库，包含4216个大环化合物的5638条细胞渗透性实验数据。该数据库可作为机器学习和深度学习预测模型的训练数据集。此外，该研究团队还引入了&quot;酰胺比率&quot;（Amide Ratio, AR）这一创新性分子描述符，首次实现了大环化合物的定量分类。这一免费在线资源将显著促进新型大环药物的开发设计。
+数据收集 研究团队从三个主要来源收集数据:科学文献、专利文献和综合性化学数据库。首先研究团队利用PubMed和Google Scholar,结合&quot;macrocycle&quot;和 &ldquo;permeability&quot;或者特定的渗透性测量模型（PAMPA，Caco-2， MDCK 和 RRCK）为关键词进行文献检索，并利用同样的检索方式在Google Patents搜索引擎收集来自发明专利的非肽类大环化合物的渗透性数据。除此之外，该团队还使用了ChEMBL数据库的官方Python接口（ChEMBL API Python client）进行自动化批量数据收集。为确保数据质量,研究人员对所有收集的数据进行了严格的人工审查和标准化处理,包括删除混合物和无机物、结构标准化以及数据单位统一等步骤。
+数据分析 数据库各子项分析 最终建立的数据库包含5638条来自不同实验方法的膜渗透性数据,其中84%来自科学文献、4%来自专利文献、11%来自ChEMBL数据库。数据库中的渗透性数据主要来自五类实验方法。其中PAMPA占比最高,达67%(3767条),值得注意的是91%的PAMPA渗透性数据来自同一篇文献。Caco-2细胞实验数据占26%(1502条),包含顶端到基底(PappAB)和基底到顶端(PappBA)两个方向的表观渗透系数(Papp）,以及加入转运体抑制剂后的相应值(PappAB&#43;Inh. 和PappBA&#43;Inh.）。通过计算外排比(ER = Papp BA/Papp AB),可评估化合物是否存在主动外排以及外排的程度。MDCK细胞实验贡献了264条数据,主要用于评估被动和主动跨膜转运特性。
+分子特性分析 研究团队对数据库中的大环化合物进行了全面的分子性质分析。首先，利用 TMAP（Tree-MAP）对不同渗透性模型测得的化合物数据进行了可视化分析。其次，统计结果显示，虽然约半数化合物的分子量超过 500 Da，但大多数化合物在极性（氢键给体 HBD、氢键受体 HBA、拓扑极性表面积 TPSA）和脂溶性（cLogP）方面仍符合 Lipinski 规则的界限。数据库中约 9% 的化合物属于&rsquo;超越五规则&rsquo;空间，这些分子可能在调节难治靶点方面具有独特优势。
+肽类与非肽类大环化合物的划分 在此之前，学界一直缺乏一个标准化的定量指标来描述大环化合物的肽类特征。为解决这一问题，研究团队提出了&quot;酰胺比率&rdquo;(AR)这一全新的分子描述符。首先考虑大环中的酰胺键数量(Number of Amide Bond, nAB)，每个酰胺键（包括普通的NH-酰胺键和N-烷基化的酰胺键）都由三个原子(-C-N-Cα-)构成。 然后将上述结果除以大环的环大小(Macrocycle Ring Size, MRS)，即大环中所有原子的总数。故AR的计算公式为：AR = (nAB × 3)/MRS">
+<meta name="application-name" content="小恐龙的自留地 | Little Dinosaur&#39;s Corner">
+<meta name="apple-mobile-web-app-title" content="小恐龙的自留地 | Little Dinosaur&#39;s Corner"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="/zh-cn/db/" /><link rel="prev" href="/zh-cn/structure-ocr/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Sci Data | 非肽类大环化合物渗透性数据库",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/zh-cn\/db\/"
+        },"genre": "posts","keywords": "化学信息学","wordcount":  130 ,
+        "url": "\/zh-cn\/db\/","datePublished": "2025-01-03T16:11:35+01:00","dateModified": "2025-01-03T16:11:35+01:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "小恐龙 | Little Dinosaur"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/zh-cn/" title="小恐龙的自留地"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/img/logo.png"
+        data-srcset="/img/logo.png, /img/logo.png 1.5x, /img/logo.png 2x"
+        data-sizes="auto"
+        alt="/img/logo.png"
+        title="/img/logo.png" /></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/zh-cn/posts/"> 文章 </a><a class="menu-item" href="/zh-cn/tags/"> 标签 </a><a class="menu-item" href="/zh-cn/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa-sharp-duotone fa-solid fa-language"></i>                    
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/zh-cn/db/" selected>🇨🇳 简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/zh-cn/" title="小恐龙的自留地"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/img/logo.png"
+        data-srcset="/img/logo.png, /img/logo.png 1.5x, /img/logo.png 2x"
+        data-sizes="auto"
+        alt="/img/logo.png"
+        title="/img/logo.png" /></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/zh-cn/posts/" title="">文章</a><a class="menu-item" href="/zh-cn/tags/" title="">标签</a><a class="menu-item" href="/zh-cn/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/zh-cn/db/" selected>🇨🇳 简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Sci Data | 非肽类大环化合物渗透性数据库</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/zh-cn/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>小恐龙 | Little Dinosaur</a></span>&nbsp;<span class="post-category">收录于 <a href="/zh-cn/categories/%E5%AD%A6%E6%9C%AF/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>学术</a>&nbsp;<a href="/zh-cn/categories/%E5%8F%91%E8%A1%A8/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>发表</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-01-03">2025-01-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 130 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#导读">导读</a></li>
+    <li><a href="#数据收集">数据收集</a></li>
+    <li><a href="#数据分析">数据分析</a>
+      <ul>
+        <li><a href="#数据库各子项分析">数据库各子项分析</a></li>
+        <li><a href="#分子特性分析">分子特性分析</a></li>
+        <li><a href="#肽类与非肽类大环化合物的划分">肽类与非肽类大环化合物的划分</a></li>
+      </ul>
+    </li>
+    <li><a href="#网页数据库">网页数据库</a></li>
+    <li><a href="#讨论与前瞻">讨论与前瞻</a></li>
+    <li><a href="#课题组简介">课题组简介</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="sci-data--非肽类大环化合物渗透性数据库">Sci Data | 非肽类大环化合物渗透性数据库</h1>
+<h2 id="导读">导读</h2>
+<p>近日，<strong>瑞典乌普萨拉大学Jan Kihlberg</strong> 课题组在 <em>Scientific Data</em> 发表了题为A membrane permeability database for nonpeptidic macrocycles的论文。乌普萨拉大学化学系Vasanthanathan Poongavanam 副教授 (Docent) 和 Jan Kihlberg 教授为论文共同通讯作者，硕士研究生冯秋实为论文第一作者，Danjo De Chavez博士为参与作者。</p>
+<p>Lipinski类药五规则作为一种高效筛选类药分子的定量准则，规定了类药分子应具备的特征：分子量小于500、氢键给体不超过5个、氢键受体不超过10个、油水分配系数对数值不超过5。然而，近期研究表明，约半数与人类疾病相关的靶点难以被传统的、符合五规则的小分子药物所干预。虽然大分子生物制剂为此提供了替代方案，但生物制剂无法穿透细胞且不适合口服给药，这限制了其对许多细胞内靶点的应用价值。</p>
+<p>在Lipinski化学空间之外的&quot;超越五规则&quot;（beyond Ro5，bRo5）化学空间中，大环化合物因其独特优势而备受关注。这类由12个及以上原子构成的大环结构化合物能够与传统难治靶点产生有效相互作用。然而，大环化合物在溶解度、细胞渗透性和代谢稳定性等关键口服生物利用度指标方面仍面临挑战。</p>
+<p>鉴于细胞渗透性的实验测定往往耗时且成本高昂，计算机模拟方法提供了更具成本效益的预测途径。在此研究中，该课题组通过收集科学文献、专利和生物活性数据库的数据，建立了一个符合FAIR原则（Findable, Accessible, Interoperable, and Reusable，即可查找、可访问、可互操作、可重用）的全面数据库，包含4216个大环化合物的5638条细胞渗透性实验数据。该数据库可作为机器学习和深度学习预测模型的训练数据集。此外，该研究团队还引入了&quot;酰胺比率&quot;（Amide Ratio, AR）这一创新性分子描述符，首次实现了大环化合物的定量分类。这一免费在线资源将显著促进新型大环药物的开发设计。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/db/1.png"
+        data-srcset="/img/db/1.png, /img/db/1.png 1.5x, /img/db/1.png 2x"
+        data-sizes="auto"
+        alt="/img/db/1.png"
+        title="&amp;ldquo;Title&amp;rdquo;" /></p>
+<h2 id="数据收集">数据收集</h2>
+<p>研究团队从三个主要来源收集数据:科学文献、专利文献和综合性化学数据库。首先研究团队利用PubMed和Google Scholar,结合&quot;macrocycle&quot;和 &ldquo;permeability&quot;或者特定的渗透性测量模型（PAMPA，Caco-2， MDCK 和 RRCK）为关键词进行文献检索，并利用同样的检索方式在Google Patents搜索引擎收集来自发明专利的非肽类大环化合物的渗透性数据。除此之外，该团队还使用了ChEMBL数据库的官方Python接口（ChEMBL API Python client）进行自动化批量数据收集。为确保数据质量,研究人员对所有收集的数据进行了严格的人工审查和标准化处理,包括删除混合物和无机物、结构标准化以及数据单位统一等步骤。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/db/2.png"
+        data-srcset="/img/db/2.png, /img/db/2.png 1.5x, /img/db/2.png 2x"
+        data-sizes="auto"
+        alt="/img/db/2.png"
+        title="&amp;ldquo;DataCollection&amp;rdquo;" /></p>
+<h2 id="数据分析">数据分析</h2>
+<h3 id="数据库各子项分析">数据库各子项分析</h3>
+<p>最终建立的数据库包含5638条来自不同实验方法的膜渗透性数据,其中84%来自科学文献、4%来自专利文献、11%来自ChEMBL数据库。数据库中的渗透性数据主要来自五类实验方法。其中PAMPA占比最高,达67%(3767条),值得注意的是91%的PAMPA渗透性数据来自同一篇文献。Caco-2细胞实验数据占26%(1502条),包含顶端到基底(P<sub>app</sub>AB)和基底到顶端(P<sub>app</sub>BA)两个方向的表观渗透系数(P<sub>app</sub>）,以及加入转运体抑制剂后的相应值(P<sub>app</sub>AB+Inh. 和P<sub>app</sub>BA+Inh.）。通过计算外排比(ER = Papp BA/Papp AB),可评估化合物是否存在主动外排以及外排的程度。MDCK细胞实验贡献了264条数据,主要用于评估被动和主动跨膜转运特性。</p>
+<h3 id="分子特性分析">分子特性分析</h3>
+<p>研究团队对数据库中的大环化合物进行了全面的分子性质分析。首先，利用 TMAP（Tree-MAP）对不同渗透性模型测得的化合物数据进行了可视化分析。其次，统计结果显示，虽然约半数化合物的分子量超过 500 Da，但大多数化合物在极性（氢键给体 HBD、氢键受体 HBA、拓扑极性表面积 TPSA）和脂溶性（cLogP）方面仍符合 Lipinski 规则的界限。数据库中约 9% 的化合物属于&rsquo;超越五规则&rsquo;空间，这些分子可能在调节难治靶点方面具有独特优势。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/db/3.png"
+        data-srcset="/img/db/3.png, /img/db/3.png 1.5x, /img/db/3.png 2x"
+        data-sizes="auto"
+        alt="/img/db/3.png"
+        title="&amp;ldquo;DataAnalysis&amp;rdquo;" /></p>
+<h3 id="肽类与非肽类大环化合物的划分">肽类与非肽类大环化合物的划分</h3>
+<p>在此之前，学界一直缺乏一个标准化的定量指标来描述大环化合物的肽类特征。为解决这一问题，研究团队提出了&quot;酰胺比率&rdquo;(AR)这一全新的分子描述符。首先考虑大环中的酰胺键数量(Number of Amide Bond, nAB)，每个酰胺键（包括普通的NH-酰胺键和N-烷基化的酰胺键）都由三个原子(<strong>-C-N-C<sub>α</sub>-</strong>)构成。 然后将上述结果除以大环的环大小(Macrocycle Ring Size, MRS)，即大环中所有原子的总数。故AR的计算公式为：AR = (nAB × 3)/MRS</p>
+<p>基于AR值的分布特征,大环化合物可分为三类:非肽类(AR &lt; 0.3)、半肽类(0.3 ≤ AR ≤ 0.7)和肽类(AR &gt; 0.7)。PCA（Principal component analysis，主成分分析）结果验证了这一分类方法的合理性,不同类型的化合物在化学空间中呈现出明显的分布差异。
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/db/5.png"
+        data-srcset="/img/db/5.png, /img/db/5.png 1.5x, /img/db/5.png 2x"
+        data-sizes="auto"
+        alt="/img/db/5.png"
+        title="&amp;ldquo;AR&amp;rdquo;" /></p>
+<h2 id="网页数据库">网页数据库</h2>
+<p>研究团队开发了功能完善的在线数据库平台(<a href="https://swemacrocycledb.com/" target="_blank" rel="noopener noreffer ">https://swemacrocycledb.com/</a>)。在浏览模块中，用户可以根据分子唯一ID、名称、实验模型类型、分子量等单个或组合条件筛选感兴趣的数据集，并以CSV格式导出。当用户点击特定分子ID时，系统会在新窗口中显示该分子的详细信息，包括名称、结构、渗透性数据和分子描述符，同时展示该分子的所有可用渗透性数据，以及具有相同&quot;大环骨架&quot;的类似化合物清单，这有助于用户探索结构相关分子。在下载模块中，用户可以下载完整数据集或自定义筛选的数据子集，导出的CSV文件不仅包含分子结构、细胞渗透性数据和分子描述符，还提供分子的肽类特征分类和原始数据来源信息。在统计模块中，平台支持对整体数据集及三个主要渗透性子集的细胞渗透性数据和分子描述符进行统计分析，并提供直观的数据可视化展示。这些功能的有机结合使得该数据库不仅方便用户查找和获取所需数据，还能帮助用户深入理解大环化合物的结构-性质关系，为药物设计提供有力支持。
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/db/4.png"
+        data-srcset="/img/db/4.png, /img/db/4.png 1.5x, /img/db/4.png 2x"
+        data-sizes="auto"
+        alt="/img/db/4.png"
+        title="&amp;ldquo;WebPage&amp;rdquo;" /></p>
+<h2 id="讨论与前瞻">讨论与前瞻</h2>
+<p>然而，该数据库目前仍存在一些局限性。首先，由于缺乏可靠的计算方法来处理结构多样的大环化合物，目前数据库中并未包含3D结构信息和3D分子特征。此外，数据收集截止于2023年7月，这意味着之后发表的相关研究数据尚未被收录。为解决这些问题，研究团队计划定期更新数据库内容，并在网站运行后及时修正发现的错误。总而言之，该研究为从事大环化合物研究的科研人员提供了宝贵的参考资源，同时还提出了一种收集和整理生物活性数据的方法论，从而充分发挥机器学习方法在药物研发项目中的潜力。</p>
+<h2 id="课题组简介">课题组简介</h2>
+<p>瑞典乌普萨拉大学<a href="https://www.uu.se/en/department/chemistry-bmc/research/organic-chemistry/kihlberg-group" target="_blank" rel="noopener noreffer ">Jan Kihlberg 课题组</a>长期致力于探索传统药物领域之外的研究和药物发现。该课题组特别关注突破传统 Lipinski 类药五规则的限制，探索新的化学空间。研究发现这类化合物具有独特的细胞渗透性和口服生物利用度特征。该课题组在分子构象灵活性和氢键调控方面取得重要突破，为药物研发提供了新思路。该课题组在该领域发表的开创性论文（J. Med. Chem. 2014, 57, 278-295）已获得广泛引用和认可。</p>
+<hr>
+<p><strong>参考资料</strong></p>
+<p>Feng, Q., De Chavez, D., Kihlberg, J. et al. A membrane permeability database for nonpeptidic macrocycles. Sci Data 12, 10 (2025). <a href="https://doi.org/10.1038/s41597-024-04302-z" target="_blank" rel="noopener noreffer ">https://doi.org/10.1038/s41597-024-04302-z</a></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2025-01-03</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/zh-cn/db/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="/zh-cn/db/" data-title="Sci Data | 非肽类大环化合物渗透性数据库" data-hashtags="化学信息学"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="/zh-cn/db/" data-hashtag="化学信息学"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Linkedin" data-sharer="linkedin" data-url="/zh-cn/db/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="/zh-cn/db/" data-title="Sci Data | 非肽类大环化合物渗透性数据库" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/zh-cn/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/">化学信息学</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/zh-cn/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/zh-cn/structure-ocr/" class="prev" rel="prev" title="InDraw: 用AI把化学结构图片转换成SMILES"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>InDraw: 用AI把化学结构图片转换成SMILES</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.125.5">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/zh-cn/" target="_blank">小恐龙 | Little Dinosaur</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/zh-cn/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
