@@ -1,4 +1,4 @@
-# Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes
+# 乌普萨拉大学 Advanced Molecular Modelling Applied to Drug Discovery(3FK181) 课程复习笔记
 
 # Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes- 2023
 
