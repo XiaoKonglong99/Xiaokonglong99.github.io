@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes - 小恐龙的自留地</title><meta name="Description" content="这是我的全新 Hugo 网站"><meta property="og:url" content="//localhost:1313/zh-cn/advanced-modelling.zh-cn_%E5%89%AF%E6%9C%AC/">
+  <meta property="og:site_name" content="小恐龙的自留地">
+  <meta property="og:title" content="Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes">
+  <meta property="og:description" content="Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes- 2023 Note This is an personal examination preparation note for the course Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University.Converted atuomatically by Claude AI
+Chapter 1: Ligand-Protein Interaction Key Points: Describing the interaction of molecules
+Determining if a molecule is a good target or not Types of Interactions:
+Electrostatics: Follow Coulomb’s Law
+F = -q₁q₂/4πε₀r² (ε₀: electric constant, q₁, q₂: charges) π-π stacking: interactions between benzene rings π-cation interactions: e.">
+  <meta property="og:locale" content="zh-CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-28T17:52:35+01:00">
+    <meta property="article:modified_time" content="2025-03-28T17:52:35+01:00">
+    <meta property="article:tag" content="化学信息学">
+    <meta property="article:tag" content="计算药物化学">
+    <meta property="article:tag" content="Pharameutical Modelling">
+    <meta property="og:image" content="//localhost:1313/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="//localhost:1313/logo.png"><meta name="twitter:title" content="Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes">
+<meta name="twitter:description" content="Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes- 2023 Note This is an personal examination preparation note for the course Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University.Converted atuomatically by Claude AI
+Chapter 1: Ligand-Protein Interaction Key Points: Describing the interaction of molecules
+Determining if a molecule is a good target or not Types of Interactions:
+Electrostatics: Follow Coulomb&rsquo;s Law
+F = -q₁q₂/4πε₀r² (ε₀: electric constant, q₁, q₂: charges) π-π stacking: interactions between benzene rings π-cation interactions: e.">
+<meta name="application-name" content="小恐龙的自留地 | Little Dinosaur&#39;s Corner">
+<meta name="apple-mobile-web-app-title" content="小恐龙的自留地 | Little Dinosaur&#39;s Corner"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="//localhost:1313/zh-cn/advanced-modelling.zh-cn_%E5%89%AF%E6%9C%AC/" /><link rel="prev" href="//localhost:1313/zh-cn/db/" /><link rel="next" href="//localhost:1313/zh-cn/advanced-modelling/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/\/localhost:1313\/zh-cn\/advanced-modelling.zh-cn_%E5%89%AF%E6%9C%AC\/"
+        },"genre": "posts","keywords": "化学信息学, 计算药物化学, Pharameutical Modelling","wordcount":  3070 ,
+        "url": "\/\/localhost:1313\/zh-cn\/advanced-modelling.zh-cn_%E5%89%AF%E6%9C%AC\/","datePublished": "2025-03-28T17:52:35+01:00","dateModified": "2025-03-28T17:52:35+01:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "小恐龙 | Little Dinosaur"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/zh-cn/" title="小恐龙的自留地"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/img/logo.png"
+        data-srcset="/img/logo.png, /img/logo.png 1.5x, /img/logo.png 2x"
+        data-sizes="auto"
+        alt="/img/logo.png"
+        title="/img/logo.png" /></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/zh-cn/posts/"> 文章 </a><a class="menu-item" href="/zh-cn/tags/"> 标签 </a><a class="menu-item" href="/zh-cn/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa-sharp-duotone fa-solid fa-language"></i>                    
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/zh-cn/advanced-modelling.zh-cn_%E5%89%AF%E6%9C%AC/" selected>🇨🇳 简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/zh-cn/" title="小恐龙的自留地"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/img/logo.png"
+        data-srcset="/img/logo.png, /img/logo.png 1.5x, /img/logo.png 2x"
+        data-sizes="auto"
+        alt="/img/logo.png"
+        title="/img/logo.png" /></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/zh-cn/posts/" title="">文章</a><a class="menu-item" href="/zh-cn/tags/" title="">标签</a><a class="menu-item" href="/zh-cn/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/zh-cn/advanced-modelling.zh-cn_%E5%89%AF%E6%9C%AC/" selected>🇨🇳 简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/zh-cn/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>小恐龙 | Little Dinosaur</a></span>&nbsp;<span class="post-category">收录于 <a href="/zh-cn/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>基础知识</a>&nbsp;<a href="/zh-cn/categories/%E8%AF%BE%E7%A8%8B/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>课程</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-03-28">2025-03-28</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 3070 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 15 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#note">Note</a></li>
+    <li><a href="#chapter-1-ligand-protein-interaction">Chapter 1: Ligand-Protein Interaction</a>
+      <ul>
+        <li><a href="#key-points">Key Points:</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-2-molecular-dynamic-simulation">Chapter 2: Molecular Dynamic Simulation</a>
+      <ul>
+        <li><a href="#i-why-simulation">I. Why Simulation</a></li>
+        <li><a href="#ii-molecular-mechanics-approximation">II. Molecular Mechanics Approximation</a></li>
+        <li><a href="#iii-van-der-waals-force">III. Van der Waals Force</a></li>
+        <li><a href="#iv-for-charged-molecules">IV. For Charged Molecules</a></li>
+        <li><a href="#v-bond-potential-hookes-law">V. Bond Potential (Hooke&rsquo;s Law)</a></li>
+        <li><a href="#vi-consider-partial-charges">VI. Consider Partial Charges</a></li>
+        <li><a href="#vii-consider-torsional-potential-扭转势能">VII. Consider Torsional Potential (扭转势能)</a></li>
+        <li><a href="#summary-of-force-field">Summary of Force Field</a></li>
+        <li><a href="#biomolecular-simulation">Biomolecular Simulation</a>
+          <ul>
+            <li><a href="#viii-amber">VIII. AMBER</a></li>
+          </ul>
+        </li>
+        <li><a href="#force-field-summary">Force Field Summary</a></li>
+        <li><a href="#modeling-complex-biomolecules">Modeling Complex Biomolecules</a></li>
+        <li><a href="#free-energy-vs-potential-energy">Free Energy vs Potential Energy</a></li>
+        <li><a href="#time-average">Time Average</a></li>
+        <li><a href="#statistical-thermodynamics">Statistical Thermodynamics</a></li>
+        <li><a href="#sampling-an-energy-landscape">Sampling an Energy Landscape</a></li>
+        <li><a href="#molecular-dynamics-simulation-分子动力学-force-field">Molecular Dynamics Simulation (分子动力学 Force Field)</a></li>
+        <li><a href="#md-process">MD Process</a></li>
+        <li><a href="#leap-frog-algorithm">Leap-Frog Algorithm</a></li>
+        <li><a href="#for-trajectory-轨迹">For Trajectory (轨迹)</a></li>
+        <li><a href="#how-to-choose-time-step">How to Choose Time Step</a></li>
+        <li><a href="#solvation-in-md">Solvation in MD</a></li>
+        <li><a href="#common-ensembles">Common Ensembles</a></li>
+        <li><a href="#limitations-of-md">Limitations of MD</a></li>
+        <li><a href="#md-workflow">MD Workflow</a></li>
+        <li><a href="#md-outcomes">MD Outcomes</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-3-free-energy">Chapter 3: Free Energy</a>
+      <ul>
+        <li><a href="#i-free-energy-basics">I. Free Energy Basics</a></li>
+        <li><a href="#ii-absolute-free-energy-calculation">II. Absolute Free Energy Calculation</a></li>
+        <li><a href="#iii-thermodynamic-perturbation-干扰">III. Thermodynamic Perturbation (干扰)</a></li>
+        <li><a href="#iv-thermodynamic-cycle">IV. Thermodynamic Cycle</a></li>
+        <li><a href="#v-fixing-the-overlap-problem">V. Fixing the Overlap Problem</a></li>
+        <li><a href="#vi-solvation-process">VI. Solvation Process</a></li>
+        <li><a href="#vii-thermodynamic-integration-积分">VII. Thermodynamic Integration (积分)</a></li>
+        <li><a href="#viii-inhibitor-design">VIII. Inhibitor Design</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-4-quantum-chemistry">Chapter 4: Quantum Chemistry</a>
+      <ul>
+        <li><a href="#i-why-quantum-chemistry">I. Why Quantum Chemistry?</a></li>
+        <li><a href="#ii-postulates-of-quantum-mechanics">II. Postulates of Quantum Mechanics</a></li>
+        <li><a href="#born-oppenheimer-approximation">Born-Oppenheimer Approximation</a></li>
+        <li><a href="#disadvantages">Disadvantages</a></li>
+        <li><a href="#iii-hartree-fock--self-consistent-field">III. Hartree-Fock / Self-Consistent Field</a></li>
+        <li><a href="#iv-density-functional-theory">IV. Density Functional Theory</a></li>
+        <li><a href="#v-applying-qc-quantum-chemistry">V. Applying QC (Quantum Chemistry)</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-5-cheminformatics">Chapter 5: Cheminformatics</a>
+      <ul>
+        <li><a href="#i-different-databases">I. Different Databases</a></li>
+        <li><a href="#ii-cheminfo-selection">II. Cheminfo Selection</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-6-virtual-screening">Chapter 6: Virtual Screening</a>
+      <ul>
+        <li><a href="#i-virtual-screen-vs-high-throughput-screening">I. Virtual Screen vs. High-throughput Screening</a></li>
+        <li><a href="#ii-virtual-screen-methods">II. Virtual Screen Methods</a></li>
+        <li><a href="#iii-ligand-efficiency">III. Ligand Efficiency</a></li>
+        <li><a href="#iv-negative-and-positive-design">IV. Negative and Positive Design</a></li>
+        <li><a href="#v-frequent-hitters-and-promiscuous-binders">V. Frequent Hitters and Promiscuous Binders</a></li>
+        <li><a href="#vi-benchmark-data-sets">VI. Benchmark Data Sets</a></li>
+        <li><a href="#vii-data-fusion">VII. Data Fusion</a></li>
+        <li><a href="#viii-problems-with-decoys">VIII. Problems with Decoys</a></li>
+      </ul>
+    </li>
+    <li><a href="#md--qc-summary">MD &amp; QC Summary</a>
+      <ul>
+        <li><a href="#i-why-md-vs-why-qc">I. Why MD vs Why QC</a></li>
+        <li><a href="#ii-md-approximation-vs-qc-postulates">II. MD Approximation vs QC Postulates</a></li>
+        <li><a href="#iii-force-field-advantagesdisadvantages">III. Force Field Advantages/Disadvantages</a></li>
+        <li><a href="#iv-v-md-simulation-process">IV-V. MD Simulation Process</a></li>
+        <li><a href="#vi-limits-of-md">VI. Limits of MD</a></li>
+        <li><a href="#vii-qc-approaches">VII. QC Approaches</a></li>
+        <li><a href="#words-list">Words List</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="advanced-molecular-modelling-applied-to-drug-discovery3fk181uppsala-university-exam-preparation-notes--2023">Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes- 2023</h1>
+<hr>
+<h2 id="note">Note</h2>
+<p>This is an personal examination preparation note for the course <a href="https://www.uu.se/en/study/syllabus?query=41298" target="_blank" rel="noopener noreffer ">Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University</a>.Converted atuomatically by <a href="https://claude.ai" target="_blank" rel="noopener noreffer ">Claude AI</a></p>
+<h2 id="chapter-1-ligand-protein-interaction">Chapter 1: Ligand-Protein Interaction</h2>
+<h3 id="key-points">Key Points:</h3>
+<ol>
+<li>
+<p><strong>Describing the interaction of molecules</strong></p>
+<ul>
+<li>Determining if a molecule is a good target or not</li>
+</ul>
+</li>
+<li>
+<p><strong>Types of Interactions</strong>:</p>
+<ul>
+<li>
+<p><strong>Electrostatics</strong>: Follow Coulomb&rsquo;s Law</p>
+<ul>
+<li>F = -q₁q₂/4πε₀r² (ε₀: electric constant, q₁, q₂: charges)</li>
+<li>π-π stacking: interactions between benzene rings</li>
+<li>π-cation interactions: e.g., AchE with -NH₃⁺ and -Ph groups</li>
+</ul>
+</li>
+<li>
+<p><strong>H-bond</strong>: Consider O, N atoms</p>
+<ul>
+<li>Mention HBD (hydrogen bond donors): -OH, -NH₂</li>
+<li>HBA (hydrogen bond acceptors): C=O, C≡N (有供氢的)</li>
+</ul>
+</li>
+<li>
+<p><strong>Halogen bond</strong>: Cl···O, Br···O, I···O</p>
+<ul>
+<li>No F bonds; if there is a -OF₃ group, it shows hydrophobic effect</li>
+</ul>
+</li>
+<li>
+<p><strong>Polarization</strong>: Charge redistribution when molecules approach each other</p>
+<ul>
+<li>Charge → Dipole</li>
+<li>Dipole → Dipole</li>
+<li>Dipole-Dipole Interaction → Polarization → London Dispersion</li>
+<li>Not generally included in molecular mechanics</li>
+</ul>
+</li>
+<li>
+<p><strong>London Dispersion</strong>: Dispersive forces (色散力)</p>
+<ul>
+<li>π-stacking interactions</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Covalent Bond</strong>:</p>
+<ul>
+<li><strong>Advantages</strong>:
+<ul>
+<li>Potency</li>
+<li>Selectivity</li>
+<li>PD (Pharmacodynamics)</li>
+</ul>
+</li>
+<li><strong>Risks</strong>: Toxicity</li>
+<li><strong>Explanation</strong>:
+<ul>
+<li><strong>Potency</strong>: Interaction is irreversible, very stable</li>
+<li><strong>Selectivity</strong>:
+<ul>
+<li>Can interact with specific proteins</li>
+<li>Afatinib: Irreversibly binds certain proteins</li>
+</ul>
+</li>
+<li><strong>PD</strong>: Not requiring high blood concentration; takes a long time</li>
+<li><strong>Toxicity</strong>: Off-target effects, irreversible</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Hydrophobic effect</strong>: An entropic effect (熵的)</p>
+<ul>
+<li>Gains potency but reduces solubility</li>
+<li>Order of the dynamic hydrogen bond in water to accommodate a non-polar solute</li>
+</ul>
+</li>
+<li>
+<p><strong>Considerations for L-P (Ligand-Protein) interaction</strong>:</p>
+<ul>
+<li>Size</li>
+<li>Shape</li>
+<li>Exposure (暴露外表的景象)</li>
+<li>Hydrophilic/Hydrophobic properties</li>
+<li>Ligandability/Druggability</li>
+<li>Flexibility</li>
+</ul>
+</li>
+<li>
+<p><strong>Relative Strength of Interactions</strong>:</p>
+<ul>
+<li>Covalent &gt; Electrostatic &gt; H-bond &gt; van der Waals</li>
+<li>力的作用力大小</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="chapter-2-molecular-dynamic-simulation">Chapter 2: Molecular Dynamic Simulation</h2>
+<h3 id="i-why-simulation">I. Why Simulation</h3>
+<ol>
+<li>Study larger biological systems</li>
+<li>Calculate movement as a function of time</li>
+<li>Predict and explain outcomes of biological experiments
+<ul>
+<li>Example: Butane (丁烷) conformational analysis → Peptide folding</li>
+</ul>
+</li>
+</ol>
+<h3 id="ii-molecular-mechanics-approximation">II. Molecular Mechanics Approximation</h3>
+<ol>
+<li>Ignore electron motion</li>
+<li>Born-Oppenheimer approximation: Separate electron and nuclear movements</li>
+<li>Use Newton&rsquo;s laws to describe the system</li>
+<li>Apply small molecule parameters to larger systems</li>
+</ol>
+<h3 id="iii-van-der-waals-force">III. Van der Waals Force</h3>
+<ul>
+<li>Repulsive then attractive</li>
+<li>UVdW = 4ε[(σ/r)¹² - (σ/r)⁶]
+<ul>
+<li>σ: Collision diameter</li>
+<li>ε: Well depth</li>
+</ul>
+</li>
+<li>Non-bonded interaction</li>
+</ul>
+<h3 id="iv-for-charged-molecules">IV. For Charged Molecules</h3>
+<ul>
+<li>UC = q₁q₂/4πε₀r₁j</li>
+<li>Very expensive to calculation</li>
+</ul>
+<h3 id="v-bond-potential-hookes-law">V. Bond Potential (Hooke&rsquo;s Law)</h3>
+<ul>
+<li>Accurate Morse potential typically replaced with simpler harmonic function (简谐函数)</li>
+<li>Bond: U = k₁/2(r-r₀)²</li>
+<li>Angle: U = k₂/2(θ-θ₀)²</li>
+</ul>
+<h3 id="vi-consider-partial-charges">VI. Consider Partial Charges</h3>
+<ul>
+<li>Water: partially charged → Water models: TIP3P, SPC</li>
+</ul>
+<h3 id="vii-consider-torsional-potential-扭转势能">VII. Consider Torsional Potential (扭转势能)</h3>
+<ul>
+<li>
+<p>U(φ) = Σ(k_n/2)[1+cos(nφ-φ₀)]</p>
+<ul>
+<li>n = number of minima</li>
+<li>若有3个 minimal, n=3, φ₀=0</li>
+<li>U(φ) = k₁/2[1+cos(φ)] + k₂/2[1+cos(2φ)] + k₃/2[1+cos(3φ)]</li>
+</ul>
+</li>
+<li>
+<p><strong>Problems</strong>:</p>
+<ol>
+<li>Complex shape</li>
+<li>Relatively weak</li>
+<li>Torsion may lead to large changes to the whole system</li>
+</ol>
+<ul>
+<li>Addition: Improper dihedrals → keep 4 atoms in a plane</li>
+</ul>
+</li>
+<li>
+<p><strong>Total energy function</strong>:
+U = 4ε[(σ/r)¹² - (σ/r)⁶] + q₁q₂/4πε₀r₁j + k₁/2(r-r₀)² + k₂/2(θ-θ₀)² + Σ(k_n/2)[1+cos(nφ-φ₀)] + k₃/2(ξ-ξ₀)²</p>
+</li>
+</ul>
+<h3 id="summary-of-force-field">Summary of Force Field</h3>
+<ul>
+<li>It&rsquo;s empirical! (经验上)</li>
+</ul>
+<ol>
+<li>There is no correct way to derive a force field; experimental data improves it</li>
+<li>Fits reality, not theory - aim is to reproduce experimental results, not calculate it</li>
+<li>Predict, not explain</li>
+<li>Consider computational time; the best model isn&rsquo;t always chosen</li>
+</ol>
+<h3 id="biomolecular-simulation">Biomolecular Simulation</h3>
+<h4 id="viii-amber">VIII. AMBER</h4>
+<ul>
+<li>Assisted model building with energy refinements</li>
+<li>Helps with:
+<ul>
+<li>Bond stretching, angle bending, dihedral torsional angles</li>
+<li>Interaction with other models</li>
+<li>Structure</li>
+</ul>
+</li>
+</ul>
+<h3 id="force-field-summary">Force Field Summary</h3>
+<ol>
+<li>Force field is simplified and empirical (经验上)</li>
+<li>Form and parameters differ in different models</li>
+<li>Usefulness depends on the question being asked</li>
+<li>Major problem: Bonds cannot be broken</li>
+<li>Transferability of parameters is unclear
+<ul>
+<li>The ability to transfer parameters from one molecule to another (参数的转移性)</li>
+<li>Assumption: similar molecules have the same parameters</li>
+<li>Even if they have similar structure</li>
+<li>Consider environment, temperature, and other molecules</li>
+</ul>
+</li>
+<li>Polarization is not included</li>
+<li>General methods of generating parameters are still under development</li>
+</ol>
+<h3 id="modeling-complex-biomolecules">Modeling Complex Biomolecules</h3>
+<ul>
+<li>Formula combines bond energies, angle energies, torsional terms, improper terms, electrostatic and VDW terms</li>
+<li>We have force field parameters for amino acids</li>
+<li>What about larger biomolecules?</li>
+</ul>
+<h3 id="free-energy-vs-potential-energy">Free Energy vs Potential Energy</h3>
+<ul>
+<li>The minimum potential energy state need not be the most popular state; free energy is</li>
+<li>G = H - TS → Entropy</li>
+<li>Enthalpy considerations</li>
+<li>Take average of a huge number of particles</li>
+<li>Experiment observation based on a single configuration</li>
+</ul>
+<h3 id="time-average">Time Average</h3>
+<ul>
+<li>&lt; A &gt; = (1/τ)∫₀ᵗ A(r^N(t), p^N(t))dt</li>
+<li>r: position; p: momenta; of all particles N</li>
+<li>(粒子位置和动量), τ→∞, 平均即为实际</li>
+</ul>
+<h3 id="statistical-thermodynamics">Statistical Thermodynamics</h3>
+<ul>
+<li>Know the probability of every state</li>
+<li>n_i = N·(e^(-βE_i)/Σⱼe^(-βE_j))
+<ul>
+<li>n_i: number in a state</li>
+<li>利用&quot;概率&quot;</li>
+</ul>
+</li>
+<li>Ergodic hypothesis (遍历假设): Time average = Ensemble average</li>
+</ul>
+<h3 id="sampling-an-energy-landscape">Sampling an Energy Landscape</h3>
+<ul>
+<li>MD Simulation uses:
+<ul>
+<li>Newton&rsquo;s laws</li>
+<li>Time dependence</li>
+<li>Time average</li>
+<li>Dynamical events</li>
+</ul>
+</li>
+</ul>
+<h3 id="molecular-dynamics-simulation-分子动力学-force-field">Molecular Dynamics Simulation (分子动力学 Force Field)</h3>
+<ol>
+<li>Try to calculate the path of individual particles</li>
+<li>Errors occur but final results are acceptable</li>
+<li>Calculate motion as a function of time</li>
+</ol>
+<h3 id="md-process">MD Process</h3>
+<ol>
+<li>Start with a set of coordinates</li>
+<li>Calculate potential and force (用时时所迭)</li>
+<li>Calculate acceleration: a_i = F_i/m_i</li>
+<li>Calculate velocity and position: v + dt</li>
+</ol>
+<h3 id="leap-frog-algorithm">Leap-Frog Algorithm</h3>
+<ul>
+<li>Calculate new coordinates for atoms (迭代算法)</li>
+<li>r_i(t+dt) = r_i(t) + dt·v_i(t+dt/2)</li>
+</ul>
+<h3 id="for-trajectory-轨迹">For Trajectory (轨迹)</h3>
+<ol>
+<li>Different time series of snapshots</li>
+<li>In theory, MD simulation is deterministic (确定性的)
+<ul>
+<li>If we know the state, we can predict behavior</li>
+</ul>
+</li>
+<li>In practice, errors accumulate</li>
+<li>Looking over long time provides a good picture</li>
+</ol>
+<h3 id="how-to-choose-time-step">How to Choose Time Step</h3>
+<ol>
+<li>Must be small but not too small (need more to reach 1ms simulation)</li>
+<li>If step is too big → unreasonable positions</li>
+<li>Determined by the fastest vibration in system</li>
+<li>Typically choose 1-2 fs</li>
+</ol>
+<h3 id="solvation-in-md">Solvation in MD</h3>
+<ol>
+<li>
+<p>Vacuum: No solvent, problematic</p>
+</li>
+<li>
+<p>Implicit solvent model:</p>
+<ul>
+<li>Replaced by average behavior of water</li>
+<li>Analytical, so calculations are fast</li>
+<li>Disadvantage: Only electrostatics in this expression</li>
+<li>Other effects like entropy must be added separately</li>
+</ul>
+</li>
+<li>
+<p>SBC (Spherical Boundary Condition):</p>
+<ul>
+<li>Add water near the place of interest</li>
+<li>Save time if not considering whole protein</li>
+<li>Should restrain water inside the spherical boundary</li>
+<li>Should add right polarization</li>
+</ul>
+</li>
+<li>
+<p>PBC (Periodic Boundary Condition):</p>
+<ul>
+<li>Create &ldquo;infinite&rdquo; system by creating identical copies</li>
+<li>Use a periodic cell shape and cut-offs</li>
+<li>When we define a &ldquo;primary cell&rdquo;, we copy it</li>
+<li>When an atom reaches edge, it enters from another side</li>
+<li>Advantage: Use less atoms to simulate a large system</li>
+<li>Computationally expensive</li>
+</ul>
+</li>
+</ol>
+<h3 id="common-ensembles">Common Ensembles</h3>
+<ol>
+<li>NVT (Canonical): Control T (等容等温)</li>
+<li>NPT (Isobaric-Isothermal): Control T &amp; P (等压等温)
+<ul>
+<li>Temperature → Kinetic energy → Velocity</li>
+</ul>
+</li>
+</ol>
+<h3 id="limitations-of-md">Limitations of MD</h3>
+<ol>
+<li>Parameters are not perfect
+<ul>
+<li>Amino acid solvent free energy: ~1kJ/mol</li>
+<li>Impossible to calculate binding energy more accurately</li>
+</ul>
+</li>
+<li>Phase space not fully sampled (相空间未完全采样)</li>
+<li>Limited polarization effects (极化限制):
+<ul>
+<li>Water reorientation</li>
+<li>Partial charge is fixed (The orientation change)</li>
+</ul>
+</li>
+</ol>
+<h3 id="md-workflow">MD Workflow</h3>
+<p>Get structure → Fix structure → Prepare topology → Add water → Energy min. → Equilibration phase → Run → Analysis</p>
+<h3 id="md-outcomes">MD Outcomes</h3>
+<ul>
+<li>Doesn&rsquo;t mean it&rsquo;s &ldquo;real&rdquo;</li>
+<li>Everything is about statistics</li>
+<li>Error? A signal event is not</li>
+</ul>
+<hr>
+<h2 id="chapter-3-free-energy">Chapter 3: Free Energy</h2>
+<h3 id="i-free-energy-basics">I. Free Energy Basics</h3>
+<ul>
+<li>ΔG&lt;0: Reaction is spontaneous (自发的)</li>
+</ul>
+<h3 id="ii-absolute-free-energy-calculation">II. Absolute Free Energy Calculation</h3>
+<ul>
+<li>Hard/impossible to calculate directly</li>
+<li>Need to sample all parts of phase space</li>
+<li>Typical simulations only sample low-energy regions</li>
+</ul>
+<h3 id="iii-thermodynamic-perturbation-干扰">III. Thermodynamic Perturbation (干扰)</h3>
+<ul>
+<li>F_A→B = F_B - F_A = -k_B·T·ln(Q_B/Q_A)</li>
+<li>Zwanzig&rsquo;s Formula: F_A→B = -kT·ln&lt;e^(-ΔH/β)&gt;_A</li>
+<li>How to use Zwanzig&rsquo;s Formula:
+<ul>
+<li>Calculate ΔG to go to B</li>
+<li>Potential Energy of A and B (势能)</li>
+</ul>
+</li>
+<li>Assumption: A-B gap is not big</li>
+</ul>
+<h3 id="iv-thermodynamic-cycle">IV. Thermodynamic Cycle</h3>
+<ul>
+<li>Path not necessary to be meaningful</li>
+<li>A → B → C → D: ΔG_AB + ΔG_DA - ΔG_CB - ΔG_DC = 0</li>
+</ul>
+<h3 id="v-fixing-the-overlap-problem">V. Fixing the Overlap Problem</h3>
+<ul>
+<li>H(λ) = (1-λ)H_A + λH_B
+<ul>
+<li>λ is interpolation parameter (加入λ为中间态)</li>
+</ul>
+</li>
+<li>F_B - F_A = (F_λ=0.5 - F_λ=0) + (F_λ=1 - F_λ=0.5)</li>
+</ul>
+<h3 id="vi-solvation-process">VI. Solvation Process</h3>
+<ul>
+<li>ΔG_Sol = ΔG_VdW + ΔG_Charge + ΔG_Cav
+<ul>
+<li>VdW: van der Waals interaction between L-J atoms</li>
+<li>Charge: Electrostatics</li>
+<li>Cav: Cost for creating cavity in water (surface/entropy)</li>
+</ul>
+</li>
+</ul>
+<h3 id="vii-thermodynamic-integration-积分">VII. Thermodynamic Integration (积分)</h3>
+<ul>
+<li>ΔF = ∫₀¹&lt;H_B - H_A&gt;_λ dλ</li>
+</ul>
+<h3 id="viii-inhibitor-design">VIII. Inhibitor Design</h3>
+<ul>
+<li>If we know an inhibitor, we want a similar one (I = protein)</li>
+<li>用于创新设计算法</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">I+E → I&#39;+E&#39;
+</span></span><span class="line"><span class="cl">↑     ↑
+</span></span><span class="line"><span class="cl">I     I&#39;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>F_I→I&rsquo;_bind - F_I→I&rsquo;_bind = F_I→I&rsquo;_bound - F_I→I&rsquo;_Free</li>
+</ul>
+<hr>
+<h2 id="chapter-4-quantum-chemistry">Chapter 4: Quantum Chemistry</h2>
+<h3 id="i-why-quantum-chemistry">I. Why Quantum Chemistry?</h3>
+<ol>
+<li>No parameters required</li>
+<li>Explicit treatment of electrons
+<ul>
+<li>In principle, everything can be modeled:</li>
+<li>Polarization, reactions, spectroscopy</li>
+</ul>
+</li>
+</ol>
+<h3 id="ii-postulates-of-quantum-mechanics">II. Postulates of Quantum Mechanics</h3>
+<ol>
+<li>
+<p>State of quantum mechanical system completely specified by wavefunction Ψ(r,t)</p>
+<ul>
+<li>r: vector in 3D space (三维空间的一个方向量)</li>
+<li>t: time</li>
+<li>Born Interpretation: Square of wave function → probability of finding the system at given values of the variable</li>
+<li>p(x₁,x₂) = ∫|Ψ(x)|²dx</li>
+<li>概率</li>
+</ul>
+</li>
+<li>
+<p>For every observable in classical mechanics, there is an operator in QC</p>
+<ul>
+<li>(把传统力学量用量子算符表达互联系起来)</li>
+</ul>
+</li>
+<li>
+<p>In any measurement of the observable associated with operator Â, the only values ever observed are the eigenvalues a</p>
+<ul>
+<li>ÂΨ = aΨ</li>
+<li>Â为物理量, Â对应于ψ, 则Â的a作用于ψ, 则Âψa</li>
+</ul>
+</li>
+<li>
+<p>It can be averaged:</p>
+<ul>
+<li>&lt; A &gt; = ∫Ψ<em>ÂΨdτ/∫Ψ</em>Ψdτ</li>
+</ul>
+</li>
+<li>
+<p>Schrödinger Equation:</p>
+<ul>
+<li>Time-dependent: ÂΨ(r,t) = iℏ∂Ψ(r,t)/∂t</li>
+<li>For time-independent systems: (Â-E)Ψ(r) → the system&rsquo;s eigenvalues</li>
+</ul>
+</li>
+</ol>
+<h3 id="born-oppenheimer-approximation">Born-Oppenheimer Approximation</h3>
+<ol>
+<li>
+<p>Assumes m_nuclei &raquo; m_electron</p>
+<ul>
+<li>Electrons move faster</li>
+<li>Electrons adjust immediately to nuclear movement</li>
+<li>The operator of electrons doesn&rsquo;t include the kinetic of nuclei (动核近似)</li>
+<li>H_e = T_e + V_ee + V_en + V_nn</li>
+</ul>
+</li>
+<li>
+<p>Separation of Variables</p>
+<ul>
+<li>n electrons moving independently: Ψ = ΠΦᵢ</li>
+<li>E = ΣEᵢ</li>
+</ul>
+</li>
+<li>
+<p>Pauli Principle and Slater Determinant</p>
+<ul>
+<li>Pauli exclusion principle: Two or more electrons cannot occupy the same quantum state</li>
+<li>(一个电子不可处于同一量子态)</li>
+<li>Slater determinant: Follow the Pauli principle</li>
+<li>When two electrons exchange location, wavefunction changes sign</li>
+<li>For n=2 electrons: Ψ = (1/√2)|Φ₁(1) Φ₂(1)| / |Φ₁(2) Φ₂(2)|</li>
+<li>Consequences of Slater determinant:
+<ul>
+<li>Follow electron Pauli principle</li>
+<li>Consider electron correlation</li>
+<li>Consider charge exchange</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="disadvantages">Disadvantages</h3>
+<ul>
+<li>Not always accurate</li>
+<li>Cannot explain correlation energy</li>
+<li>Computationally difficult</li>
+</ul>
+<h3 id="iii-hartree-fock--self-consistent-field">III. Hartree-Fock / Self-Consistent Field</h3>
+<ol>
+<li>
+<p>Slater determinant provides mathematical framework → Hartree-Fock</p>
+</li>
+<li>
+<p>Hartree-Fock calculates the energy of a system (能量)</p>
+</li>
+<li>
+<p>More accurate than simpler methods (更为准确)</p>
+</li>
+<li>
+<p>Hartree-Fock uses basis sets to construct wavefunctions, then adjusts to reality</p>
+</li>
+<li>
+<p>To choose basis sets:</p>
+<ul>
+<li>Atomic nuclei as centers</li>
+<li>Mix and match these functions</li>
+<li>Base: Solution of Schrödinger equation of H</li>
+<li>Radial part is Slater-type orbital (STO) - an exponential function</li>
+<li>Use Gaussian functions (GTOs) to approximate</li>
+</ul>
+</li>
+<li>
+<p>How many basis sets?</p>
+<ul>
+<li>One independent minimal set</li>
+<li>For reasonable results: at least 2 or 3</li>
+<li>Add flexibility: add polarization</li>
+<li>For anions: diffuse functions</li>
+</ul>
+</li>
+<li>
+<p>Split Valence Basis Sets (价层分裂):</p>
+<ul>
+<li>Valence electrons are more important</li>
+<li>Use more functions on valence electrons</li>
+<li>6-31G(d,p) notation:
+<ul>
+<li>6: inner shell electrons represented by 6 Gaussian-type orbitals</li>
+<li>3,1: valence shell represented by 3 GTOs for first part, 1 GTO for second</li>
+<li>d,p: polarization functions (d for heavy atoms, p for hydrogen)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Limits of Hartree-Fock:</p>
+<ul>
+<li>Adding more basis sets is always better</li>
+<li>In H-F theory, electron-electron interactions treated with mean-field approach (平均场)</li>
+<li>In reality, electron movement is correlated</li>
+<li>Missing: Electron correlation energy (能量) 相关性</li>
+</ul>
+</li>
+<li>
+<p>Post-Hartree-Fock:</p>
+<ul>
+<li>Correlation effects approximated by including additional determinants</li>
+<li>CI, MCSCF, MPn methods available</li>
+</ul>
+</li>
+</ol>
+<h3 id="iv-density-functional-theory">IV. Density Functional Theory</h3>
+<ol>
+<li>
+<p>Energy is a function of electron density:</p>
+<ul>
+<li>E = F[ρ(r)] where ρ is density, F is a functional</li>
+<li>Don&rsquo;t need to solve Schrödinger function</li>
+<li>Only 3N variables needed</li>
+<li>Hohenberg-Kohn theorem states the function &ldquo;EXISTS&rdquo; but doesn&rsquo;t specify what it is</li>
+</ul>
+</li>
+<li>
+<p>We know it includes these parts:</p>
+<ul>
+<li>E[ρ] = T[ρ] + E_ne[ρ] + E_ee[ρ]
+<ul>
+<li>T[ρ]: Kinetic energy of electrons</li>
+<li>E_ne[ρ]: Attraction between nuclei and electrons</li>
+<li>E_ee[ρ]: Repulsion between electrons</li>
+</ul>
+</li>
+<li>E[ρ] = T[ρ] + E_ne[ρ] + J[ρ] + K[ρ]
+<ul>
+<li>J[ρ]: Coulomb interaction (库仑项)</li>
+<li>K[ρ]: Exchange term to fit Pauli exclusion principle (交换项)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Kohn-Sham Approach:</p>
+<ul>
+<li>According to Heisenberg uncertainty principle, we cannot test momentum and location at the same time</li>
+<li>(测不准原理不确定性原理)</li>
+<li>P为运动量，对应位置，教授动能</li>
+<li>Need to know velocity → 方程式</li>
+<li>Hartree-Fock can calculate kinetic energy</li>
+<li>For Kohn-Sham approach in DFT, add &ldquo;fake&rdquo; electrons to get approximate kinetic values</li>
+</ul>
+</li>
+<li>
+<p>DFT in Practice:</p>
+<ul>
+<li>E[ρ] = T_s[ρ] + E_ne[ρ] + J[ρ] + E_xc[ρ]</li>
+<li>T_s[ρ]: Kinetic energy from Kohn-Sham orbitals</li>
+<li>E_xc[ρ]: Other quantum mechanical effects (correlation)</li>
+<li>Kohn-Sham simplified the function to T_s[ρ] + E_xc[ρ]</li>
+<li>E_xc[ρ] is hard to calculate</li>
+<li>Common functionals: B3LYP, 6-31G</li>
+<li>Balance quality and computational cost</li>
+</ul>
+</li>
+<li>
+<p>Dispersion in DFT:</p>
+<ul>
+<li>Though dispersion is weak, it increases quickly in larger systems</li>
+<li>Short distance: electron correlation included in functionals</li>
+<li>Long distance not included</li>
+<li>Most functionals fail to represent dispersion at all distances</li>
+<li>Modern functionals (Minnesota family) take this into account</li>
+</ul>
+</li>
+<li>
+<p>DFT in Drug Design:</p>
+<ul>
+<li>Parameter generation for small molecules</li>
+</ul>
+</li>
+<li>
+<p>Semi-Empirical Method (半经验方法):</p>
+<ul>
+<li>These methods require too much computational time</li>
+<li>Strategies to reduce computation:
+<ul>
+<li>Reduce number of functions</li>
+<li>Reduce number of integrals (积分)</li>
+</ul>
+</li>
+<li>Approximations made to Hartree-Fock:
+<ul>
+<li>Core electrons ignored; only consider valence electrons with effective charge Z_eff</li>
+<li>Only minimal basis set employed</li>
+<li>Integrals involving more than two centers neglected</li>
+<li>Remaining integrals are parameterized</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Neglect Diatomic Differential Overlap approximation:</p>
+<ul>
+<li>Examples: PM3, PM6, PM7</li>
+</ul>
+</li>
+</ol>
+<h3 id="v-applying-qc-quantum-chemistry">V. Applying QC (Quantum Chemistry)</h3>
+<ol>
+<li>
+<p>Energy Landscape:</p>
+<ul>
+<li>QC bonds are a consequence of PES, not input parameters</li>
+<li>Different molecules can be part of the same PES</li>
+</ul>
+</li>
+<li>
+<p>Transition State Theory:</p>
+<ul>
+<li>Reaction coordinate: lowest pathway from reactant to product</li>
+<li>Transit state: max energy of reaction coordinate</li>
+<li>This state/enzyme must be stable</li>
+</ul>
+</li>
+<li>
+<p>Geometry Optimization:</p>
+<ul>
+<li>For force fields, minimum energy when gradient becomes close to zero (energy minimum)</li>
+<li>For QC:
+<ul>
+<li>Several maxima/minima</li>
+<li>Optimization to saddle points</li>
+</ul>
+</li>
+<li>Curvature calculation needed (曲率)</li>
+<li>Hessian Matrix: Contains all second derivatives
+<ul>
+<li>For energy minimum, all eigenvalues are positive</li>
+<li>For transition state, one eigenvalue is negative</li>
+<li>For second-order saddle point, two eigenvalues are negative / opposite sign</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Hessian Matrix and Spectroscopy:</p>
+<ul>
+<li>Hessian matrix used to understand vibration</li>
+<li>If molecular vibration is harmonic, we can solve Schrödinger equation</li>
+<li>E_vib = ℏ(n+½)√(k/μ), n = energy level</li>
+<li>Between different energy levels → spectroscopic transition</li>
+</ul>
+</li>
+<li>
+<p>Isotope Effect (同位素):</p>
+<ul>
+<li>Start from E⁰_vib = ½ℏ√(k/μ) where μ is reduced mass</li>
+<li>For H and D as example:
+<ul>
+<li>E⁰_H &gt; E⁰_D, so ΔE_H &lt; ΔE_D</li>
+<li>In drug design: -O-CH₃ → -O-CD₃</li>
+<li>Metabolized slowly, less frequent dosing</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Enthalpies and Free Energy:</p>
+<ul>
+<li>QC energy results include:
+<ul>
+<li>Electrons at 0K</li>
+<li>Electrons and nuclei strictly separated</li>
+</ul>
+</li>
+<li>Absolute energy not useful; compare to others with same electron and nuclei configurations, using same method and basis set</li>
+<li>Electronic energy → Enthalpies considering thermal energies (translation, rotation, vibration)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="chapter-5-cheminformatics">Chapter 5: Cheminformatics</h2>
+<h3 id="i-different-databases">I. Different Databases</h3>
+<p>Database comparison:</p>
+<table>
+<thead>
+<tr>
+<th>Database</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SciFinder/eMolecule</td>
+<td>Variety from multiple sources</td>
+<td>Inconsistency: Different sources may have different expressions</td>
+</tr>
+<tr>
+<td></td>
+<td>Verified data, commercially available</td>
+<td>Cost: Pay for subscription</td>
+</tr>
+<tr>
+<td>GDB-17</td>
+<td>Huge database</td>
+<td>Too large to search effectively</td>
+</tr>
+<tr>
+<td></td>
+<td>Creative: may include molecules not synthesized yet</td>
+<td>May not be able to be synthesized</td>
+</tr>
+<tr>
+<td>Single Vendor (Enamine/ChemDiv)</td>
+<td>Consistency: Same expression format</td>
+<td>Limited diversity</td>
+</tr>
+<tr>
+<td></td>
+<td>Quality data</td>
+<td>Dependence: rely on single vendor for data</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ii-cheminfo-selection">II. Cheminfo Selection</h3>
+<ol>
+<li>
+<p>Pre-clean the Database:</p>
+<ul>
+<li>Remove wrong structures</li>
+<li>Remove salt and inorganic compounds</li>
+<li>Remove duplicated and tautomers</li>
+<li>Manual inspection, remove obvious unreasonable data</li>
+</ul>
+</li>
+<li>
+<p>General Chemical Prototyping:</p>
+<ul>
+<li>Compare active compounds if available</li>
+<li>Exclude toxic structures and structures leading to similar analogues</li>
+<li>Consider hydrophobic cores, rotatable bonds if target is known</li>
+<li>Remove reactive functional groups (ensure selectivity)</li>
+<li>Remove PAINS (Pan-Assay Interference Compounds) to ensure druggability</li>
+<li>Create analogues to test affinity with docking</li>
+</ul>
+</li>
+<li>
+<p>Diversity: PCA with physical chemical parameters, clustering</p>
+</li>
+<li>
+<p>If high affinity is found, use it as a lead compound considering:</p>
+<ul>
+<li>Size</li>
+<li>Flexibility</li>
+<li>Lipophilicity</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="chapter-6-virtual-screening">Chapter 6: Virtual Screening</h2>
+<h3 id="i-virtual-screen-vs-high-throughput-screening">I. Virtual Screen vs. High-throughput Screening</h3>
+<p>Comparison:</p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>HTS (Physical)</th>
+<th>VS (Virtual)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location</td>
+<td>Lab</td>
+<td>Computer</td>
+</tr>
+<tr>
+<td>Time</td>
+<td>Days to weeks</td>
+<td>Hours to days</td>
+</tr>
+<tr>
+<td>Cost</td>
+<td>High</td>
+<td>Low to medium</td>
+</tr>
+<tr>
+<td>Compounds</td>
+<td>10³-10⁶</td>
+<td>10⁷-10¹²</td>
+</tr>
+<tr>
+<td>Data Generate</td>
+<td>Experimental</td>
+<td>Theoretical</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ii-virtual-screen-methods">II. Virtual Screen Methods</h3>
+<ul>
+<li>Docking: Glide</li>
+<li>Pharmacophore search: Phase</li>
+<li>Shape similarity: ROCS</li>
+<li>Electrostatic similarity: EON</li>
+</ul>
+<h3 id="iii-ligand-efficiency">III. Ligand Efficiency</h3>
+<ul>
+<li>LE = ΔG/N_non-H, where ΔG = -RTlnKd</li>
+</ul>
+<ol>
+<li>Smaller size means higher affinity to dock the target</li>
+<li>High efficiency means more druggability, more stable</li>
+<li>Normalized potency of a hit</li>
+</ol>
+<h3 id="iv-negative-and-positive-design">IV. Negative and Positive Design</h3>
+<ul>
+<li><strong>Negative Design</strong>: Avoid undesired properties (e.g., toxicity)</li>
+<li><strong>Positive Design</strong>: Attempt to engineer molecules with desired properties</li>
+</ul>
+<p>Process:</p>
+<ol>
+<li>
+<p>Weeding Out (Negative design):</p>
+<ul>
+<li>Drug likeness</li>
+<li>In silico ADMET</li>
+<li>Frequent hitters</li>
+<li>Reactive groups</li>
+</ul>
+</li>
+<li>
+<p>Narrowing Down (Positive design):</p>
+<ul>
+<li>Trend vectors</li>
+<li>Substructural analysis</li>
+<li>Similarity searching</li>
+<li>Profile/landscape analysis (size, electrostatics, HBD/HBA)</li>
+</ul>
+</li>
+<li>
+<p>Focusing In:</p>
+<ul>
+<li>Structural based models</li>
+<li>Advanced pharmacophore models</li>
+<li>Informed docking</li>
+<li>Informed design</li>
+</ul>
+</li>
+</ol>
+<h3 id="v-frequent-hitters-and-promiscuous-binders">V. Frequent Hitters and Promiscuous Binders</h3>
+<ol>
+<li>Frequent hitters: Show activity in many assays; unspecific binding, aggregate, auto-fluorescence. May not be bioactive.</li>
+<li>Promiscuous binders: Subset of frequent hitter. Can interact with many targets. Bioactive!</li>
+</ol>
+<h3 id="vi-benchmark-data-sets">VI. Benchmark Data Sets</h3>
+<ol>
+<li>
+<p>Decoy: Has similar chemical structure as active compounds but doesn&rsquo;t have chemical activity. Use as negative controls in VS.</p>
+</li>
+<li>
+<p>DUD: Directory of decoys, BRAD for ligand-base</p>
+</li>
+<li>
+<p>MUV (Maximum Unbiased Validation): Collection of benchmark datasets</p>
+<ul>
+<li>DUD: OK for docking</li>
+<li>MUV: If we want minimal bias</li>
+</ul>
+</li>
+<li>
+<p>Bias: May be easy to select similar molecules but not normal ones</p>
+</li>
+<li>
+<p>Process to create own database benchmark:</p>
+<ol>
+<li>Create a goal/purpose</li>
+<li>Collect active compounds</li>
+<li>Collect inactive compounds (ZINC Database → &ldquo;drug-like&rdquo;)</li>
+<li>Ensure diversity with different structures</li>
+<li>Split data into training and validation sets</li>
+<li>Test the method</li>
+</ol>
+</li>
+</ol>
+<h3 id="vii-data-fusion">VII. Data Fusion</h3>
+<ul>
+<li>Sum rank, rank vote, sum score</li>
+<li>EF = (tp/(tp+fp))/(A/T)</li>
+<li>Pareto rank</li>
+<li>Test EF 1%, EF 10%</li>
+</ul>
+<h3 id="viii-problems-with-decoys">VIII. Problems with Decoys</h3>
+<ol>
+<li>Random compounds, decoys data should be similar, cannot divide the active compounds</li>
+<li>Too similar: Hard to divide and may cause bias</li>
+<li>From DUD: Some inactive may have active to other target</li>
+</ol>
+<hr>
+<h2 id="md--qc-summary">MD &amp; QC Summary</h2>
+<h3 id="i-why-md-vs-why-qc">I. Why MD vs Why QC</h3>
+<p><strong>MD Purpose</strong>:</p>
+<ul>
+<li>Study biological systems</li>
+<li>Calculate with function of time</li>
+<li>Predict and explain outcomes of biological experiments</li>
+</ul>
+<p><strong>QC Purpose</strong>:</p>
+<ul>
+<li>No additional parameters required</li>
+<li>In theory, everything can be calculated</li>
+</ul>
+<h3 id="ii-md-approximation-vs-qc-postulates">II. MD Approximation vs QC Postulates</h3>
+<p><strong>MD Approximations</strong>:</p>
+<ul>
+<li>Ignore electron motion</li>
+<li>Separate electron and nuclei</li>
+<li>Use Newton&rsquo;s law</li>
+<li>Transfer parameters from small to large molecules</li>
+</ul>
+<p><strong>QC Postulates</strong>:</p>
+<ul>
+<li>Wavefunction Ψ(r,t), Born&rsquo;s interpretation (解释)</li>
+<li>For every observation, an operator</li>
+<li>For every operator, eigenvalues</li>
+<li>Schrödinger&rsquo;s equation</li>
+</ul>
+<h3 id="iii-force-field-advantagesdisadvantages">III. Force Field Advantages/Disadvantages</h3>
+<ol>
+<li>Force Field is simplified and empirical (经验上)</li>
+<li>Form and parameters differ in different models</li>
+<li>Usefulness depends on questions asked</li>
+<li>Major problem: bonds cannot be broken</li>
+<li>Transferability of parameters unclear</li>
+<li>Polarization not considered</li>
+<li>General methods still developing</li>
+</ol>
+<h3 id="iv-v-md-simulation-process">IV-V. MD Simulation Process</h3>
+<ol>
+<li>Try to calculate the path of each individual</li>
+<li>Newton&rsquo;s law</li>
+<li>May have errors</li>
+<li>Add-up errors may be OK</li>
+<li>Calculate motion as function of time</li>
+</ol>
+<h3 id="vi-limits-of-md">VI. Limits of MD</h3>
+<ol>
+<li>Parameters not perfect</li>
+<li>Phase space not fully sampled</li>
+<li>Limited polarization effects (极化效果)</li>
+</ol>
+<h3 id="vii-qc-approaches">VII. QC Approaches</h3>
+<ul>
+<li>Schrödinger Equation: H(r,t) = EΨ(r,t)</li>
+<li>Pauli exclusion principle and Slater determinant</li>
+<li>With Slater determinant + Basis Set → Hartree-Fock</li>
+<li>Using GTO, STO-nG models (STO-3G means STO approximated by 3 GTOs)</li>
+<li>Hartree-Fock uses mean-field approach, but electrons&rsquo; interaction is correlated</li>
+<li>Post Hartree-Fock: CI, MPn</li>
+<li>Density Functional Theory: No need to solve Schrödinger, only 3N</li>
+<li>DFT = E[ρ] = T_S[ρ] + E_ne[ρ] + J[ρ] + E_xc[ρ]</li>
+<li>DFT principle accurate; HF is not</li>
+<li>But we still don&rsquo;t know the expression of E_xc[ρ]</li>
+<li>Choose B3LYP/6-31G to balance quality and cost</li>
+<li>Semi-Empirical Method: Reduce number of functions/integrals</li>
+<li>Model PMx (x=3,6,7)</li>
+<li>Hessian Matrix: Contains all second derivatives</li>
+<li>For energy min: all eigenvalues positive</li>
+<li>For TS: one eigenvalue negative</li>
+<li>A second-order saddle point: two eigenvalues negative</li>
+<li>Also in spectroscopy: E_vib = ℏ(n+½)√(k/μ)</li>
+<li>Isotope effect</li>
+</ul>
+<h3 id="words-list">Words List</h3>
+<ul>
+<li>Electrostatic: 电力</li>
+<li>π-stacking</li>
+<li>Halogen Bond</li>
+<li>London Dispersion: a 色散力</li>
+<li>Pauli Repulsion: 泡利(排斥)</li>
+<li>Entropic: 熵的</li>
+<li>Enclosure/Exposure: 暴露外表的景象</li>
+<li>Torsional Potential: 扭转势能</li>
+<li>Ensemble Average: 总体~</li>
+<li>Ergodic hypothesis: 遍历假设</li>
+<li>Ensemble average = Time average</li>
+<li>Trajectory: 轨迹</li>
+<li>Implicit solvent model</li>
+<li>Canonical Ensembles: 等温</li>
+<li>Isobaric Ensemble</li>
+<li>Postulate: 假设</li>
+<li>Operator: 算子</li>
+<li>Eigenvalue: 特征值</li>
+<li>Spherical/Periodic</li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2025-03-28</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/zh-cn/advanced-modelling.zh-cn_%E5%89%AF%E6%9C%AC/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="//localhost:1313/zh-cn/advanced-modelling.zh-cn_%E5%89%AF%E6%9C%AC/" data-title="Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes" data-hashtags="化学信息学,计算药物化学,Pharameutical Modelling"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="//localhost:1313/zh-cn/advanced-modelling.zh-cn_%E5%89%AF%E6%9C%AC/" data-hashtag="化学信息学"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Linkedin" data-sharer="linkedin" data-url="//localhost:1313/zh-cn/advanced-modelling.zh-cn_%E5%89%AF%E6%9C%AC/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="//localhost:1313/zh-cn/advanced-modelling.zh-cn_%E5%89%AF%E6%9C%AC/" data-title="Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/zh-cn/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/">化学信息学</a>,&nbsp;<a href="/zh-cn/tags/%E8%AE%A1%E7%AE%97%E8%8D%AF%E7%89%A9%E5%8C%96%E5%AD%A6/">计算药物化学</a>,&nbsp;<a href="/zh-cn/tags/pharameutical-modelling/">Pharameutical Modelling</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/zh-cn/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/zh-cn/db/" class="prev" rel="prev" title="Sci Data | 非肽类大环化合物渗透性数据库"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Sci Data | 非肽类大环化合物渗透性数据库</a>
+            <a href="/zh-cn/advanced-modelling/" class="next" rel="next" title="Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes">Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.125.5">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/zh-cn/" target="_blank">小恐龙 | Little Dinosaur</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/zh-cn/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

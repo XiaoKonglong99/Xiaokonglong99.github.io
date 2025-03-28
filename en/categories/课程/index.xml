@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>课程 - Category - Little Dinosaur&#39;s Corner</title>
+        <link>//localhost:1313/en/categories/%E8%AF%BE%E7%A8%8B/</link>
+        <description>课程 - Category - Little Dinosaur&#39;s Corner</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</lastBuildDate><atom:link href="//localhost:1313/en/categories/%E8%AF%BE%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
+    <title>Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes</title>
+    <link>//localhost:1313/en/advanced-modelling/</link>
+    <pubDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</pubDate>
+    <author>小恐龙 | Little Dinosaur</author>
+    <guid>//localhost:1313/en/advanced-modelling/</guid>
+    <description><![CDATA[Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes- 2023 Note This is an personal examination preparation note for the course Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University.Converted atuomatically by Claude AI
+Chapter 1: Ligand-Protein Interaction Key Points: Describing the interaction of molecules
+Determining if a molecule is a good target or not Types of Interactions:
+Electrostatics: Follow Coulomb&rsquo;s Law
+F = -q₁q₂/4πε₀r² (ε₀: electric constant, q₁, q₂: charges) π-π stacking: interactions between benzene rings π-cation interactions: e.]]></description>
+</item>
+</channel>
+</rss>

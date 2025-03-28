@@ -2,8 +2,17 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>/en/categories/academic/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/en/categories/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/en/advanced-modelling/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="/zh-cn/advanced-modelling/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="/en/advanced-modelling/"
+                    /></url><url>
+            <loc>/en/categories/basic-knowledge/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/en/categories/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/zh-cn/categories/"
@@ -12,17 +21,10 @@
                     hreflang="en"
                     href="/en/categories/"
                     /></url><url>
-            <loc>/en/tags/cheminformatics/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/en/structure-ocr/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="/zh-cn/structure-ocr/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="/en/structure-ocr/"
-                    /></url><url>
-            <loc>/en/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/en/tags/cheminformatics/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/en/tags/computational-medicinal-chemistry/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/en/categories/courses-at-uppsala-university/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/en/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/zh-cn/"
@@ -31,7 +33,16 @@
                     hreflang="en"
                     href="/en/"
                     /></url><url>
-            <loc>/en/posts/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/en/tags/pharameutical-modelling/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="/zh-cn/tags/pharameutical-modelling/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="/en/tags/pharameutical-modelling/"
+                    /></url><url>
+            <loc>/en/posts/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/zh-cn/posts/"
@@ -40,7 +51,7 @@
                     hreflang="en"
                     href="/en/posts/"
                     /></url><url>
-            <loc>/en/tags/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/en/tags/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/zh-cn/tags/"
@@ -48,6 +59,16 @@
                     rel="alternate"
                     hreflang="en"
                     href="/en/tags/"
+                    /></url><url>
+            <loc>/en/categories/academic/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/en/structure-ocr/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="/zh-cn/structure-ocr/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="/en/structure-ocr/"
                     /></url><url>
             <loc>/en/transparent/</loc><lastmod>2024-08-12T14:21:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"

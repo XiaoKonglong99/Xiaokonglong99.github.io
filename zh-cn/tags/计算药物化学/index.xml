@@ -1,0 +1,20 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>计算药物化学 - 标签 - 小恐龙的自留地</title>
+        <link>/zh-cn/tags/%E8%AE%A1%E7%AE%97%E8%8D%AF%E7%89%A9%E5%8C%96%E5%AD%A6/</link>
+        <description>计算药物化学 - 标签 - 小恐龙的自留地</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</lastBuildDate><atom:link href="/zh-cn/tags/%E8%AE%A1%E7%AE%97%E8%8D%AF%E7%89%A9%E5%8C%96%E5%AD%A6/" rel="self" type="application/rss+xml" /><item>
+    <title>Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes</title>
+    <link>/zh-cn/advanced-modelling/</link>
+    <pubDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</pubDate>
+    <author>小恐龙 | Little Dinosaur</author>
+    <guid>/zh-cn/advanced-modelling/</guid>
+    <description><![CDATA[Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes- 2023 Note 这是一个个人的备考复习笔记，适用于瑞典🇸🇪乌普萨拉大学的课程 Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University.手写笔记由 Claude AI转换为Markdown格式， 仅供参考。
+原始文档可点击这里下载
+Chapter 1: Ligand-Protein Interaction Key Points: Describing the interaction of molecules
+Determining if a molecule is a good target or not Types of Interactions:
+Electrostatics: Follow Coulomb&rsquo;s Law
+F = -q₁q₂/4πε₀r² (ε₀: electric constant, q₁, q₂: charges) π-π stacking: interactions between benzene rings π-cation interactions: e.]]></description>
+</item>
+</channel>
+</rss>

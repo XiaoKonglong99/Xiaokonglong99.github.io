@@ -3,7 +3,19 @@
         <title>All Posts - Little Dinosaur&#39;s Corner</title>
         <link>/en/posts/</link>
         <description>All Posts | Little Dinosaur&#39;s Corner</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 12 Aug 2024 15:00:01 &#43;0200</lastBuildDate><atom:link href="/en/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</lastBuildDate><atom:link href="/en/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes</title>
+    <link>/en/advanced-modelling/</link>
+    <pubDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</pubDate>
+    <author>小恐龙 | Little Dinosaur</author>
+    <guid>/en/advanced-modelling/</guid>
+    <description><![CDATA[Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes- 2023 Note This is an personal examination preparation note for the course Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University.Converted atuomatically by Claude AI
+Click hereto download the original hand-written notebook.
+Chapter 1: Ligand-Protein Interaction Key Points: Describing the interaction of molecules
+Determining if a molecule is a good target or not Types of Interactions:
+Electrostatics: Follow Coulomb&rsquo;s Law]]></description>
+</item>
+<item>
     <title>InDraw -- Convert Figures to SMILES with AI</title>
     <link>/en/structure-ocr/</link>
     <pubDate>Mon, 12 Aug 2024 15:00:01 &#43;0200</pubDate>
