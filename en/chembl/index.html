@@ -1,51 +1,41 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en-US">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>使用ChEMBL Python API 搜索化合物信息 - 小恐龙的自留地</title><meta name="Description" content="这是我的全新 Hugo 网站"><meta property="og:url" content="/zh-cn/chembl/">
-  <meta property="og:site_name" content="小恐龙的自留地">
-  <meta property="og:title" content="使用ChEMBL Python API 搜索化合物信息">
-  <meta property="og:description" content="前言 ChEMBL 算是各位化学从业者喜闻乐见的数据库。（因为他不要钱） 但是如果我们想要批量收集我们想要的内容，用网页版挨个寻找属实有点麻烦了。那么，有没有什么方法能够批量 且自动获取我们想要的分子信息呢？
-其实除了我们熟知的ChEMBL网页 ， ChEMBL 还贴心的提供了可以用Python 搜索的 ChEMBL web service client 服务。只要我们在Python代码中输入想要的关键词，就可以批量搜索到我们想要的内容然后保存为CSV 文件用于后续处理。（比如赛博炼丹）
-应用实例 一位励志发JACS的同学希望收集ChEMBL上杂环化合物Heterocyclic compound的 溶解度Solubility数据，我们应该怎么找呢？
-示例代码：
-首先 安装chembl_webresource_client 包
-1 ! pip install chembl_webresource_client 然后运行这一段代码
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 import csv from chembl_webresource_client.">
-  <meta property="og:locale" content="zh-CN">
+        <title>Searching Compound Information Using ChEMBL Python API - Little Dinosaur&#39;s Corner</title><meta name="Description" content="This is my brand new Hugo website"><meta property="og:url" content="/en/chembl/">
+  <meta property="og:site_name" content="Little Dinosaur&#39;s Corner">
+  <meta property="og:title" content="Searching Compound Information Using ChEMBL Python API">
+  <meta property="og:description" content="Introduction ChEMBL is a database beloved by chemistry professionals. (Because it’s free) However, if we want to collect information in bulk, searching individually through the web interface can be quite troublesome. So, is there a method to obtain molecular information in bulk and automatically?
+Actually, besides the well-known ChEMBL website, ChEMBL thoughtfully provides a ChEMBL web service client that can be used with Python. By simply entering the desired keywords in Python code, we can search in bulk for the content we need and save it as a CSV file for subsequent processing.">
+  <meta property="og:locale" content="en-US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-08-11T17:25:35+02:00">
-    <meta property="article:modified_time" content="2024-08-11T17:25:35+02:00">
-    <meta property="article:tag" content="化学信息学">
+    <meta property="article:published_time" content="2025-05-13T07:58:35+02:00">
+    <meta property="article:modified_time" content="2025-05-13T07:58:35+02:00">
+    <meta property="article:tag" content="Chemoinformatics">
     <meta property="og:image" content="/logo.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="/logo.png"><meta name="twitter:title" content="使用ChEMBL Python API 搜索化合物信息">
-<meta name="twitter:description" content="前言 ChEMBL 算是各位化学从业者喜闻乐见的数据库。（因为他不要钱） 但是如果我们想要批量收集我们想要的内容，用网页版挨个寻找属实有点麻烦了。那么，有没有什么方法能够批量 且自动获取我们想要的分子信息呢？
-其实除了我们熟知的ChEMBL网页 ， ChEMBL 还贴心的提供了可以用Python 搜索的 ChEMBL web service client 服务。只要我们在Python代码中输入想要的关键词，就可以批量搜索到我们想要的内容然后保存为CSV 文件用于后续处理。（比如赛博炼丹）
-应用实例 一位励志发JACS的同学希望收集ChEMBL上杂环化合物Heterocyclic compound的 溶解度Solubility数据，我们应该怎么找呢？
-示例代码：
-首先 安装chembl_webresource_client 包
-1 ! pip install chembl_webresource_client 然后运行这一段代码
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 import csv from chembl_webresource_client.">
+<meta name="twitter:image" content="/logo.png"><meta name="twitter:title" content="Searching Compound Information Using ChEMBL Python API">
+<meta name="twitter:description" content="Introduction ChEMBL is a database beloved by chemistry professionals. (Because it&rsquo;s free) However, if we want to collect information in bulk, searching individually through the web interface can be quite troublesome. So, is there a method to obtain molecular information in bulk and automatically?
+Actually, besides the well-known ChEMBL website, ChEMBL thoughtfully provides a ChEMBL web service client that can be used with Python. By simply entering the desired keywords in Python code, we can search in bulk for the content we need and save it as a CSV file for subsequent processing.">
 <meta name="application-name" content="小恐龙的自留地 | Little Dinosaur&#39;s Corner">
 <meta name="apple-mobile-web-app-title" content="小恐龙的自留地 | Little Dinosaur&#39;s Corner"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="/zh-cn/chembl/" /><link rel="prev" href="/zh-cn/transparent/" /><link rel="next" href="/zh-cn/structure-ocr/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="/en/chembl/" /><link rel="prev" href="/en/advanced-modelling/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "使用ChEMBL Python API 搜索化合物信息",
-        "inLanguage": "zh-CN",
+        "headline": "Searching Compound Information Using ChEMBL Python API",
+        "inLanguage": "en-US",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "\/zh-cn\/chembl\/"
-        },"genre": "posts","keywords": "化学信息学","wordcount":  232 ,
-        "url": "\/zh-cn\/chembl\/","datePublished": "2024-08-11T17:25:35+02:00","dateModified": "2024-08-11T17:25:35+02:00","publisher": {
+            "@id": "\/en\/chembl\/"
+        },"genre": "posts","keywords": "Chemoinformatics","wordcount":  411 ,
+        "url": "\/en\/chembl\/","datePublished": "2025-05-13T07:58:35+02:00","dateModified": "2025-05-13T07:58:35+02:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -58,7 +48,7 @@
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/zh-cn/" title="小恐龙的自留地"><img
+            <a href="/en/" title="Little Dinosaur&#39;s Corner"><img
         class="lazyload logo"
         src="/svg/loading.min.svg"
         data-src="/img/logo.png"
@@ -68,22 +58,22 @@
         title="/img/logo.png" /></a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/zh-cn/posts/"> 文章 </a><a class="menu-item" href="/zh-cn/tags/"> 标签 </a><a class="menu-item" href="/zh-cn/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
-                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+            <div class="menu-inner"><a class="menu-item" href="/en/posts/"> Posts </a><a class="menu-item" href="/en/tags/"> Tags </a><a class="menu-item" href="/en/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
                             <i class="fas fa-search fa-fw" aria-hidden="true"></i>
                         </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
                             <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
                         </a>
                         <span class="search-button search-loading" id="search-loading-desktop">
                             <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
                         </span>
-                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                     <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
                     <i class="fa-sharp-duotone fa-solid fa-language"></i>                    
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/zh-cn/chembl/" selected>🇨🇳 简体中文</option><option value="/en/chembl/">🇬🇧 English</option></select>
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/zh-cn/chembl/">🇨🇳 简体中文</option><option value="/en/chembl/" selected>🇬🇧 English</option></select>
                 </a></div>
         </div>
     </div>
@@ -91,7 +81,7 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/zh-cn/" title="小恐龙的自留地"><img
+                <a href="/en/" title="Little Dinosaur&#39;s Corner"><img
         class="lazyload logo"
         src="/svg/loading.min.svg"
         data-src="/img/logo.png"
@@ -106,11 +96,11 @@
         </div>
         <div class="menu" id="menu-mobile"><div class="search-wrapper">
                     <div class="search mobile" id="search-mobile">
-                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
                             <i class="fas fa-search fa-fw" aria-hidden="true"></i>
                         </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
                             <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
                         </a>
                         <span class="search-button search-loading" id="search-loading-mobile">
@@ -118,13 +108,13 @@
                         </span>
                     </div>
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
-                        取消
+                        Cancel
                     </a>
-                </div><a class="menu-item" href="/zh-cn/posts/" title="">文章</a><a class="menu-item" href="/zh-cn/tags/" title="">标签</a><a class="menu-item" href="/zh-cn/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                </div><a class="menu-item" href="/en/posts/" title="">Posts</a><a class="menu-item" href="/en/tags/" title="">Tags</a><a class="menu-item" href="/en/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
                     <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/zh-cn/chembl/" selected>🇨🇳 简体中文</option><option value="/en/chembl/">🇬🇧 English</option></select>
+                    <select class="language-select" onchange="location = this.value;"><option value="/zh-cn/chembl/">🇨🇳 简体中文</option><option value="/en/chembl/" selected>🇬🇧 English</option></select>
                 </a></div>
     </div>
 </header><div class="search-dropdown desktop">
@@ -134,38 +124,38 @@
         <div id="search-dropdown-mobile"></div>
     </div><main class="main">
                 <div class="container"><div class="toc" id="toc-auto">
-            <h2 class="toc-title">目录</h2>
+            <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">使用ChEMBL Python API 搜索化合物信息</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/zh-cn/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>小恐龙 | Little Dinosaur</a></span>&nbsp;<span class="post-category">收录于 <a href="/zh-cn/categories/%E5%AD%A6%E6%9C%AF/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>学术</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-08-11">2024-08-11</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 232 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Searching Compound Information Using ChEMBL Python API</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/en/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>小恐龙 | Little Dinosaur</a></span>&nbsp;<span class="post-category">included in <a href="/en/categories/academic/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Academic</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-05-13">2025-05-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;411 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
-                    <span>目录</span>
+                    <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li>
       <ul>
-        <li><a href="#前言">前言</a>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#application-example">Application Example</a>
           <ul>
-            <li><a href="#应用实例">应用实例</a></li>
-            <li><a href="#注意事项">注意事项</a></li>
+            <li><a href="#notes">Notes</a></li>
           </ul>
         </li>
       </ul>
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h3 id="前言">前言</h3>
-<p>ChEMBL 算是各位化学从业者喜闻乐见的数据库。<del>（因为他不要钱）</del> 但是如果我们想要批量收集我们想要的内容，用网页版挨个寻找属实有点麻烦了。那么，有没有什么方法能够<strong>批量</strong> 且<strong>自动</strong>获取我们想要的分子信息呢？</p>
-<p>其实除了我们熟知的ChEMBL<a href="https://www.ebi.ac.uk/chembl/" target="_blank" rel="noopener noreffer ">网页</a> ， ChEMBL 还贴心的提供了可以用Python 搜索的 ChEMBL web service client 服务。只要我们在Python代码中输入想要的关键词，就可以批量搜索到我们想要的内容然后保存为CSV 文件用于后续处理。<del>（比如赛博炼丹）</del></p>
-<h4 id="应用实例">应用实例</h4>
-<p>一位励志发JACS的同学希望收集ChEMBL上<strong>杂环化合物Heterocyclic compound</strong>的 <strong>溶解度Solubility</strong>数据，我们应该怎么找呢？</p>
-<p><strong>示例代码</strong>：</p>
-<p>首先 安装chembl_webresource_client 包</p>
+            </div><div class="content" id="content"><h3 id="introduction">Introduction</h3>
+<p>ChEMBL is a database beloved by chemistry professionals. <del><del>(Because it&rsquo;s free)</del></del> However, if we want to collect information in bulk, searching individually through the web interface can be quite troublesome. So, is there a method to obtain molecular information <strong>in bulk</strong> and <strong>automatically</strong>?</p>
+<p>Actually, besides the well-known ChEMBL <a href="https://www.ebi.ac.uk/chembl/" target="_blank" rel="noopener noreffer ">website</a>, ChEMBL thoughtfully provides a ChEMBL web service client that can be used with Python. By simply entering the desired keywords in Python code, we can search in bulk for the content we need and save it as a CSV file for subsequent processing. <del><del>(For example, cyber alchemy,aka Machine Learning)</del></del></p>
+<h3 id="application-example">Application Example</h3>
+<p>An aspiring JACS author wants to collect <strong>solubility</strong> data for <strong>heterocyclic compounds</strong> from ChEMBL. How should we approach this?
+<strong>Example code</strong>:
+First, install the chembl_webresource_client package</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -174,7 +164,7 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">! pip install chembl_webresource_client
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>然后运行这一段代码</p>
+</div><p>Then run this code</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -227,24 +217,24 @@
 </span><span class="lnt">48
 </span><span class="lnt">49
 </span><span class="lnt">50
-</span><span class="lnt">51
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">csv</span>
 </span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">chembl_webresource_client.new_client</span> <span class="kn">import</span> <span class="n">new_client</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 新建一个Client</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Create a new Client</span>
 </span></span><span class="line"><span class="cl"><span class="n">client</span> <span class="o">=</span> <span class="n">new_client</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 录入关键词 solubility</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Enter the keyword &#39;solubility&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="n">assays</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">assay</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span>
 </span></span><span class="line"><span class="cl">    <span class="n">description__icontains</span><span class="o">=</span><span class="s1">&#39;solubility&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 新建一个CSV文件存储结果</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Create a new CSV file to store the results</span>
 </span></span><span class="line"><span class="cl"><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;heterocyclic_solubility_data.csv&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">csvfile</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="n">fieldnames</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;CHEMBL_ID&#39;</span><span class="p">,</span> <span class="s1">&#39;SMILES&#39;</span><span class="p">,</span> <span class="s1">&#39;Solubility_value&#39;</span><span class="p">,</span> <span class="s1">&#39;Solubility_units&#39;</span><span class="p">,</span> <span class="s1">&#39;Solubility_doi&#39;</span><span class="p">,</span> <span class="s1">&#39;Assay_description&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="c1"># 这里我们打算收集杂环分子的 ID，SMILES结构式，溶解度数据和单位，原始文献和这个数据的说明（比如测试条件），不需要的话可以按需删除</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Here we plan to collect the ID of heterocyclic molecules, SMILES structure, solubility data and units, original literature, and description of this data (such as test conditions), which can be deleted as needed</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="n">writer</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">DictWriter</span><span class="p">(</span><span class="n">csvfile</span><span class="p">,</span> <span class="n">fieldnames</span><span class="o">=</span><span class="n">fieldnames</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">    <span class="n">writer</span><span class="o">.</span><span class="n">writeheader</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">
@@ -255,7 +245,6 @@
 </span></span><span class="line"><span class="cl">            <span class="k">try</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">                <span class="n">molecule</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">molecule</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">activity</span><span class="p">[</span><span class="s1">&#39;molecule_chembl_id&#39;</span><span class="p">])</span>
 </span></span><span class="line"><span class="cl">                
-</span></span><span class="line"><span class="cl">                <span class="c1"># 判断这个分子是不是杂环分子</span>
 </span></span><span class="line"><span class="cl">                <span class="n">is_heterocyclic</span> <span class="o">=</span> <span class="kc">False</span>
 </span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="n">molecule</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;molecule_structures&#39;</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">                    <span class="n">smiles</span> <span class="o">=</span> <span class="n">molecule</span><span class="p">[</span><span class="s1">&#39;molecule_structures&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;canonical_smiles&#39;</span><span class="p">)</span>
@@ -267,7 +256,6 @@
 </span></span><span class="line"><span class="cl">                        <span class="n">doi</span> <span class="o">=</span> <span class="n">document</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;doi&#39;</span><span class="p">,</span> <span class="s2">&#34;Not Available&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">                    <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">                        <span class="n">doi</span> <span class="o">=</span> <span class="s2">&#34;Not Available&#34;</span>
-</span></span><span class="line"><span class="cl">                    <span class="c1"># 储存结果</span>
 </span></span><span class="line"><span class="cl">                    <span class="n">writer</span><span class="o">.</span><span class="n">writerow</span><span class="p">({</span>
 </span></span><span class="line"><span class="cl">                        <span class="s1">&#39;CHEMBL_ID&#39;</span><span class="p">:</span> <span class="n">activity</span><span class="p">[</span><span class="s1">&#39;molecule_chembl_id&#39;</span><span class="p">],</span>
 </span></span><span class="line"><span class="cl">                        <span class="s1">&#39;SMILES&#39;</span><span class="p">:</span> <span class="n">smiles</span><span class="p">,</span>
@@ -283,51 +271,50 @@
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Data collection completed. Results saved in &#39;heterocyclic_solubility_data.csv&#39;.&#34;</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>然后我们就能看到我们想要的结果了</p>
-<h4 id="注意事项">注意事项</h4>
+</div><p>Then we can see our desired results.</p>
+<h4 id="notes">Notes</h4>
 <ul>
-<li>ChEMBL 上面的数据均为人肉收集和录入，请务必使用之前人工验证</li>
-<li>这一个过程可能持续很长一段时间，建议在程序运行过程中多多摸鱼</li>
+<li>The data on ChEMBL is manually collected and entered, so please manually verify before use</li>
+<li>This process may take a long time, so it&rsquo;s recommended to take breaks during program execution
+Good Luck!</li>
 </ul>
-<p>Good Luck！</p>
-<p><strong>参考文献</strong>：<a href="https://academic.oup.com/nar/article/43/W1/W612/2467881" target="_blank" rel="noopener noreffer ">Davies et al.,2015</a></p>
+<p><strong>Reference</strong>：<a href="https://academic.oup.com/nar/article/43/W1/W612/2467881" target="_blank" rel="noopener noreffer ">Davies et al.,2015</a></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2024-08-11</span>
+                <span>Updated on 2025-05-13</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"><span>
-                            <a class="link-to-markdown" href="/zh-cn/chembl/index.md" target="_blank">阅读原始文档</a>
+                            <a class="link-to-markdown" href="/en/chembl/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="/zh-cn/chembl/" data-title="使用ChEMBL Python API 搜索化合物信息" data-hashtags="化学信息学"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="/zh-cn/chembl/" data-hashtag="化学信息学"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Linkedin" data-sharer="linkedin" data-url="/zh-cn/chembl/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="/zh-cn/chembl/" data-title="使用ChEMBL Python API 搜索化合物信息" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="/en/chembl/" data-title="Searching Compound Information Using ChEMBL Python API" data-hashtags="Chemoinformatics"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="/en/chembl/" data-hashtag="Chemoinformatics"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="/en/chembl/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="/en/chembl/" data-title="Searching Compound Information Using ChEMBL Python API" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/zh-cn/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/">化学信息学</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/en/tags/chemoinformatics/">Chemoinformatics</a></section>
         <section>
-            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/zh-cn/">主页</a></span>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/en/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/zh-cn/transparent/" class="prev" rel="prev" title="使用RDKit生成无背景的化学结构式--附Python代码"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>使用RDKit生成无背景的化学结构式--附Python代码</a>
-            <a href="/zh-cn/structure-ocr/" class="next" rel="next" title="InDraw: 用AI把化学结构图片转换成SMILES">InDraw: 用AI把化学结构图片转换成SMILES<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/en/advanced-modelling/" class="prev" rel="prev" title="Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes</a></div>
 </div>
 </article></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.125.5">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
-                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/zh-cn/" target="_blank">小恐龙 | Little Dinosaur</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.125.5">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/en/" target="_blank">小恐龙 | Little Dinosaur</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
     </footer></div>
 
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
                 <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/zh-cn/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/en/index.json","lunrLanguageCode":"en","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"No results found","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>
