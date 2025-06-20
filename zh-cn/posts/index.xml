@@ -3,7 +3,16 @@
         <title>所有文章 - 小恐龙的自留地</title>
         <link>/zh-cn/posts/</link>
         <description>所有文章 | 小恐龙的自留地</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</lastBuildDate><atom:link href="/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 20 Jun 2025 08:33:00 &#43;0200</lastBuildDate><atom:link href="/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>【讲座笔记】阿斯利康计算机辅助药物设计讲座</title>
+    <link>/zh-cn/az_seminar-cn/</link>
+    <pubDate>Fri, 20 Jun 2025 08:33:00 &#43;0200</pubDate>
+    <author>小恐龙 | Little Dinosaur</author>
+    <guid>/zh-cn/az_seminar-cn/</guid>
+    <description><![CDATA[利用人工智能加速药物研发——小分子及其他领域 - 总结提纲 前言： 本次在线讲座由BioSolveIT公司主办，邀请了瑞典阿斯利康的Eva Nittinger博士主讲。讲座主题为&quot;利用人工智能加速药物研发——小分子及其他领域&quot;。本文是笔者整理的讲座笔记，供中文研究者参考。
+1. 药物发现过程概述 1.1 DMTA循环的核心地位 DMTA循环：设计(Design) → 制备(Make) → 测试(Test) → 分析(Analyze) 时间挑战：从化学起始点(hit)到候选药物(CD)需要3年以上 加速目标：如何通过计算方法加速这一过程 1.2 计算机辅助药物设计的复杂性 硅内靶点评估：3D结构预测、结合模式、模式选择 化学空间探索：命中识别、化学系列选择、知识产权分析 化合物谱优化：多参数(&gt;100)优化、平衡相互关联和对立因素 2. 蛋白质折叠与结构预测 2.1 AlphaFold的成功应用案例 分子替换模板：X射线晶体学中的应用 功能预测：通过预测数据补充实验数据 结构动力学：探索AlphaFold是否能预测蛋白质动态变化 2.2 结构预测方法的局限性 优势领域： 单一结构解析 强蛋白质-蛋白质相互作用 不适用领域： 动态和结构运动 新型模式(如PROTACs) 2.3 深度学习方法比较 多种方法评估：AlphaFold2、RoseTTAFold、NeuralPlexer等 结合状态预测：开放态(apo)vs闭合态(holo)结构预测 偏差分析：NeuralPlexer和RoseTTAFold在配体信息获取方面的优势 3. 化学空间探索与利用 3.1 生成式建模 vs 虚拟筛选 传统虚拟筛选： 在大型数据库中搜索，寻找少量合适的命中化合物 类似&quot;大海捞针&quot;的过程 生成式模型： 以概率方式编码几乎无限的化学空间 更高效的化学空间探索 3.2 化合物相似性分析 近邻分析：化合物拥有多少个近邻？ 采样策略对比：默认、强化学习、多项式、集束搜索 性能评估：通过REINVENT等方法进行实际应用验证 3.3 化学空间的规模和多样性 数据来源：基于26个AZ内部项目的回顾性分析 给药途径：口服给药分析 关键参数：logD、溶解性、清除率的分析 4. 化合物优化与分子设计 4.1 分子构思与化合物优先级排序 挑战：如何过滤和选择？ 多种策略： X射线模型富集对接得分 分子动力学探索FEP预测亲和力 QSAR插值预测活性 4.]]></description>
+</item>
+<item>
     <title>乌普萨拉大学 Advanced Molecular Modelling Applied to Drug Discovery(3FK181) 课程复习笔记</title>
     <link>/zh-cn/advanced-modelling/</link>
     <pubDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</pubDate>

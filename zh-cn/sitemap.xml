@@ -2,7 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>/zh-cn/categories/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/zh-cn/az_seminar-cn/</loc><lastmod>2025-06-20T08:33:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/zh-cn/categories/</loc><lastmod>2025-06-20T08:33:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/categories/"
@@ -11,6 +12,35 @@
                     hreflang="zh-cn"
                     href="/zh-cn/categories/"
                     /></url><url>
+            <loc>/zh-cn/posts/</loc><lastmod>2025-06-20T08:33:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="/en/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="/zh-cn/posts/"
+                    /></url><url>
+            <loc>/zh-cn/tags/</loc><lastmod>2025-06-20T08:33:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="/en/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="/zh-cn/tags/"
+                    /></url><url>
+            <loc>/zh-cn/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/</loc><lastmod>2025-06-20T08:33:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/zh-cn/</loc><lastmod>2025-06-20T08:33:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="/en/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="/zh-cn/"
+                    /></url><url>
+            <loc>/zh-cn/categories/%E5%AD%A6%E6%9C%AF/</loc><lastmod>2025-06-20T08:33:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/zh-cn/tags/pharameutical-modelling/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -20,25 +50,6 @@
                     hreflang="zh-cn"
                     href="/zh-cn/tags/pharameutical-modelling/"
                     /></url><url>
-            <loc>/zh-cn/posts/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="/en/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="/zh-cn/posts/"
-                    /></url><url>
-            <loc>/zh-cn/tags/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="/en/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="/zh-cn/tags/"
-                    /></url><url>
-            <loc>/zh-cn/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/zh-cn/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/zh-cn/tags/%E8%AE%A1%E7%AE%97%E8%8D%AF%E7%89%A9%E5%8C%96%E5%AD%A6/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/zh-cn/categories/%E8%AF%BE%E7%A8%8B/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -51,18 +62,8 @@
                     hreflang="zh-cn"
                     href="/zh-cn/advanced-modelling/"
                     /></url><url>
-            <loc>/zh-cn/</loc><lastmod>2025-03-28T17:52:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="/en/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="/zh-cn/"
-                    /></url><url>
             <loc>/zh-cn/db/</loc><lastmod>2025-01-03T16:11:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/zh-cn/categories/%E5%8F%91%E8%A1%A8/</loc><lastmod>2025-01-03T16:11:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/zh-cn/categories/%E5%AD%A6%E6%9C%AF/</loc><lastmod>2025-01-03T16:11:35&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/zh-cn/structure-ocr/</loc><lastmod>2024-08-12T15:00:01&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"

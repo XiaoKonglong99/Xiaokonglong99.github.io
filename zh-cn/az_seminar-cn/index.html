@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>【讲座笔记】阿斯利康计算机辅助药物设计讲座 - 小恐龙的自留地</title><meta name="Description" content="这是我的全新 Hugo 网站"><meta property="og:url" content="/zh-cn/az_seminar-cn/">
+  <meta property="og:site_name" content="小恐龙的自留地">
+  <meta property="og:title" content="【讲座笔记】阿斯利康计算机辅助药物设计讲座">
+  <meta property="og:description" content="利用人工智能加速药物研发——小分子及其他领域 - 总结提纲 前言： 本次在线讲座由BioSolveIT公司主办，邀请了瑞典阿斯利康的Eva Nittinger博士主讲。讲座主题为&#34;利用人工智能加速药物研发——小分子及其他领域&#34;。本文是笔者整理的讲座笔记，供中文研究者参考。
+1. 药物发现过程概述 1.1 DMTA循环的核心地位 DMTA循环：设计(Design) → 制备(Make) → 测试(Test) → 分析(Analyze) 时间挑战：从化学起始点(hit)到候选药物(CD)需要3年以上 加速目标：如何通过计算方法加速这一过程 1.2 计算机辅助药物设计的复杂性 硅内靶点评估：3D结构预测、结合模式、模式选择 化学空间探索：命中识别、化学系列选择、知识产权分析 化合物谱优化：多参数(&gt;100)优化、平衡相互关联和对立因素 2. 蛋白质折叠与结构预测 2.1 AlphaFold的成功应用案例 分子替换模板：X射线晶体学中的应用 功能预测：通过预测数据补充实验数据 结构动力学：探索AlphaFold是否能预测蛋白质动态变化 2.2 结构预测方法的局限性 优势领域： 单一结构解析 强蛋白质-蛋白质相互作用 不适用领域： 动态和结构运动 新型模式(如PROTACs) 2.3 深度学习方法比较 多种方法评估：AlphaFold2、RoseTTAFold、NeuralPlexer等 结合状态预测：开放态(apo)vs闭合态(holo)结构预测 偏差分析：NeuralPlexer和RoseTTAFold在配体信息获取方面的优势 3. 化学空间探索与利用 3.1 生成式建模 vs 虚拟筛选 传统虚拟筛选： 在大型数据库中搜索，寻找少量合适的命中化合物 类似&#34;大海捞针&#34;的过程 生成式模型： 以概率方式编码几乎无限的化学空间 更高效的化学空间探索 3.2 化合物相似性分析 近邻分析：化合物拥有多少个近邻？ 采样策略对比：默认、强化学习、多项式、集束搜索 性能评估：通过REINVENT等方法进行实际应用验证 3.3 化学空间的规模和多样性 数据来源：基于26个AZ内部项目的回顾性分析 给药途径：口服给药分析 关键参数：logD、溶解性、清除率的分析 4. 化合物优化与分子设计 4.1 分子构思与化合物优先级排序 挑战：如何过滤和选择？ 多种策略： X射线模型富集对接得分 分子动力学探索FEP预测亲和力 QSAR插值预测活性 4.">
+  <meta property="og:locale" content="zh-CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-06-20T08:33:00+02:00">
+    <meta property="article:modified_time" content="2025-06-20T08:33:00+02:00">
+    <meta property="article:tag" content="化学信息学">
+    <meta property="og:image" content="/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/logo.png"><meta name="twitter:title" content="【讲座笔记】阿斯利康计算机辅助药物设计讲座">
+<meta name="twitter:description" content="利用人工智能加速药物研发——小分子及其他领域 - 总结提纲 前言： 本次在线讲座由BioSolveIT公司主办，邀请了瑞典阿斯利康的Eva Nittinger博士主讲。讲座主题为&quot;利用人工智能加速药物研发——小分子及其他领域&quot;。本文是笔者整理的讲座笔记，供中文研究者参考。
+1. 药物发现过程概述 1.1 DMTA循环的核心地位 DMTA循环：设计(Design) → 制备(Make) → 测试(Test) → 分析(Analyze) 时间挑战：从化学起始点(hit)到候选药物(CD)需要3年以上 加速目标：如何通过计算方法加速这一过程 1.2 计算机辅助药物设计的复杂性 硅内靶点评估：3D结构预测、结合模式、模式选择 化学空间探索：命中识别、化学系列选择、知识产权分析 化合物谱优化：多参数(&gt;100)优化、平衡相互关联和对立因素 2. 蛋白质折叠与结构预测 2.1 AlphaFold的成功应用案例 分子替换模板：X射线晶体学中的应用 功能预测：通过预测数据补充实验数据 结构动力学：探索AlphaFold是否能预测蛋白质动态变化 2.2 结构预测方法的局限性 优势领域： 单一结构解析 强蛋白质-蛋白质相互作用 不适用领域： 动态和结构运动 新型模式(如PROTACs) 2.3 深度学习方法比较 多种方法评估：AlphaFold2、RoseTTAFold、NeuralPlexer等 结合状态预测：开放态(apo)vs闭合态(holo)结构预测 偏差分析：NeuralPlexer和RoseTTAFold在配体信息获取方面的优势 3. 化学空间探索与利用 3.1 生成式建模 vs 虚拟筛选 传统虚拟筛选： 在大型数据库中搜索，寻找少量合适的命中化合物 类似&quot;大海捞针&quot;的过程 生成式模型： 以概率方式编码几乎无限的化学空间 更高效的化学空间探索 3.2 化合物相似性分析 近邻分析：化合物拥有多少个近邻？ 采样策略对比：默认、强化学习、多项式、集束搜索 性能评估：通过REINVENT等方法进行实际应用验证 3.3 化学空间的规模和多样性 数据来源：基于26个AZ内部项目的回顾性分析 给药途径：口服给药分析 关键参数：logD、溶解性、清除率的分析 4. 化合物优化与分子设计 4.1 分子构思与化合物优先级排序 挑战：如何过滤和选择？ 多种策略： X射线模型富集对接得分 分子动力学探索FEP预测亲和力 QSAR插值预测活性 4.">
+<meta name="application-name" content="小恐龙的自留地 | Little Dinosaur&#39;s Corner">
+<meta name="apple-mobile-web-app-title" content="小恐龙的自留地 | Little Dinosaur&#39;s Corner"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="/zh-cn/az_seminar-cn/" /><link rel="prev" href="/zh-cn/advanced-modelling/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "【讲座笔记】阿斯利康计算机辅助药物设计讲座",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/zh-cn\/az_seminar-cn\/"
+        },"genre": "posts","keywords": "化学信息学","wordcount":  189 ,
+        "url": "\/zh-cn\/az_seminar-cn\/","datePublished": "2025-06-20T08:33:00+02:00","dateModified": "2025-06-20T08:33:00+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "小恐龙 | Little Dinosaur"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/zh-cn/" title="小恐龙的自留地"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/img/logo.png"
+        data-srcset="/img/logo.png, /img/logo.png 1.5x, /img/logo.png 2x"
+        data-sizes="auto"
+        alt="/img/logo.png"
+        title="/img/logo.png" /></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/zh-cn/posts/"> 文章 </a><a class="menu-item" href="/zh-cn/tags/"> 标签 </a><a class="menu-item" href="/zh-cn/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa-sharp-duotone fa-solid fa-language"></i>                    
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/zh-cn/az_seminar-cn/" selected>🇨🇳 简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/zh-cn/" title="小恐龙的自留地"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/img/logo.png"
+        data-srcset="/img/logo.png, /img/logo.png 1.5x, /img/logo.png 2x"
+        data-sizes="auto"
+        alt="/img/logo.png"
+        title="/img/logo.png" /></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/zh-cn/posts/" title="">文章</a><a class="menu-item" href="/zh-cn/tags/" title="">标签</a><a class="menu-item" href="/zh-cn/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/zh-cn/az_seminar-cn/" selected>🇨🇳 简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">【讲座笔记】阿斯利康计算机辅助药物设计讲座</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/zh-cn/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>小恐龙 | Little Dinosaur</a></span>&nbsp;<span class="post-category">收录于 <a href="/zh-cn/categories/%E5%AD%A6%E6%9C%AF/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>学术</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-06-20">2025-06-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 189 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-药物发现过程概述">1. 药物发现过程概述</a>
+      <ul>
+        <li><a href="#11-dmta循环的核心地位">1.1 DMTA循环的核心地位</a></li>
+        <li><a href="#12-计算机辅助药物设计的复杂性">1.2 计算机辅助药物设计的复杂性</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-蛋白质折叠与结构预测">2. 蛋白质折叠与结构预测</a>
+      <ul>
+        <li><a href="#21-alphafold的成功应用案例">2.1 AlphaFold的成功应用案例</a></li>
+        <li><a href="#22-结构预测方法的局限性">2.2 结构预测方法的局限性</a>
+          <ul>
+            <li><a href="#优势领域">优势领域：</a></li>
+            <li><a href="#不适用领域">不适用领域：</a></li>
+          </ul>
+        </li>
+        <li><a href="#23-深度学习方法比较">2.3 深度学习方法比较</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-化学空间探索与利用">3. 化学空间探索与利用</a>
+      <ul>
+        <li><a href="#31-生成式建模-vs-虚拟筛选">3.1 生成式建模 vs 虚拟筛选</a>
+          <ul>
+            <li><a href="#传统虚拟筛选">传统虚拟筛选：</a></li>
+            <li><a href="#生成式模型">生成式模型：</a></li>
+          </ul>
+        </li>
+        <li><a href="#32-化合物相似性分析">3.2 化合物相似性分析</a></li>
+        <li><a href="#33-化学空间的规模和多样性">3.3 化学空间的规模和多样性</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-化合物优化与分子设计">4. 化合物优化与分子设计</a>
+      <ul>
+        <li><a href="#41-分子构思与化合物优先级排序">4.1 分子构思与化合物优先级排序</a></li>
+        <li><a href="#42-qsar方法的假设与局限">4.2 QSAR方法的假设与局限</a>
+          <ul>
+            <li><a href="#基本假设">基本假设：</a></li>
+            <li><a href="#主要局限">主要局限：</a></li>
+          </ul>
+        </li>
+        <li><a href="#43-深度学习对接-vs-经典方法">4.3 深度学习对接 vs 经典方法</a></li>
+      </ul>
+    </li>
+    <li><a href="#5-新型模式protac技术">5. 新型模式：PROTAC技术</a>
+      <ul>
+        <li><a href="#51-protac工作机制">5.1 PROTAC工作机制</a></li>
+        <li><a href="#52-protac三元复合物预测">5.2 PROTAC三元复合物预测</a>
+          <ul>
+            <li><a href="#研究设置">研究设置：</a></li>
+            <li><a href="#预测结果分析">预测结果分析：</a></li>
+          </ul>
+        </li>
+        <li><a href="#53-结构预测方法的进一步结论">5.3 结构预测方法的进一步结论</a>
+          <ul>
+            <li><a href="#不适用场景">不适用场景：</a></li>
+            <li><a href="#改进方向">改进方向：</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#6-降解效率建模">6. 降解效率建模</a>
+      <ul>
+        <li><a href="#61-数据集构建">6.1 数据集构建</a></li>
+        <li><a href="#62-机器学习模型架构">6.2 机器学习模型架构</a></li>
+        <li><a href="#63-模型性能评估">6.3 模型性能评估</a></li>
+      </ul>
+    </li>
+    <li><a href="#7-未来发展方向">7. 未来发展方向</a>
+      <ul>
+        <li><a href="#71-技术挑战">7.1 技术挑战</a></li>
+        <li><a href="#72-实际应用考量">7.2 实际应用考量</a>
+          <ul>
+            <li><a href="#现实问题">现实问题：</a></li>
+            <li><a href="#数据和模型改进">数据和模型改进：</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#8-总结炒作还是现实">8. 总结：炒作还是现实？</a>
+      <ul>
+        <li><a href="#81-技术现状评估">8.1 技术现状评估</a></li>
+        <li><a href="#82-关键成功因素">8.2 关键成功因素</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="利用人工智能加速药物研发小分子及其他领域---总结提纲">利用人工智能加速药物研发——小分子及其他领域 - 总结提纲</h1>
+<p><strong>前言</strong>： 本次在线讲座由BioSolveIT公司主办，邀请了瑞典阿斯利康的Eva Nittinger博士主讲。讲座主题为&quot;利用人工智能加速药物研发——小分子及其他领域&quot;。本文是笔者整理的讲座笔记，供中文研究者参考。</p>
+<h2 id="1-药物发现过程概述">1. 药物发现过程概述</h2>
+<h3 id="11-dmta循环的核心地位">1.1 DMTA循环的核心地位</h3>
+<ul>
+<li><strong>DMTA循环</strong>：设计(Design) → 制备(Make) → 测试(Test) → 分析(Analyze)</li>
+<li><strong>时间挑战</strong>：从化学起始点(hit)到候选药物(CD)需要3年以上</li>
+<li><strong>加速目标</strong>：如何通过计算方法加速这一过程</li>
+<li></li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/AZ/1.png"
+        data-srcset="/img/AZ/1.png, /img/AZ/1.png 1.5x, /img/AZ/1.png 2x"
+        data-sizes="auto"
+        alt="/img/AZ/1.png"
+        title="DMTA" /></p>
+<h3 id="12-计算机辅助药物设计的复杂性">1.2 计算机辅助药物设计的复杂性</h3>
+<ul>
+<li><strong>硅内靶点评估</strong>：3D结构预测、结合模式、模式选择</li>
+<li><strong>化学空间探索</strong>：命中识别、化学系列选择、知识产权分析</li>
+<li><strong>化合物谱优化</strong>：多参数(&gt;100)优化、平衡相互关联和对立因素</li>
+</ul>
+<h2 id="2-蛋白质折叠与结构预测">2. 蛋白质折叠与结构预测</h2>
+<h3 id="21-alphafold的成功应用案例">2.1 AlphaFold的成功应用案例</h3>
+<ul>
+<li><strong>分子替换模板</strong>：X射线晶体学中的应用</li>
+<li><strong>功能预测</strong>：通过预测数据补充实验数据</li>
+<li><strong>结构动力学</strong>：探索AlphaFold是否能预测蛋白质动态变化</li>
+</ul>
+<h3 id="22-结构预测方法的局限性">2.2 结构预测方法的局限性</h3>
+<h4 id="优势领域">优势领域：</h4>
+<ul>
+<li>单一结构解析</li>
+<li>强蛋白质-蛋白质相互作用</li>
+</ul>
+<h4 id="不适用领域">不适用领域：</h4>
+<ul>
+<li>动态和结构运动</li>
+<li>新型模式(如PROTACs)</li>
+</ul>
+<h3 id="23-深度学习方法比较">2.3 深度学习方法比较</h3>
+<ul>
+<li><strong>多种方法评估</strong>：AlphaFold2、RoseTTAFold、NeuralPlexer等</li>
+<li><strong>结合状态预测</strong>：开放态(apo)vs闭合态(holo)结构预测</li>
+<li><strong>偏差分析</strong>：NeuralPlexer和RoseTTAFold在配体信息获取方面的优势</li>
+<li></li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/AZ/2.png"
+        data-srcset="/img/AZ/2.png, /img/AZ/2.png 1.5x, /img/AZ/2.png 2x"
+        data-sizes="auto"
+        alt="/img/AZ/2.png"
+        title="AF" /></p>
+<h2 id="3-化学空间探索与利用">3. 化学空间探索与利用</h2>
+<h3 id="31-生成式建模-vs-虚拟筛选">3.1 生成式建模 vs 虚拟筛选</h3>
+<h4 id="传统虚拟筛选">传统虚拟筛选：</h4>
+<ul>
+<li>在大型数据库中搜索，寻找少量合适的命中化合物</li>
+<li>类似&quot;大海捞针&quot;的过程</li>
+</ul>
+<h4 id="生成式模型">生成式模型：</h4>
+<ul>
+<li>以概率方式编码几乎无限的化学空间</li>
+<li>更高效的化学空间探索</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/AZ/3.png"
+        data-srcset="/img/AZ/3.png, /img/AZ/3.png 1.5x, /img/AZ/3.png 2x"
+        data-sizes="auto"
+        alt="/img/AZ/3.png"
+        title="VS" /></p>
+<h3 id="32-化合物相似性分析">3.2 化合物相似性分析</h3>
+<ul>
+<li><strong>近邻分析</strong>：化合物拥有多少个近邻？</li>
+<li><strong>采样策略对比</strong>：默认、强化学习、多项式、集束搜索</li>
+<li><strong>性能评估</strong>：通过REINVENT等方法进行实际应用验证</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/AZ/4.png"
+        data-srcset="/img/AZ/4.png, /img/AZ/4.png 1.5x, /img/AZ/4.png 2x"
+        data-sizes="auto"
+        alt="/img/AZ/4.png"
+        title="VS" /></p>
+<h3 id="33-化学空间的规模和多样性">3.3 化学空间的规模和多样性</h3>
+<ul>
+<li><strong>数据来源</strong>：基于26个AZ内部项目的回顾性分析</li>
+<li><strong>给药途径</strong>：口服给药分析</li>
+<li><strong>关键参数</strong>：logD、溶解性、清除率的分析</li>
+</ul>
+<h2 id="4-化合物优化与分子设计">4. 化合物优化与分子设计</h2>
+<h3 id="41-分子构思与化合物优先级排序">4.1 分子构思与化合物优先级排序</h3>
+<ul>
+<li><strong>挑战</strong>：如何过滤和选择？</li>
+<li><strong>多种策略</strong>：
+<ul>
+<li>X射线模型富集对接得分</li>
+<li>分子动力学探索FEP预测亲和力</li>
+<li>QSAR插值预测活性</li>
+</ul>
+</li>
+</ul>
+<h3 id="42-qsar方法的假设与局限">4.2 QSAR方法的假设与局限</h3>
+<h4 id="基本假设">基本假设：</h4>
+<ul>
+<li><strong>相似性原理</strong>：&ldquo;结构相似的化合物具有相似的活性&rdquo;</li>
+<li><strong>线性和加性</strong>：化学空间中的线性关系</li>
+<li><strong>外推前提</strong>：从已知数据预测未知数据</li>
+</ul>
+<h4 id="主要局限">主要局限：</h4>
+<ul>
+<li><strong>非加性问题</strong>：R²和RMSE在非加性数据上表现显著较差</li>
+<li><strong>数据依赖性</strong>：公共数据(5.1%)和内部数据(9.4%)中存在显著的NA值</li>
+<li><strong>模型构建重要性</strong>：检测非线性对进一步使用至关重要</li>
+</ul>
+<h3 id="43-深度学习对接-vs-经典方法">4.3 深度学习对接 vs 经典方法</h3>
+<ul>
+<li><strong>方法比较</strong>：DeepDock、Uni-Mol、DiffDock、EquiBind、TankBind</li>
+<li><strong>验证标准</strong>：PoseBuster质量检查、化学有效性、分子内和分子间有效性</li>
+<li><strong>结论</strong>：DL方法未能超越经典对接方法</li>
+<li></li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/AZ/5.png"
+        data-srcset="/img/AZ/5.png, /img/AZ/5.png 1.5x, /img/AZ/5.png 2x"
+        data-sizes="auto"
+        alt="/img/AZ/5.png"
+        title="DOCK" /></p>
+<h2 id="5-新型模式protac技术">5. 新型模式：PROTAC技术</h2>
+<h3 id="51-protac工作机制">5.1 PROTAC工作机制</h3>
+<ul>
+<li><strong>三元复合物形成</strong>：E3连接酶 + PROTAC分子 + 目标蛋白(POI)</li>
+<li><strong>降解过程</strong>：POI泛素化 → 蛋白酶体降解</li>
+<li><strong>优势</strong>：针对&quot;不可药化&quot;靶点的新策略</li>
+</ul>
+<h3 id="52-protac三元复合物预测">5.2 PROTAC三元复合物预测</h3>
+<h4 id="研究设置">研究设置：</h4>
+<ul>
+<li><strong>数据集</strong>：9个PROTAC三元复合物</li>
+<li><strong>序列选择</strong>：晶体结构(~130氨基酸) vs 全长序列(1647氨基酸)</li>
+<li><strong>预测挑战</strong>：基于E3和POI预测，无PROTAC分子本身信息</li>
+</ul>
+<h4 id="预测结果分析">预测结果分析：</h4>
+<ul>
+<li><strong>全长序列</strong>：E3和POI之间无预测接触</li>
+<li><strong>晶体序列</strong>：正确预测个别蛋白质，但E3和POI相对位置不正确</li>
+<li><strong>人工连接</strong>：降低结构变异，但相对/旋转定位仍不正确</li>
+</ul>
+<h3 id="53-结构预测方法的进一步结论">5.3 结构预测方法的进一步结论</h3>
+<h4 id="不适用场景">不适用场景：</h4>
+<ul>
+<li>动态和结构运动</li>
+<li>新型模式(如PROTACs)</li>
+<li>需要辅助折叠改善预测</li>
+</ul>
+<h4 id="改进方向">改进方向：</h4>
+<ul>
+<li>AF2 → AF3：某些改善但不一致</li>
+<li>AF3^multimer → AF3^16：多数情况下有改善</li>
+</ul>
+<h2 id="6-降解效率建模">6. 降解效率建模</h2>
+<h3 id="61-数据集构建">6.1 数据集构建</h3>
+<ul>
+<li><strong>PROTAC-DB数据</strong>：包含独特SMILES、独特靶点、共享SMILES的综合数据库</li>
+<li><strong>数据处理流程</strong>：正则表达式 → 合并 → 标准化细胞系和E3配体 → 应用过滤器和定义</li>
+</ul>
+<h3 id="62-机器学习模型架构">6.2 机器学习模型架构</h3>
+<ul>
+<li><strong>输入特征</strong>：PROTAC SMILES、POI UniProt ID、E3配体ID、细胞系名称</li>
+<li><strong>模型组件</strong>：Morgan FP生成器、Bio-Emb T5模型、One-hot编码器</li>
+<li><strong>超参数优化</strong>：使用Optuna进行优化</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/AZ/6.png"
+        data-srcset="/img/AZ/6.png, /img/AZ/6.png 1.5x, /img/AZ/6.png 2x"
+        data-sizes="auto"
+        alt="/img/AZ/6.png"
+        title="DOCK" /></p>
+<h3 id="63-模型性能评估">6.3 模型性能评估</h3>
+<ul>
+<li><strong>数据拆分策略</strong>：标准分割、相似性分割、靶点分割</li>
+<li><strong>评估指标</strong>：验证准确率、测试准确率、ROC AUC</li>
+<li><strong>消融研究</strong>：确定各架构组件的重要性</li>
+</ul>
+<h2 id="7-未来发展方向">7. 未来发展方向</h2>
+<h3 id="71-技术挑战">7.1 技术挑战</h3>
+<ul>
+<li><strong>生成准确的三元结构</strong>：仍是开放性挑战</li>
+<li><strong>辅助折叠潜力</strong>：是否能改善预测效果？</li>
+<li><strong>PROTACsplitter开发</strong>：为PROTAC降解预测提供信息</li>
+</ul>
+<h3 id="72-实际应用考量">7.2 实际应用考量</h3>
+<h4 id="现实问题">现实问题：</h4>
+<ul>
+<li><strong>生成模型优势</strong>：在新化合物发现方面表现良好</li>
+<li><strong>高通量对接限制</strong>：结构柔性仍是问题</li>
+<li><strong>筛选过程挑战</strong>：需要正确识别和预测化合物性质</li>
+</ul>
+<h4 id="数据和模型改进">数据和模型改进：</h4>
+<ul>
+<li><strong>更好的模型</strong>和<strong>更好的数据</strong>是关键</li>
+<li><strong>非加性作为预测目标</strong>：识别和预测非加性行为</li>
+<li><strong>案例依赖性</strong>：目前仍然高度依赖具体案例，缺乏标准化解决方案</li>
+</ul>
+<h2 id="8-总结炒作还是现实">8. 总结：炒作还是现实？</h2>
+<h3 id="81-技术现状评估">8.1 技术现状评估</h3>
+<ul>
+<li><strong>生成模型</strong>：在新化合物发现方面确实有效</li>
+<li><strong>结构预测</strong>：高通量对接和结构柔性仍有问题</li>
+<li><strong>实际应用</strong>：筛选过程需要正确的化合物性质识别和预测</li>
+</ul>
+<h3 id="82-关键成功因素">8.2 关键成功因素</h3>
+<ul>
+<li><strong>数据质量</strong>：更好的数据是基础</li>
+<li><strong>模型改进</strong>：持续的算法和方法学创新</li>
+<li><strong>非加性预测</strong>：作为理想的预测和识别事件</li>
+<li><strong>标准化需求</strong>：目前仍然高度依赖案例，缺乏通用解决方案</li>
+</ul>
+<hr>
+<blockquote>
+<p><strong>核心结论</strong>：虽然AI在药物发现领域展现出巨大潜力，但当前技术仍面临显著挑战。成功的关键在于结合更好的数据、改进的模型以及对方法局限性的清晰认识。特别是在PROTAC等新兴治疗模式方面，仍需要大量的技术创新和方法学突破。</p>
+</blockquote>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2025-06-20</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/zh-cn/az_seminar-cn/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="/zh-cn/az_seminar-cn/" data-title="【讲座笔记】阿斯利康计算机辅助药物设计讲座" data-hashtags="化学信息学"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="/zh-cn/az_seminar-cn/" data-hashtag="化学信息学"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Linkedin" data-sharer="linkedin" data-url="/zh-cn/az_seminar-cn/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="/zh-cn/az_seminar-cn/" data-title="【讲座笔记】阿斯利康计算机辅助药物设计讲座" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/zh-cn/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/">化学信息学</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/zh-cn/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/zh-cn/advanced-modelling/" class="prev" rel="prev" title="乌普萨拉大学 Advanced Molecular Modelling Applied to Drug Discovery(3FK181) 课程复习笔记"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>乌普萨拉大学 Advanced Molecular Modelling Applied to Drug Discovery(3FK181) 课程复习笔记</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.125.5">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/zh-cn/" target="_blank">小恐龙 | Little Dinosaur</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/zh-cn/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

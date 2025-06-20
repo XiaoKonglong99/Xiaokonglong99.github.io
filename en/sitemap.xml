@@ -2,8 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>/en/categories/academic/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/en/categories/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/categories/academic/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/en/categories/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/zh-cn/categories/"
@@ -12,8 +12,8 @@
                     hreflang="en"
                     href="/en/categories/"
                     /></url><url>
-            <loc>/en/tags/chemoinformatics/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/en/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/tags/chemoinformatics/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/en/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/zh-cn/"
@@ -22,7 +22,7 @@
                     hreflang="en"
                     href="/en/"
                     /></url><url>
-            <loc>/en/posts/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/posts/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/zh-cn/posts/"
@@ -31,7 +31,7 @@
                     hreflang="en"
                     href="/en/posts/"
                     /></url><url>
-            <loc>/en/chembl/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/chembl/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/zh-cn/chembl/"
@@ -40,7 +40,7 @@
                     hreflang="en"
                     href="/en/chembl/"
                     /></url><url>
-            <loc>/en/tags/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/tags/</loc><lastmod>2025-05-13T07:58:35&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/zh-cn/tags/"
