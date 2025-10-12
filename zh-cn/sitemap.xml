@@ -30,7 +30,15 @@
                     href="/zh-cn/tags/"
                     /></url><url>
             <loc>/zh-cn/categories/%E7%94%9F%E6%B4%BB/</loc><lastmod>2025-10-12T17:41:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/zh-cn/ul/</loc><lastmod>2025-10-12T17:41:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/zh-cn/ul/</loc><lastmod>2025-10-12T17:41:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="/en/ul/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="/zh-cn/ul/"
+                    /></url><url>
             <loc>/zh-cn/tags/%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E7%94%9F%E6%B4%BB/</loc><lastmod>2025-10-12T17:41:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/zh-cn/</loc><lastmod>2025-10-12T17:41:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
