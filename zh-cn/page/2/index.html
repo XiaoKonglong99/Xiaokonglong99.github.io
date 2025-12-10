@@ -120,6 +120,14 @@
         alt="/img/logo.png"
         title="/img/logo.png" /></a></div><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"><a href="https://github.com/XiaoKonglong99" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github fa-fw" aria-hidden="true"></i></a><a href="https://linkedin.com/in/qiushi-feng-79574126a" title="LinkedIn" target="_blank" rel="noopener noreffer me"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="mailto:fungcs9989@zohomail.com" title="Email" rel="me"><i class="far fa-envelope fa-fw" aria-hidden="true"></i></a></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/zh-cn/structure-ocr/">InDraw: 用AI把化学结构图片转换成SMILES</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/zh-cn/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>小恐龙 | Little Dinosaur</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2024-08-12">2024-08-12</time></span>&nbsp;<span class="post-category">收录于 <a href="/zh-cn/categories/%E5%AD%A6%E6%9C%AF/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>学术</a></span></div><div class="content">前言 鲁迅先生曾经说过：发化学文章不给SMILES等于没有发过。鲁迅：我没说过 但是很多文章里面的化学结构的Supporting Information 里面确实不给SMILES。涉及到全合成或者一大堆手性的化合物如果我们想要自己在ChemDraw里面画出来就极度痛苦。
+InDraw for web 是一个在线化学结构式绘制软件，最牛X的是他可以把化学图片结构式识别成SMILES（或者其他软件可读）的格式。
+实例 复制一张看起来就很劝退的结构式图片，黏贴在画板里面。选择 AI 图像识别 识别完成后，右键，选择想要的格式，搞定！ 注意 ⚠️
+在使用之前务必人工校对！ 用于识别的图片并非尺寸越大越好，保证背景干净就行。 </div><div class="post-footer">
+        <a href="/zh-cn/structure-ocr/">阅读全文</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/zh-cn/tags/%E9%BB%91%E7%A7%91%E6%8A%80/">黑科技</a>,&nbsp;<a href="/zh-cn/tags/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/">化学信息学</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/zh-cn/chembl/">使用ChEMBL Python API 搜索化合物信息</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/zh-cn/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>小恐龙 | Little Dinosaur</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2024-08-11">2024-08-11</time></span>&nbsp;<span class="post-category">收录于 <a href="/zh-cn/categories/%E5%AD%A6%E6%9C%AF/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>学术</a></span></div><div class="content">前言 ChEMBL 算是各位化学从业者喜闻乐见的数据库。（因为他不要钱） 但是如果我们想要批量收集我们想要的内容，用网页版挨个寻找属实有点麻烦了。那么，有没有什么方法能够批量 且自动获取我们想要的分子信息呢？
 其实除了我们熟知的ChEMBL网页 ， ChEMBL 还贴心的提供了可以用Python 搜索的 ChEMBL web service client 服务。只要我们在Python代码中输入想要的关键词，就可以批量搜索到我们想要的内容然后保存为CSV 文件用于后续处理。（比如赛博炼丹）

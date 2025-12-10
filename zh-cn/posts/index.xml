@@ -3,7 +3,18 @@
         <title>所有文章 - 小恐龙的自留地</title>
         <link>/zh-cn/posts/</link>
         <description>所有文章 | 小恐龙的自留地</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</lastBuildDate><atom:link href="/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 10 Dec 2025 10:00:00 &#43;0100</lastBuildDate><atom:link href="/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>2025 年度AI工具使用总结</title>
+    <link>/zh-cn/aitools2025/</link>
+    <pubDate>Wed, 10 Dec 2025 10:00:00 &#43;0100</pubDate>
+    <author>小恐龙 | Little Dinosaur</author>
+    <guid>/zh-cn/aitools2025/</guid>
+    <description><![CDATA[主流 AI 工具客观评价总结（2025） ⚠️声明：该文章完全由AI生成，博主只负责总结和搬运，不对评价负责
+1. 执行摘要 (Executive Summary) 当前的 AI 市场已通过“单一模型通吃”的阶段，进入了“垂直化与专业化”的时代。
+全能型选手（ChatGPT, Gemini, Claude）依然是日常工作的核心，但在特定领域面临挑战。 专业化工具（Perplexity, NotebookLM）在搜索和研读领域建立了极高的护城河。 开源与区域化模型（DeepSeek, Qwen, Le Chat）通过高性价比、本地化合规及特定能力（如代码、长文本）异军突起。 核心结论： 最佳策略不再是寻找一个完美的 AI，而是构建一个组合工具栈 (Tool Stack)，根据任务类型（写作、编程、科研、娱乐）动态切换工具。
+2. 核心梯队分析 (Key Insights) 第一梯队：全能通用型 (The Generalists) ChatGPT (OpenAI): 依然是市场的基准。其强项在于生态系统（GPTs, 插件）和多模态平衡（画图+代码+语音）。如果你只买一个会员，这依然是最安全的选择。 Gemini (Google): Google 深度用户的首选。拥有超大上下文窗口（可处理海量数据），且与 Workspace（文档、云盘）的整合无人能及。 Claude (Anthropic): 被公认为**“最具拟人感”**的 AI。在长文写作、代码编写和复杂逻辑分析上，其表现往往优于竞争对手，是追求内容质量者的首选。 第二梯队：研究与资讯型 (The Researchers) Perplexity: 重新定义了搜索引擎。通过实时引用和多模型切换，解决了 AI “胡说八道”的痛点，是学术调研和事实核查的神器。 NotebookLM: 学习与整理的革命性工具。它不依赖外部知识库，而是完全基于用户上传的资料进行回答（RAG），独特的“播客模式”通过音频转化了被动阅读体验。 Grok (xAI): 社交媒体的实时雷达。背靠 X (Twitter) 数据，使其在突发新闻和舆情分析上具有不可替代的时效性优势。 第三梯队：开源与特定领域 (Open Source &amp; Specialized) DeepSeek: 极客与开发者的“性价比之王”。在数学与代码领域表现惊人，且推理透明，适合技术人员和预算有限的场景。 Qwen (通义千问): 中文环境下的霸主。在视觉理解和中文长文本处理上表现卓越，适合亚洲市场及多语言混合场景。 Le Chat (Mistral): 欧洲合规首选。主打GDPR隐私合规与极速响应，适合对数据安全敏感的欧洲企业及个人。 3.]]></description>
+</item>
+<item>
     <title>乌普萨拉及周边地区的交通（2025更新版）</title>
     <link>/zh-cn/ul/</link>
     <pubDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</pubDate>
