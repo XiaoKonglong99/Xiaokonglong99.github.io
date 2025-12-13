@@ -3,7 +3,24 @@
         <title>生活 - 分类 - 小恐龙的自留地</title>
         <link>/zh-cn/categories/%E7%94%9F%E6%B4%BB/</link>
         <description>生活 - 分类 - 小恐龙的自留地</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 10 Dec 2025 10:00:00 &#43;0100</lastBuildDate><atom:link href="/zh-cn/categories/%E7%94%9F%E6%B4%BB/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 13 Dec 2025 09:49:00 &#43;0100</lastBuildDate><atom:link href="/zh-cn/categories/%E7%94%9F%E6%B4%BB/" rel="self" type="application/rss+xml" /><item>
+    <title>支持多币种的iPhone记账快捷方式</title>
+    <link>/zh-cn/spend/</link>
+    <pubDate>Sat, 13 Dec 2025 09:49:00 &#43;0100</pubDate>
+    <author>小恐龙 | Little Dinosaur</author>
+    <guid>/zh-cn/spend/</guid>
+    <description><![CDATA[支持多币种的 iPhone 记账快捷方式 简介 这是一个基于苹果生态系统的记账方案，核心是 “快捷指令” 配合 “Numbers 表格”。
+由于该 Combo 完全依赖 iOS 原生系统，你拥有 100% 的数据掌控权——既不用担心软件公司“提桶跑路”，也不用操心隐私泄露。🔒
+设置流程 Step 1：下载资源
+请先获取 快捷指令脚本，然后下载配套的 Numbers 表格模板。
+Step 2：配置快捷指令
+在快捷指令 App 中打开刚才下载的“记账”脚本。你需要做两件事：首先，将脚本中的目标文件重新指向你在 Step 1 下载的 Numbers 模板；其次，根据个人习惯调整“币种”和“支付方式”列表（比如添加个支付宝或微信）。🛠️
+Step 3：配置汇率
+打开 Numbers 表格模板，设置你的基准货币（例如 🇸🇪瑞典克朗 SEK）。如需查询标准货币代码，可参考 雅虎财经。
+⚠️ 注意：如果表格报错，通常是因为系统不支持该“冷门”币种对的自动换算（比如 🇩🇰DKK 对 🇨🇳CNY）。遇到这种情况，手动输入汇率即可解决。 ✅ 设置成功，开始记账！🏅
+参考资料 https://applefans.today/2025-02-ios-18-iphone-shortcuts-numbers-accounting/]]></description>
+</item>
+<item>
     <title>2025 年度AI工具使用总结</title>
     <link>/zh-cn/aitools2025/</link>
     <pubDate>Wed, 10 Dec 2025 10:00:00 &#43;0100</pubDate>

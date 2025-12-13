@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>黑科技 - 标签 - 小恐龙的自留地</title>
-        <link>/zh-cn/tags/%E9%BB%91%E7%A7%91%E6%8A%80/</link>
-        <description>黑科技 - 标签 - 小恐龙的自留地</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 13 Dec 2025 09:49:00 &#43;0100</lastBuildDate><atom:link href="/zh-cn/tags/%E9%BB%91%E7%A7%91%E6%8A%80/" rel="self" type="application/rss+xml" /><item>
+        <title>生活 - 标签 - 小恐龙的自留地</title>
+        <link>/zh-cn/tags/%E7%94%9F%E6%B4%BB/</link>
+        <description>生活 - 标签 - 小恐龙的自留地</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 13 Dec 2025 09:49:00 &#43;0100</lastBuildDate><atom:link href="/zh-cn/tags/%E7%94%9F%E6%B4%BB/" rel="self" type="application/rss+xml" /><item>
     <title>支持多币种的iPhone记账快捷方式</title>
     <link>/zh-cn/spend/</link>
     <pubDate>Sat, 13 Dec 2025 09:49:00 &#43;0100</pubDate>
@@ -19,17 +19,6 @@ Step 3：配置汇率
 打开 Numbers 表格模板，设置你的基准货币（例如 🇸🇪瑞典克朗 SEK）。如需查询标准货币代码，可参考 雅虎财经。
 ⚠️ 注意：如果表格报错，通常是因为系统不支持该“冷门”币种对的自动换算（比如 🇩🇰DKK 对 🇨🇳CNY）。遇到这种情况，手动输入汇率即可解决。 ✅ 设置成功，开始记账！🏅
 参考资料 https://applefans.today/2025-02-ios-18-iphone-shortcuts-numbers-accounting/]]></description>
-</item>
-<item>
-    <title>InDraw: 用AI把化学结构图片转换成SMILES</title>
-    <link>/zh-cn/structure-ocr/</link>
-    <pubDate>Mon, 12 Aug 2024 15:00:01 &#43;0200</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/structure-ocr/</guid>
-    <description><![CDATA[前言 鲁迅先生曾经说过：发化学文章不给SMILES等于没有发过。鲁迅：我没说过 但是很多文章里面的化学结构的Supporting Information 里面确实不给SMILES。涉及到全合成或者一大堆手性的化合物如果我们想要自己在ChemDraw里面画出来就极度痛苦。
-InDraw for web 是一个在线化学结构式绘制软件，最牛X的是他可以把化学图片结构式识别成SMILES（或者其他软件可读）的格式。
-实例 复制一张看起来就很劝退的结构式图片，黏贴在画板里面。选择 AI 图像识别 识别完成后，右键，选择想要的格式，搞定！ 注意 ⚠️
-在使用之前务必人工校对！ 用于识别的图片并非尺寸越大越好，保证背景干净就行。 ]]></description>
 </item>
 </channel>
 </rss>
