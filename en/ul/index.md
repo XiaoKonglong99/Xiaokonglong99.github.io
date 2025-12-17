@@ -4,6 +4,8 @@
 # Transportation in Uppsala and Surrounding Areas (2025 Update)
 
 *This article was first published on Uppsala University's Zhihu platform (https://zhuanlan.zhihu.com/p/590668337). However, because Uppsala province changed its transport payment system, some content is no longer correct, so we updated it. **Thanks to the original author Wadlo for their contribution.***
+
+--Last Update: 2025 DEC
 ## Geographic Areas and Local Transport Operating Zones - What's the Difference?
 
 The beautiful city of Uppsala sits within Uppsala University campus. But "Uppsala" can mean either **Uppsala Province (Uppsala län)** or Uppsala Municipality (Uppsala Kommun) within Uppsala Province. Uppsala Province includes not only Uppsala city but also cities like Enköping, Östhammar, and Tierp.
@@ -92,8 +94,6 @@ Here's the table translated into English and formatted in Markdown:
 
 - **To Stockholm:** For travel between these two cities, Waldo strongly recommends the route 40 commuter train jointly operated by SL and UL (yes, it's a bus that runs on railway tracks, but not managed by SJ). **For those who have UL Periodbiljett you just need to buy a SL single ticket (~40 SEK) instead of SJ ticket (~80 SEK).**
 
-![Pendeltåg Map](/img/UL/4.jpeg)
-
 Route 40 runs every 30 minutes like clockwork, from 4:30am to 1:30am the next day, rain or shine. The route 40 train starts from Uppsala Centralstation, stopping at important stations like Knivsta, Arlanda (airport - you can walk directly into the terminal when you get off), Upplands Väsby, Solna, Stockholm Odenplan, and Stockholm City, plus many small stations.
 
 **As this is a cross-regional train, you need both UL and SL tickets!** If you have a UL ticket, you need to buy an SL ticket (single ticket is fine); if you have an SL ticket, you need to buy a UL ticket; if you have neither, you need both. **Of course, if you happen to be wealthy, you can directly buy SJ or Mälartåg tickets.**
@@ -110,7 +110,7 @@ Also note that having a UL ticket lets you take Mälartåg within UL's area, but
 
 ## About Student Discounts
 
-![SL Logo](/img/UL/5.png)
+![SL Logo](/img/UL/4.png)
 
 Students can buy discounted tickets (Rabatterad), but you must make sure your student card (Mecenat or STUK) has the SL logo.
 
@@ -128,7 +128,7 @@ Little Dinosaur wants to enjoy the Swedish summer by going to Gräsö Island to 
 
 *From Flogsta, take bus 5/6/804 to Centralstation (UL ticket), then take bus 811 to Öregrund town in Östhammar, take the ferry to Gräsö Island, then take bus 853 to explore. Same route back.*
 
-![Gräsö Route Map](/img/UL/6.png)
+![Gräsö Route Map](/img/UL/5.png)
 
 *This entire trip only needs a UL ticket.*
 
@@ -174,4 +174,4 @@ Little Dinosaur living in Flogsta needs to go to Göteborg on business. To take 
 
 - **Step 2** Buy **SJ** Regional train ticket directly from Enköping to Göteborg.
 
-![Route Diagram](/img/UL/7.png)
+![Route Diagram](/img/UL/6.png)
