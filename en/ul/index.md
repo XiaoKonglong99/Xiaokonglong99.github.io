@@ -4,7 +4,6 @@
 # Transportation in Uppsala and Surrounding Areas (2025 Update)
 
 *This article was first published on Uppsala University's Zhihu platform (https://zhuanlan.zhihu.com/p/590668337). However, because Uppsala province changed its transport payment system, some content is no longer correct, so we updated it. **Thanks to the original author Wadlo for their contribution.***
-
 ## Geographic Areas and Local Transport Operating Zones - What's the Difference?
 
 The beautiful city of Uppsala sits within Uppsala University campus. But "Uppsala" can mean either **Uppsala Province (Uppsala län)** or Uppsala Municipality (Uppsala Kommun) within Uppsala Province. Uppsala Province includes not only Uppsala city but also cities like Enköping, Östhammar, and Tierp.
@@ -69,6 +68,17 @@ Green buses, or buses with numbers under 100, only operate in Uppsala city. Yell
 - **To other cities in Uppsala Province:** Just need a valid UL ticket.
 
 - **To Arlanda Airport:** From Uppsala to Arlanda Airport with UL as valid ticket, you can choose **bus 801**, **SL pendeltåg (commuter train, explained later), or Mälartåg.** SJ and FlixBus are not discussed here.
+
+Here's the table translated into English and formatted in Markdown:
+
+# Uppsala to Arlanda Airport
+
+| | I do NOT have an UL long-term ticket valid for 24+ hours (weekly, monthly, 90-day pass, etc.); I want to use a single ticket to Arlanda Airport | I have an UL long-term ticket valid for 24+ hours |
+|---|---|---|
+| **I want to take local transport (SL Route 40, Mälartåg) to the airport, not including SJ trains** | 75-minute ticket to/from Arlanda by bus (75-minutersbiljett till/från Arlanda med buss) + Arlanda Pass（Arlandapassageavgift tåg） | Need to purchase an additional Arlanda Pass（Arlandapassageavgift tåg）separately |
+| **I want to take a bus (such as UL801, SL593) to the airport, not including FlixBus or other coach services** | Need to purchase a 75-minute ticket to/from Arlanda by bus| No additional ticket needed. Use your long-term pass directly |
+
+**Note:** SJ trains, FlixBus, and other coaches require separate tickets and cannot be used with UL passes
 
   - If you want to use **a single ticket** and take the **bus 801** to Arlanda: buy "75-minutersbiljett till/från Arlanda med buss"
   

@@ -43,8 +43,8 @@
                     href="/zh-cn/"
                     /></url><url>
             <loc>/zh-cn/spend/</loc><lastmod>2025-12-13T09:49:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/zh-cn/aitools2025/</loc><lastmod>2025-12-10T10:00:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/zh-cn/tags/ai%E5%B7%A5%E5%85%B7/</loc><lastmod>2025-12-10T10:00:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/zh-cn/aitools2025/</loc><lastmod>2025-12-10T10:00:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>/zh-cn/tags/ai%E5%B7%A5%E5%85%B7/</loc><lastmod>2025-12-10T10:00:00&#43;01:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>/zh-cn/ul/</loc><lastmod>2025-10-12T17:41:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
