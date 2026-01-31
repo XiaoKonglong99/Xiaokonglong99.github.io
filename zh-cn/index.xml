@@ -3,9 +3,22 @@
         <title>小恐龙的自留地</title>
         <link>/zh-cn/</link>
         <description>这是我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 13 Dec 2025 09:49:00 &#43;0100</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 31 Jan 2026 16:47:00 &#43;0100</lastBuildDate>
             <atom:link href="/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>欧洲大陆PhD项目申请分享- 从岗位搜索到成功上岸</title>
+    <link>/zh-cn/phdeu/</link>
+    <pubDate>Sat, 31 Jan 2026 16:47:00 &#43;0100</pubDate>
+    <author>小恐龙 | Little Dinosaur</author>
+    <guid>/zh-cn/phdeu/</guid>
+    <description><![CDATA[欧洲大陆PhD项目申请分享-从岗位搜索到成功上岸 分享目录 PhD 项目形式的对比：岗位制 vs Committee 制 从哪里找岗位？ 申请材料和面试准备 个人感想 PhD 项目形式的对比 岗位制PhD（主流）vs Committee制 岗位制PhD（主流） Committee制 • 类似于找工作
+• 同一个院系有多个机会开放，但是每个机会仅招收一名学生 • 以美国PhD项目为代表的博士项目申请模式
+• 每个院系只有一两个项目，但是每个项目会招收多个学生 • 除瑞士法语区和南欧国家部分项目外，没有固定的intake时间段，岗位随时放出，随时申请 • 每年有固定的时间段申请（如 26 Spring，26 Fall） • 绝对的强导师制，导师对招生几乎有绝对的话语权 • 强导师制和强committee制均有 • 绝大多数项目要求学生在入职前有Master学位 • Bachelor 和 Master 均可申请 岗位制PhD的其他特点 材料简单：
+无申请费 在提交申请阶段一般不需要写推荐信，提供推荐人的联系方式即可 弱BG学生友好：
+导师对中国学校的了解有限，身边很多双非同学照样上岸 对无Pub同学友好：欧洲本土学生绝大多数申请无publication 萝卜坑多，但是无所谓
+欧洲 Committee制 博士项目 EMBL International PhD Programme 平均4年完成学位，欢迎生物、化学、物理、数学、计算机等不同背景的学生 包含9周分子生物学核心课程、生物信息学模块、职业发展培训，并提供具有国际竞争力的奖学金 每年两次招生，强调跨学科合作、早期独立性和团队协作 指路：申请链接 马普所 IMPRS-ML PhD项目 核心研究领域： 分子机制、生物系统、计算生物学与技术开发，强调跨学科交叉（生化/结构生物学/生物物理/细胞生物学/系统生物学/计算生物学） 需完成25学分，包含跨学科讲座、高级方法培训、职业发展课程等，学生可灵活选择课程，提供慷慨的差旅津贴支持参加外部培训和会议 申请时间线：8月25日-10月7日网申(需两封推荐信)，11月17-21日线上面试，次年1月19-23日慕尼黑现场面试(报销差旅)，2月初发录取，最晚10月1日入学 指路：申请链接 马普所 Integrated Master&rsquo;s/PhD Program in Matter to Life 2年硕士+3年博士必须从硕士阶段进入，可选哥廷根&quot;复杂系统与生物物理&quot;或海德堡&quot;分子系统化学与工程&quot;方向，5年全程资助无学费 跨学科研究领域： 物理/化学/生物学深度交叉，强调跨学科教育 申请要求与时间： 需本科学位(化学/物理/生物/工程等6学期以上)，GPA 2.]]></description>
+</item>
+<item>
     <title>支持多币种的iPhone记账快捷方式</title>
     <link>/zh-cn/spend/</link>
     <pubDate>Sat, 13 Dec 2025 09:49:00 &#43;0100</pubDate>
@@ -157,16 +170,6 @@ InDraw for web 是一个在线化学结构式绘制软件，最牛X的是他可�
 首先 安装chembl_webresource_client 包
 1 ! pip install chembl_webresource_client 然后运行这一段代码
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 import csv from chembl_webresource_client.]]></description>
-</item>
-<item>
-    <title>使用RDKit生成无背景的化学结构式--附Python代码</title>
-    <link>/zh-cn/transparent/</link>
-    <pubDate>Mon, 05 Aug 2024 21:51:01 &#43;0200</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/transparent/</guid>
-    <description><![CDATA[前言
-笔者发现传统的用RDKit画图画出来有白色背景，放在PowerPoint里面很不爽。参考了这一篇文献找到了代码。
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 from rdkit import Chem from rdkit import rdBase from rdkit.Chem import Draw from rdkit.Chem.Draw import rdMolDraw2D from rdkit.Chem import rdDepictor rdDepictor.SetPreferCoordGen(True) from rdkit.Chem import rdMolDescriptors from rdkit.Chem import rdFMCS from rdkit import DataStructs import io from PIL import Image def show_png(data): bio = io.BytesIO(data) img = Image.]]></description>
 </item>
 </channel>
 </rss>
