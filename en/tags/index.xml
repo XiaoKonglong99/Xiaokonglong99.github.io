@@ -1,47 +1,47 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Tags - Tag - Little Dinosaur&#39;s Corner</title>
-        <link>/en/tags/</link>
-        <description>Tags - Tag - Little Dinosaur&#39;s Corner</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</lastBuildDate><atom:link href="/en/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>LifeinUppsala</title>
-    <link>/en/tags/lifeinuppsala/</link>
-    <pubDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/en/tags/lifeinuppsala/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Chemoinformatics</title>
-    <link>/en/tags/chemoinformatics/</link>
-    <pubDate>Tue, 13 May 2025 07:58:35 &#43;0200</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/en/tags/chemoinformatics/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Cheminformatics</title>
-    <link>/en/tags/cheminformatics/</link>
-    <pubDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/en/tags/cheminformatics/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Computational Medicinal Chemistry</title>
-    <link>/en/tags/computational-medicinal-chemistry/</link>
-    <pubDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/en/tags/computational-medicinal-chemistry/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Pharameutical Modelling</title>
-    <link>/en/tags/pharameutical-modelling/</link>
-    <pubDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/en/tags/pharameutical-modelling/</guid>
-    <description><![CDATA[]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Little Dinosaur&#39;s Corner</title>
+    <link>/en/tags/</link>
+    <description>Recent content in Tags on Little Dinosaur&#39;s Corner</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 12 Oct 2025 17:41:00 +0200</lastBuildDate>
+    <atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LifeinUppsala</title>
+      <link>/en/tags/lifeinuppsala/</link>
+      <pubDate>Sun, 12 Oct 2025 17:41:00 +0200</pubDate>
+      <guid>/en/tags/lifeinuppsala/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chemoinformatics</title>
+      <link>/en/tags/chemoinformatics/</link>
+      <pubDate>Tue, 13 May 2025 07:58:35 +0200</pubDate>
+      <guid>/en/tags/chemoinformatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cheminformatics</title>
+      <link>/en/tags/cheminformatics/</link>
+      <pubDate>Fri, 28 Mar 2025 17:52:35 +0100</pubDate>
+      <guid>/en/tags/cheminformatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computational Medicinal Chemistry</title>
+      <link>/en/tags/computational-medicinal-chemistry/</link>
+      <pubDate>Fri, 28 Mar 2025 17:52:35 +0100</pubDate>
+      <guid>/en/tags/computational-medicinal-chemistry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pharameutical Modelling</title>
+      <link>/en/tags/pharameutical-modelling/</link>
+      <pubDate>Fri, 28 Mar 2025 17:52:35 +0100</pubDate>
+      <guid>/en/tags/pharameutical-modelling/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

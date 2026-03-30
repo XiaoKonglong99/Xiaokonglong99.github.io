@@ -1,17 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>LifeinUppsala - Tag - Little Dinosaur&#39;s Corner</title>
-        <link>/en/tags/lifeinuppsala/</link>
-        <description>LifeinUppsala - Tag - Little Dinosaur&#39;s Corner</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</lastBuildDate><atom:link href="/en/tags/lifeinuppsala/" rel="self" type="application/rss+xml" /><item>
-    <title>Transportation in Uppsala and Surrounding Areas (2025 Update)</title>
-    <link>/en/ul/</link>
-    <pubDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/en/ul/</guid>
-    <description><![CDATA[Transportation in Uppsala and Surrounding Areas (2025 Update) This article was first published on Uppsala University&rsquo;s Zhihu platform (https://zhuanlan.zhihu.com/p/590668337). However, because Uppsala province changed its transport payment system, some content is no longer correct, so we updated it. Thanks to the original author Wadlo for their contribution.
-&ndash;Last Update: 2025 DEC
-Geographic Areas and Local Transport Operating Zones - What&rsquo;s the Difference? The beautiful city of Uppsala sits within Uppsala University campus.]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LifeinUppsala on Little Dinosaur&#39;s Corner</title>
+    <link>/en/tags/lifeinuppsala/</link>
+    <description>Recent content in LifeinUppsala on Little Dinosaur&#39;s Corner</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 12 Oct 2025 17:41:00 +0200</lastBuildDate>
+    <atom:link href="/en/tags/lifeinuppsala/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transportation in Uppsala and Surrounding Areas (2025 Update)</title>
+      <link>/en/ul/</link>
+      <pubDate>Sun, 12 Oct 2025 17:41:00 +0200</pubDate>
+      <guid>/en/ul/</guid>
+      <description>&lt;h1 id=&#34;transportation-in-uppsala-and-surrounding-areas-2025-update&#34;&gt;Transportation in Uppsala and Surrounding Areas (2025 Update)&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;This article was first published on Uppsala University&amp;rsquo;s Zhihu platform (&lt;a href=&#34;https://zhuanlan.zhihu.com/p/590668337%29&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;https://zhuanlan.zhihu.com/p/590668337)&lt;/a&gt;. However, because Uppsala province changed its transport payment system, some content is no longer correct, so we updated it. &lt;strong&gt;Thanks to the original author Wadlo for their contribution.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ndash;Last Update: 2025 DEC&lt;/p&gt;&#xA;&lt;h2 id=&#34;geographic-areas-and-local-transport-operating-zones---whats-the-difference&#34;&gt;Geographic Areas and Local Transport Operating Zones - What&amp;rsquo;s the Difference?&lt;/h2&gt;&#xA;&lt;p&gt;The beautiful city of Uppsala sits within Uppsala University campus. But &amp;ldquo;Uppsala&amp;rdquo; can mean either &lt;strong&gt;Uppsala Province (Uppsala län)&lt;/strong&gt; or Uppsala Municipality (Uppsala Kommun) within Uppsala Province. Uppsala Province includes not only Uppsala city but also cities like Enköping, Östhammar, and Tierp.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

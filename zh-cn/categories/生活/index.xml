@@ -1,62 +1,40 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>生活 - 分类 - 小恐龙的自留地</title>
-        <link>/zh-cn/categories/%E7%94%9F%E6%B4%BB/</link>
-        <description>生活 - 分类 - 小恐龙的自留地</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 13 Dec 2025 09:49:00 &#43;0100</lastBuildDate><atom:link href="/zh-cn/categories/%E7%94%9F%E6%B4%BB/" rel="self" type="application/rss+xml" /><item>
-    <title>支持多币种的iPhone记账快捷方式</title>
-    <link>/zh-cn/spend/</link>
-    <pubDate>Sat, 13 Dec 2025 09:49:00 &#43;0100</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/spend/</guid>
-    <description><![CDATA[支持多币种的 iPhone 记账快捷方式 简介 这是一个基于苹果生态系统的记账方案，核心是 “快捷指令” 配合 “Numbers 表格”。
-由于该 Combo 完全依赖 iOS 原生系统，你拥有 100% 的数据掌控权——既不用担心软件公司“提桶跑路”，也不用操心隐私泄露。🔒
-设置流程 Step 1：下载资源
-请先获取 快捷指令脚本，然后下载配套的 Numbers 表格模板。
-Step 2：配置快捷指令
-在快捷指令 App 中打开刚才下载的“记账”脚本。你需要做两件事：首先，将脚本中的目标文件重新指向你在 Step 1 下载的 Numbers 模板；其次，根据个人习惯调整“币种”和“支付方式”列表（比如添加个支付宝或微信）。🛠️
-Step 3：配置汇率
-打开 Numbers 表格模板，设置你的基准货币（例如 🇸🇪瑞典克朗 SEK）。如需查询标准货币代码，可参考 雅虎财经。
-⚠️ 注意：如果表格报错，通常是因为系统不支持该“冷门”币种对的自动换算（比如 🇩🇰DKK 对 🇨🇳CNY）。遇到这种情况，手动输入汇率即可解决。 ✅ 设置成功，开始记账！🏅
-参考资料 https://applefans.today/2025-02-ios-18-iphone-shortcuts-numbers-accounting/]]></description>
-</item>
-<item>
-    <title>2025 年度AI工具使用总结</title>
-    <link>/zh-cn/aitools2025/</link>
-    <pubDate>Wed, 10 Dec 2025 10:00:00 &#43;0100</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/aitools2025/</guid>
-    <description><![CDATA[主流 AI 工具客观评价总结（2025） ⚠️声明：该文章完全由AI生成，博主只负责总结和搬运，不对评价负责
-1. 执行摘要 (Executive Summary) 当前的 AI 市场已通过“单一模型通吃”的阶段，进入了“垂直化与专业化”的时代。
-全能型选手（ChatGPT, Gemini, Claude）依然是日常工作的核心，但在特定领域面临挑战。 专业化工具（Perplexity, NotebookLM）在搜索和研读领域建立了极高的护城河。 开源与区域化模型（DeepSeek, Qwen, Le Chat）通过高性价比、本地化合规及特定能力（如代码、长文本）异军突起。 核心结论： 最佳策略不再是寻找一个完美的 AI，而是构建一个组合工具栈 (Tool Stack)，根据任务类型（写作、编程、科研、娱乐）动态切换工具。
-2. 核心梯队分析 (Key Insights) 第一梯队：全能通用型 (The Generalists) ChatGPT (OpenAI): 依然是市场的基准。其强项在于生态系统（GPTs, 插件）和多模态平衡（画图+代码+语音）。如果你只买一个会员，这依然是最安全的选择。 Gemini (Google): Google 深度用户的首选。拥有超大上下文窗口（可处理海量数据），且与 Workspace（文档、云盘）的整合无人能及。 Claude (Anthropic): 被公认为**“最具拟人感”**的 AI。在长文写作、代码编写和复杂逻辑分析上，其表现往往优于竞争对手，是追求内容质量者的首选。 第二梯队：研究与资讯型 (The Researchers) Perplexity: 重新定义了搜索引擎。通过实时引用和多模型切换，解决了 AI “胡说八道”的痛点，是学术调研和事实核查的神器。 NotebookLM: 学习与整理的革命性工具。它不依赖外部知识库，而是完全基于用户上传的资料进行回答（RAG），独特的“播客模式”通过音频转化了被动阅读体验。 Grok (xAI): 社交媒体的实时雷达。背靠 X (Twitter) 数据，使其在突发新闻和舆情分析上具有不可替代的时效性优势。 第三梯队：开源与特定领域 (Open Source &amp; Specialized) DeepSeek: 极客与开发者的“性价比之王”。在数学与代码领域表现惊人，且推理透明，适合技术人员和预算有限的场景。 Qwen (通义千问): 中文环境下的霸主。在视觉理解和中文长文本处理上表现卓越，适合亚洲市场及多语言混合场景。 Le Chat (Mistral): 欧洲合规首选。主打GDPR隐私合规与极速响应，适合对数据安全敏感的欧洲企业及个人。 3.]]></description>
-</item>
-<item>
-    <title>乌普萨拉及周边地区的交通（2025更新版）</title>
-    <link>/zh-cn/ul/</link>
-    <pubDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/ul/</guid>
-    <description><![CDATA[乌普萨拉及周边地区的交通（2025更新版） 前言： 本文原先发布在乌普萨拉大学知乎平台。但由于Uppsala省交通收费系统改制故部分内容不再适用，故更新。因为资料复制黏贴的资源不尽相同，可能全文会存在中英瑞三语混用的情况，请谅解。感谢原作者Wadlo的贡献
-转载随意，不可商用，营销号勿偷！
-&mdash;&mdash;小恐龙 2025 DEC
-地理分区和地方交通运营区区别 众所周知，美丽的乌普萨拉坐落在乌普萨拉大学校园之中。但是，&ldquo;Uppsala&quot;既可以是乌普萨拉省（Uppsala län）也可以是乌普萨拉省的乌普萨拉市（Uppsala Kommun）。乌普萨拉省除了乌普萨拉市还包括Enköping，Östhammar，Tierp等城市。斯德哥尔摩的行政区划也类似不过更加复杂，有兴趣的朋友可参考维基百科。
-UL 即Uppsala Lokaltrafik，但是UL的势力范围除了上文提到的乌普萨拉省还包括了位于斯德哥尔摩省的阿兰达机场，耶夫勒堡省首府Gävle，Västmanland省的Sala等。
-Take Home Message： UL等运营范围与乌普萨拉省的范围不完全相同。（图1）
-图1. a) UL官网对于UL交通区域的描述，b) 地理意义上的乌普萨拉省，c）UL的运行范围
-公共交通运营公司 我们可能用到的公交运营公司（不考虑打车）有：
-UL：Uppsala Lokaltrafik，即乌普萨拉本地交通 SL：和UL类似，是斯德哥尔摩本地交通 SJ（Sverige Järnväg，即瑞典铁路）在全瑞典运营铁路交通。可以类比于国内的铁路总公司。但铁路交通不只有SJ在运营 Mälartåg：俗称麻辣烫，也是运营铁路交通的公司 除此之外还有比较长途的：
-Flixbus：一家穷鬼快乐的城市间大巴运营商。可以作为前往机场交通的替代品，也可以作为过夜旅行的省钱之选。例如从斯德哥尔摩前往哥本哈根在大巴上睡一觉（假设真的睡得着）就到了 Vy：一家私营的铁路和大巴公司，在瑞典中北部有很多线路 Flygbussarna：俗称彩虹巴士，主营业务是机场之间的交通 这三种可以自行摸索
-UL和Movingo车票种类 UL车票可以在App上购买，但是注册UL需要有欧盟的手机号。新来的同学可以上车刷卡购买。UL的售票系统根据不同的种类有：
-75-minutersbiljett: 75分钟票，俗称单程票（Enkelbiljett）。单程票并不是只能坐一次，而是75分钟内均有效。例如，需要在中途某个地方转车，此时不需要再购买新的单程票，只要票还在75分钟有效期内就可以接着用。
-75-minutersbiljett till/från Arlanda med buss：往来阿兰达机场的单程票。如果大家要乘坐公交车前往阿兰达机场，需要购买该类型的车票。如果乘坐轨道️交通则还需要缴纳Arlandapassageavgift tåg（阿兰达机场通行费），这一点见后文。
-Periodbiljett：周期票，包括了24小时，72小时，7天，30天和90天票。其中90天票需要在UL App里面安装图2所示购买。持有Periodbiljett且乘坐公交车前往阿兰达机场毋需再额外交费。
-图2. 90日票的购买
-Movingo Movingo是各地区交通票打包出售的一种票，运营范围适用于整个Mälardalen地区，但如果购买可以只选择部分地区（比如只购买SL和UL地区）。持有Movingo可以乘坐SJ、Mälartåg、地区交通（例如UL和SL等）。适用于需要跨省通勤的朋友。详情可见图3。
-图3. Movingo线路图
-车票租借 持有长期车票的朋友可以在自己不使用的时候在微信群内将自己的车票出租给临时偶尔需要使用的同学。
-SL 斯德哥尔摩车票租借 SL车票不可通过App租借。 自2025年12月开始SL车票也可以租借，可参考Att låna ut och att låna biljett，总结就是：
-借出次数：整月月票最多可借出15次 借出时限：每次借出至凌晨04:30，每天只能借给一人 人数限制：每张月票最多可借给5个不同的人 操作方式：通过SL应用发送链接，接收者点击接受即可使用 重要禁令：严禁收费借出月票 （啊这。。。） 注意事项：借出前需完成自己的行程，双方都需安装最新版SL应用 Movingo 车票租借 Movingo可以租借，每24小时切换一次在 Mälardalstrafik 应用 购买的 Movingo 车票可在当天交通日借用。借来的车票每天 03：30 将归还给购票者。]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生活 on 小恐龙的自留地</title>
+    <link>/zh-cn/categories/%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 生活 on 小恐龙的自留地</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 13 Dec 2025 09:49:00 +0100</lastBuildDate>
+    <atom:link href="/zh-cn/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>支持多币种的iPhone记账快捷方式</title>
+      <link>/zh-cn/spend/</link>
+      <pubDate>Sat, 13 Dec 2025 09:49:00 +0100</pubDate>
+      <guid>/zh-cn/spend/</guid>
+      <description>&lt;h1 id=&#34;支持多币种的-iphone-记账快捷方式&#34;&gt;支持多币种的 iPhone 记账快捷方式&lt;/h1&gt;&#xA;&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;&#xA;&lt;p&gt;这是一个基于苹果生态系统的记账方案，核心是 &lt;strong&gt;“快捷指令”&lt;/strong&gt; 配合 &lt;strong&gt;“Numbers 表格”&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;由于该 Combo 完全依赖 iOS 原生系统，你拥有 100% 的数据掌控权——既不用担心软件公司“提桶跑路”，也不用操心隐私泄露。🔒&lt;/p&gt;&#xA;&lt;p&gt;&lt;img&#xA;        class=&#34;lazyload&#34;&#xA;        src=&#34;/svg/loading.min.svg&#34;&#xA;        data-src=&#34;/img/Spend/1.png&#34;&#xA;        data-srcset=&#34;/img/Spend/1.png, /img/Spend/1.png 1.5x, /img/Spend/1.png 2x&#34;&#xA;        data-sizes=&#34;auto&#34;&#xA;        alt=&#34;/img/Spend/1.png&#34;&#xA;        title=&#34;img&#34; /&gt;&#xA;&lt;img&#xA;        class=&#34;lazyload&#34;&#xA;        src=&#34;/svg/loading.min.svg&#34;&#xA;        data-src=&#34;/img/Spend/2.png&#34;&#xA;        data-srcset=&#34;/img/Spend/2.png, /img/Spend/2.png 1.5x, /img/Spend/2.png 2x&#34;&#xA;        data-sizes=&#34;auto&#34;&#xA;        alt=&#34;/img/Spend/2.png&#34;&#xA;        title=&#34;img&#34; /&gt;&#xA;&lt;img&#xA;        class=&#34;lazyload&#34;&#xA;        src=&#34;/svg/loading.min.svg&#34;&#xA;        data-src=&#34;/img/Spend/3.png&#34;&#xA;        data-srcset=&#34;/img/Spend/3.png, /img/Spend/3.png 1.5x, /img/Spend/3.png 2x&#34;&#xA;        data-sizes=&#34;auto&#34;&#xA;        alt=&#34;/img/Spend/3.png&#34;&#xA;        title=&#34;img&#34; /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;设置流程&#34;&gt;设置流程&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1：下载资源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;请先获取 &lt;a href=&#34;https://www.icloud.com/shortcuts/75c2c32e7de74941958eb8f066cf8669&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;快捷指令脚本&lt;/a&gt;，然后下载配套的 &lt;a href=&#34;https://www.icloud.com/numbers/088yDz7UZGKxvgl-xRTetj9zA#%E8%B4%A6%E6%9C%ACDemo%5F%E5%89%AF%E6%9C%AC&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Numbers 表格模板&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2：配置快捷指令&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;在快捷指令 App 中打开刚才下载的“记账”脚本。你需要做两件事：首先，将脚本中的目标文件重新指向你在 Step 1 下载的 Numbers 模板；其次，根据个人习惯调整“币种”和“支付方式”列表（比如添加个支付宝或微信）。🛠️&lt;/p&gt;&#xA;&lt;p&gt;&lt;img&#xA;        class=&#34;lazyload&#34;&#xA;        src=&#34;/svg/loading.min.svg&#34;&#xA;        data-src=&#34;/img/Spend/4.png&#34;&#xA;        data-srcset=&#34;/img/Spend/4.png, /img/Spend/4.png 1.5x, /img/Spend/4.png 2x&#34;&#xA;        data-sizes=&#34;auto&#34;&#xA;        alt=&#34;/img/Spend/4.png&#34;&#xA;        title=&#34;img&#34; /&gt;&#xA;&lt;img&#xA;        class=&#34;lazyload&#34;&#xA;        src=&#34;/svg/loading.min.svg&#34;&#xA;        data-src=&#34;/img/Spend/5.png&#34;&#xA;        data-srcset=&#34;/img/Spend/5.png, /img/Spend/5.png 1.5x, /img/Spend/5.png 2x&#34;&#xA;        data-sizes=&#34;auto&#34;&#xA;        alt=&#34;/img/Spend/5.png&#34;&#xA;        title=&#34;img&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2025 年度AI工具使用总结</title>
+      <link>/zh-cn/aitools2025/</link>
+      <pubDate>Wed, 10 Dec 2025 10:00:00 +0100</pubDate>
+      <guid>/zh-cn/aitools2025/</guid>
+      <description>&lt;h1 id=&#34;主流-ai-工具客观评价总结2025&#34;&gt;主流 AI 工具客观评价总结（2025）&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;⚠️声明：该文章完全由AI生成，博主只负责总结和搬运，不对评价负责&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-执行摘要-executive-summary&#34;&gt;1. 执行摘要 (Executive Summary)&lt;/h2&gt;&#xA;&lt;p&gt;当前的 AI 市场已通过“单一模型通吃”的阶段，进入了“垂直化与专业化”的时代。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;全能型选手&lt;/strong&gt;（ChatGPT, Gemini, Claude）依然是日常工作的核心，但在特定领域面临挑战。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;专业化工具&lt;/strong&gt;（Perplexity, NotebookLM）在搜索和研读领域建立了极高的护城河。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;开源与区域化模型&lt;/strong&gt;（DeepSeek, Qwen, Le Chat）通过高性价比、本地化合规及特定能力（如代码、长文本）异军突起。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;核心结论：&lt;/strong&gt; 最佳策略不再是寻找一个完美的 AI，而是构建一个&lt;strong&gt;组合工具栈 (Tool Stack)&lt;/strong&gt;，根据任务类型（写作、编程、科研、娱乐）动态切换工具。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-核心梯队分析-key-insights&#34;&gt;2. 核心梯队分析 (Key Insights)&lt;/h2&gt;&#xA;&lt;h3 id=&#34;第一梯队全能通用型-the-generalists&#34;&gt;第一梯队：全能通用型 (The Generalists)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;ChatGPT (OpenAI):&lt;/strong&gt; 依然是市场的基准。其强项在于&lt;strong&gt;生态系统&lt;/strong&gt;（GPTs, 插件）和&lt;strong&gt;多模态平衡&lt;/strong&gt;（画图+代码+语音）。如果你只买一个会员，这依然是最安全的选择。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Gemini (Google):&lt;/strong&gt; Google 深度用户的首选。拥有超大上下文窗口（可处理海量数据），且与 Workspace（文档、云盘）的整合无人能及。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Claude (Anthropic):&lt;/strong&gt; 被公认为**“最具拟人感”**的 AI。在长文写作、代码编写和复杂逻辑分析上，其表现往往优于竞争对手，是追求内容质量者的首选。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;第二梯队研究与资讯型-the-researchers&#34;&gt;第二梯队：研究与资讯型 (The Researchers)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Perplexity:&lt;/strong&gt; 重新定义了搜索引擎。通过&lt;strong&gt;实时引用&lt;/strong&gt;和多模型切换，解决了 AI “胡说八道”的痛点，是学术调研和事实核查的神器。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;NotebookLM:&lt;/strong&gt; 学习与整理的革命性工具。它不依赖外部知识库，而是完全基于&lt;strong&gt;用户上传的资料&lt;/strong&gt;进行回答（RAG），独特的“播客模式”通过音频转化了被动阅读体验。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Grok (xAI):&lt;/strong&gt; 社交媒体的实时雷达。背靠 X (Twitter) 数据，使其在&lt;strong&gt;突发新闻&lt;/strong&gt;和&lt;strong&gt;舆情分析&lt;/strong&gt;上具有不可替代的时效性优势。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;第三梯队开源与特定领域-open-source--specialized&#34;&gt;第三梯队：开源与特定领域 (Open Source &amp;amp; Specialized)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;DeepSeek:&lt;/strong&gt; 极客与开发者的“性价比之王”。在&lt;strong&gt;数学与代码&lt;/strong&gt;领域表现惊人，且推理透明，适合技术人员和预算有限的场景。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Qwen (通义千问):&lt;/strong&gt; 中文环境下的霸主。在&lt;strong&gt;视觉理解&lt;/strong&gt;和&lt;strong&gt;中文长文本&lt;/strong&gt;处理上表现卓越，适合亚洲市场及多语言混合场景。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Le Chat (Mistral):&lt;/strong&gt; 欧洲合规首选。主打&lt;strong&gt;GDPR隐私合规&lt;/strong&gt;与极速响应，适合对数据安全敏感的欧洲企业及个人。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;3-详细维度分析表-detailed-comparison-table&#34;&gt;3. 详细维度分析表 (Detailed Comparison Table)&lt;/h2&gt;&#xA;&lt;p&gt;为了方便决策，以下是各工具在关键维度上的横向对比：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>乌普萨拉及周边地区的交通（2025更新版）</title>
+      <link>/zh-cn/ul/</link>
+      <pubDate>Sun, 12 Oct 2025 17:41:00 +0200</pubDate>
+      <guid>/zh-cn/ul/</guid>
+      <description>&lt;h1 id=&#34;乌普萨拉及周边地区的交通2025更新版&#34;&gt;乌普萨拉及周边地区的交通（2025更新版）&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;前言：&lt;/strong&gt; 本文原先发布在&lt;a href=&#34;https://zhuanlan.zhihu.com/p/590668337&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;乌普萨拉大学知乎平台&lt;/a&gt;。但由于Uppsala省交通收费系统改制故部分内容不再适用，故更新。因为资料复制黏贴的资源不尽相同，可能全文会存在中英瑞三语混用的情况，请谅解。&lt;strong&gt;感谢原作者Wadlo的贡献&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;转载随意，不可商用，营销号勿偷！&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;mdash;&amp;mdash;小恐龙 2025 DEC&lt;/p&gt;&#xA;&lt;h2 id=&#34;地理分区和地方交通运营区区别&#34;&gt;地理分区和地方交通运营区区别&lt;/h2&gt;&#xA;&lt;p&gt;众所周知，美丽的乌普萨拉坐落在乌普萨拉大学校园之中。但是，&amp;ldquo;Uppsala&amp;quot;既可以是乌普萨拉省（Uppsala län）也可以是乌普萨拉省的乌普萨拉市（Uppsala Kommun）。乌普萨拉省除了乌普萨拉市还包括Enköping，Östhammar，Tierp等城市。斯德哥尔摩的行政区划也类似不过更加复杂，有兴趣的朋友可参考维基百科。&lt;/p&gt;&#xA;&lt;p&gt;UL 即Uppsala Lokaltrafik，但是UL的势力范围除了上文提到的乌普萨拉省还包括了位于斯德哥尔摩省的阿兰达机场，耶夫勒堡省首府Gävle，Västmanland省的Sala等。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img&#xA;        class=&#34;lazyload&#34;&#xA;        src=&#34;/svg/loading.min.svg&#34;&#xA;        data-src=&#34;/img/UL/1.png&#34;&#xA;        data-srcset=&#34;/img/UL/1.png, /img/UL/1.png 1.5x, /img/UL/1.png 2x&#34;&#xA;        data-sizes=&#34;auto&#34;&#xA;        alt=&#34;/img/UL/1.png&#34;&#xA;        title=&#34;UL交通区域描述&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Take Home Message：&lt;/strong&gt; UL等运营范围与乌普萨拉省的范围不完全相同。（&lt;strong&gt;图1&lt;/strong&gt;）&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;图1.&lt;/strong&gt; a) UL官网对于UL交通区域的描述，b) 地理意义上的乌普萨拉省，c）UL的运行范围&lt;/p&gt;&#xA;&lt;h2 id=&#34;公共交通运营公司&#34;&gt;公共交通运营公司&lt;/h2&gt;&#xA;&lt;p&gt;我们可能用到的公交运营公司（不考虑打车）有：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;UL&lt;/strong&gt;：Uppsala Lokaltrafik，即乌普萨拉本地交通&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;SL&lt;/strong&gt;：和UL类似，是斯德哥尔摩本地交通&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;SJ&lt;/strong&gt;（Sverige Järnväg，即瑞典铁路）在全瑞典运营铁路交通。可以类比于国内的铁路总公司。但铁路交通不只有SJ在运营&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mälartåg&lt;/strong&gt;：俗称麻辣烫，也是运营铁路交通的公司&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;除此之外还有比较长途的：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Flixbus&lt;/strong&gt;：一家穷鬼快乐的城市间大巴运营商。可以作为前往机场交通的替代品，也可以作为过夜旅行的省钱之选。例如从斯德哥尔摩前往哥本哈根在大巴上睡一觉（假设真的睡得着）就到了&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Vy&lt;/strong&gt;：一家私营的铁路和大巴公司，在瑞典中北部有很多线路&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Flygbussarna&lt;/strong&gt;：俗称彩虹巴士，主营业务是机场之间的交通&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这三种可以自行摸索&lt;/p&gt;&#xA;&lt;h2 id=&#34;ul和movingo车票种类&#34;&gt;UL和Movingo车票种类&lt;/h2&gt;&#xA;&lt;p&gt;UL车票可以在App上购买，但是注册UL需要有欧盟的手机号。新来的同学可以上车刷卡购买。UL的售票系统根据不同的种类有：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;75-minutersbiljett&lt;/strong&gt;: 75分钟票，俗称单程票（Enkelbiljett）。&lt;strong&gt;单程票并不是只能坐一次，而是75分钟内均有效。例如，需要在中途某个地方转车，此时不需要再购买新的单程票，只要票还在75分钟有效期内就可以接着用。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;75-minutersbiljett till/från Arlanda med buss&lt;/strong&gt;：往来阿兰达机场的单程票。如果大家要&lt;strong&gt;乘坐公交车&lt;/strong&gt;前往阿兰达机场，需要购买该类型的车票。如果乘坐轨道️交通则还需要缴纳Arlandapassageavgift tåg（阿兰达机场通行费），这一点见后文。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Periodbiljett&lt;/strong&gt;：周期票，包括了24小时，72小时，7天，30天和90天票。其中90天票需要在UL App里面安装图2所示购买。持&lt;strong&gt;有Periodbiljett且乘坐公交车前往阿兰达机场毋需再额外交费。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img&#xA;        class=&#34;lazyload&#34;&#xA;        src=&#34;/svg/loading.min.svg&#34;&#xA;        data-src=&#34;/img/UL/2.png&#34;&#xA;        data-srcset=&#34;/img/UL/2.png, /img/UL/2.png 1.5x, /img/UL/2.png 2x&#34;&#xA;        data-sizes=&#34;auto&#34;&#xA;        alt=&#34;/img/UL/2.png&#34;&#xA;        title=&#34;90日票的购买&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;图2.&lt;/strong&gt; 90日票的购买&lt;/p&gt;&#xA;&lt;h3 id=&#34;movingo&#34;&gt;Movingo&lt;/h3&gt;&#xA;&lt;p&gt;Movingo是各地区交通票打包出售的一种票，运营范围适用于整个Mälardalen地区，但如果购买可以只选择部分地区（比如只购买SL和UL地区）。持有Movingo可以乘坐SJ、Mälartåg、地区交通（例如UL和SL等）。适用于需要跨省通勤的朋友。详情可见图3。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>欧区🇪🇺Revolut&#43;中银香港🇭🇰资金回国尝试.md</title>
+      <link>/zh-cn/eu_hk_bank/</link>
+      <pubDate>Sun, 11 Aug 2024 17:25:35 +0200</pubDate>
+      <guid>/zh-cn/eu_hk_bank/</guid>
+      <description>&lt;h1 id=&#34;欧区--revolut--中银香港--资金回国操作指南&#34;&gt;欧区 🇪🇺 Revolut + 中银香港 🇭🇰 资金回国操作指南&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-声明&#34;&gt;⚠️ 声明&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;本经验贴适用于&lt;strong&gt;在欧盟境内、持有欧元收入&lt;/strong&gt;，且同时开通了**中国银行（香港）&lt;strong&gt;与&lt;/strong&gt;中国银行（内地）**账户的用户，其他地区用户可酌情参考。&lt;/li&gt;&#xA;&lt;li&gt;本文基于个人实操经验，经整理后发布，&lt;strong&gt;仅供参考&lt;/strong&gt;，笔者不对任何资金损失承担责任。&lt;/li&gt;&#xA;&lt;li&gt;国际汇率实时波动，本文所述路径&lt;strong&gt;不保证汇率最优&lt;/strong&gt;，请结合实际情况判断。&lt;/li&gt;&#xA;&lt;li&gt;请务必遵守所在国及相关司法管辖区的金融法律法规，合规操作。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;前提条件&#34;&gt;前提条件&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Revolut 欧区账户&lt;/strong&gt;：需开通欧洲区注册的 Revolut 账户。相关开户教程网络上已有大量资料，请自行搜索。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;中国银行（香港）账户&lt;/strong&gt;（以下简称 BOCHK）及&lt;strong&gt;中国银行（内地）账户&lt;/strong&gt;：开户方式同上，请自行搜索相关教程。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;step-1revolut-内部换汇eur---hkd-&#34;&gt;Step 1｜Revolut 内部换汇（EUR 🇪🇺 → HKD 🇭🇰）&lt;/h2&gt;&#xA;&lt;p&gt;Revolut 支持设置&lt;strong&gt;限价单（Limit Order）&lt;/strong&gt;，在汇率达到目标值时自动完成换汇，避免手动盯盘。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;操作路径：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;code&gt;Move&lt;/code&gt; → 选择 &lt;code&gt;EUR → HKD&lt;/code&gt; → 点击左下角 &lt;strong&gt;Order Type&lt;/strong&gt;（三滑块图标）→ 选择 &lt;strong&gt;Limit Order&lt;/strong&gt; → 设置目标汇率 → 确认提交&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;注意事项：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;此功能同样适用于其他货币对。&lt;/li&gt;&#xA;&lt;li&gt;换汇所得港元（或其他外币）可绑定 Revolut 借记卡，在线上或线下直接刷卡消费。&lt;/li&gt;&#xA;&lt;li&gt;Revolut &lt;strong&gt;Standard（免费）账户&lt;/strong&gt;每月享有一定额度的&lt;strong&gt;免费换汇&lt;/strong&gt;，超出部分将按比例收取手续费，请注意额度使用情况。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;step-2revolut-跨境汇款revolut-hkd---bochk-港元储蓄账户&#34;&gt;Step 2｜Revolut 跨境汇款（Revolut HKD 🇭🇰 → BOCHK 港元储蓄账户）&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;操作路径：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;底部菜单栏 &lt;code&gt;Payments&lt;/code&gt; → 右上角 &lt;code&gt;＋&lt;/code&gt; → &lt;code&gt;International&lt;/code&gt; → 选择地区 &lt;code&gt;Hong Kong（香港）&lt;/code&gt; → 选择汇款金额 → 填写收款方信息 → 确认汇款&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

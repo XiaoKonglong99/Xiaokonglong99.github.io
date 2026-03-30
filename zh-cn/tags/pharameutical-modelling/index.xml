@@ -1,20 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Pharameutical Modelling - 标签 - 小恐龙的自留地</title>
-        <link>/zh-cn/tags/pharameutical-modelling/</link>
-        <description>Pharameutical Modelling - 标签 - 小恐龙的自留地</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</lastBuildDate><atom:link href="/zh-cn/tags/pharameutical-modelling/" rel="self" type="application/rss+xml" /><item>
-    <title>乌普萨拉大学 Advanced Molecular Modelling Applied to Drug Discovery(3FK181) 课程复习笔记</title>
-    <link>/zh-cn/advanced-modelling/</link>
-    <pubDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/advanced-modelling/</guid>
-    <description><![CDATA[Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes- 2023 Note 这是一个个人的备考复习笔记，适用于瑞典🇸🇪乌普萨拉大学的课程 Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University.手写笔记由 Claude AI转换为Markdown格式， 仅供参考。
-原始文档可点击这里下载
-Chapter 1: Ligand-Protein Interaction Key Points: Describing the interaction of molecules
-Determining if a molecule is a good target or not Types of Interactions:
-Electrostatics: Follow Coulomb&rsquo;s Law
-F = -q₁q₂/4πε₀r² (ε₀: electric constant, q₁, q₂: charges) π-π stacking: interactions between benzene rings π-cation interactions: e.]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pharameutical Modelling on 小恐龙的自留地</title>
+    <link>/zh-cn/tags/pharameutical-modelling/</link>
+    <description>Recent content in Pharameutical Modelling on 小恐龙的自留地</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 28 Mar 2025 17:52:35 +0100</lastBuildDate>
+    <atom:link href="/zh-cn/tags/pharameutical-modelling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>乌普萨拉大学 Advanced Molecular Modelling Applied to Drug Discovery(3FK181) 课程复习笔记</title>
+      <link>/zh-cn/advanced-modelling/</link>
+      <pubDate>Fri, 28 Mar 2025 17:52:35 +0100</pubDate>
+      <guid>/zh-cn/advanced-modelling/</guid>
+      <description>&lt;h1 id=&#34;advanced-molecular-modelling-applied-to-drug-discovery3fk181uppsala-university-exam-preparation-notes--2023&#34;&gt;Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes- 2023&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;&#xA;&lt;p&gt;这是一个个人的备考复习笔记，适用于瑞典🇸🇪乌普萨拉大学的课程 &lt;a href=&#34;https://www.uu.se/en/study/syllabus?query=41298&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University&lt;/a&gt;.手写笔记由 &lt;a href=&#34;https://claude.ai&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Claude AI&lt;/a&gt;转换为Markdown格式， 仅供参考。&lt;/p&gt;&#xA;&lt;p&gt;原始文档可点击&lt;a href=&#34;https://drive.google.com/file/d/1uE6zOciSGgnXPS1vmfuWLrCtRQ5LIVrw/view?usp=share_link&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;这里&lt;/a&gt;下载&lt;/p&gt;&#xA;&lt;h2 id=&#34;chapter-1-ligand-protein-interaction&#34;&gt;Chapter 1: Ligand-Protein Interaction&lt;/h2&gt;&#xA;&lt;h3 id=&#34;key-points&#34;&gt;Key Points:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Describing the interaction of molecules&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Determining if a molecule is a good target or not&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Types of Interactions&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Electrostatics&lt;/strong&gt;: Follow Coulomb&amp;rsquo;s Law&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;F = -q₁q₂/4πε₀r² (ε₀: electric constant, q₁, q₂: charges)&lt;/li&gt;&#xA;&lt;li&gt;π-π stacking: interactions between benzene rings&lt;/li&gt;&#xA;&lt;li&gt;π-cation interactions: e.g., AchE with -NH₃⁺ and -Ph groups&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;H-bond&lt;/strong&gt;: Consider O, N atoms&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

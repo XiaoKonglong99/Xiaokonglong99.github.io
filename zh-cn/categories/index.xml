@@ -1,55 +1,54 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Categories - 分类 - 小恐龙的自留地</title>
-        <link>/zh-cn/categories/</link>
-        <description>Categories - 分类 - 小恐龙的自留地</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 31 Jan 2026 16:47:00 &#43;0100</lastBuildDate><atom:link href="/zh-cn/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>学术</title>
-    <link>/zh-cn/categories/%E5%AD%A6%E6%9C%AF/</link>
-    <pubDate>Sat, 31 Jan 2026 16:47:00 &#43;0100</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/categories/%E5%AD%A6%E6%9C%AF/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>生活</title>
-    <link>/zh-cn/categories/%E7%94%9F%E6%B4%BB/</link>
-    <pubDate>Sat, 13 Dec 2025 09:49:00 &#43;0100</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/categories/%E7%94%9F%E6%B4%BB/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>文献阅读</title>
-    <link>/zh-cn/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/</link>
-    <pubDate>Sun, 29 Jun 2025 09:23:00 &#43;0200</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>基础知识</title>
-    <link>/zh-cn/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
-    <pubDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>课程</title>
-    <link>/zh-cn/categories/%E8%AF%BE%E7%A8%8B/</link>
-    <pubDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/categories/%E8%AF%BE%E7%A8%8B/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>发表</title>
-    <link>/zh-cn/categories/%E5%8F%91%E8%A1%A8/</link>
-    <pubDate>Fri, 03 Jan 2025 16:11:35 &#43;0100</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/categories/%E5%8F%91%E8%A1%A8/</guid>
-    <description><![CDATA[]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 小恐龙的自留地</title>
+    <link>/zh-cn/categories/</link>
+    <description>Recent content in Categories on 小恐龙的自留地</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 31 Jan 2026 16:47:00 +0100</lastBuildDate>
+    <atom:link href="/zh-cn/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学术</title>
+      <link>/zh-cn/categories/%E5%AD%A6%E6%9C%AF/</link>
+      <pubDate>Sat, 31 Jan 2026 16:47:00 +0100</pubDate>
+      <guid>/zh-cn/categories/%E5%AD%A6%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>生活</title>
+      <link>/zh-cn/categories/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Sat, 13 Dec 2025 09:49:00 +0100</pubDate>
+      <guid>/zh-cn/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>文献阅读</title>
+      <link>/zh-cn/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/</link>
+      <pubDate>Sun, 29 Jun 2025 09:23:00 +0200</pubDate>
+      <guid>/zh-cn/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>基础知识</title>
+      <link>/zh-cn/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+      <pubDate>Fri, 28 Mar 2025 17:52:35 +0100</pubDate>
+      <guid>/zh-cn/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>课程</title>
+      <link>/zh-cn/categories/%E8%AF%BE%E7%A8%8B/</link>
+      <pubDate>Fri, 28 Mar 2025 17:52:35 +0100</pubDate>
+      <guid>/zh-cn/categories/%E8%AF%BE%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>发表</title>
+      <link>/zh-cn/categories/%E5%8F%91%E8%A1%A8/</link>
+      <pubDate>Fri, 03 Jan 2025 16:11:35 +0100</pubDate>
+      <guid>/zh-cn/categories/%E5%8F%91%E8%A1%A8/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

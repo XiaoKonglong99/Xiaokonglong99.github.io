@@ -1,16 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Chemoinformatics - Tag - Little Dinosaur&#39;s Corner</title>
-        <link>/en/tags/chemoinformatics/</link>
-        <description>Chemoinformatics - Tag - Little Dinosaur&#39;s Corner</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 13 May 2025 07:58:35 &#43;0200</lastBuildDate><atom:link href="/en/tags/chemoinformatics/" rel="self" type="application/rss+xml" /><item>
-    <title>Searching Compound Information Using ChEMBL Python API</title>
-    <link>/en/chembl/</link>
-    <pubDate>Tue, 13 May 2025 07:58:35 &#43;0200</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/en/chembl/</guid>
-    <description><![CDATA[Introduction ChEMBL is a database beloved by chemistry professionals. (Because it&rsquo;s free) However, if we want to collect information in bulk, searching individually through the web interface can be quite troublesome. So, is there a method to obtain molecular information in bulk and automatically?
-Actually, besides the well-known ChEMBL website, ChEMBL thoughtfully provides a ChEMBL web service client that can be used with Python. By simply entering the desired keywords in Python code, we can search in bulk for the content we need and save it as a CSV file for subsequent processing.]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chemoinformatics on Little Dinosaur&#39;s Corner</title>
+    <link>/en/tags/chemoinformatics/</link>
+    <description>Recent content in Chemoinformatics on Little Dinosaur&#39;s Corner</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 13 May 2025 07:58:35 +0200</lastBuildDate>
+    <atom:link href="/en/tags/chemoinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Searching Compound Information Using ChEMBL Python API</title>
+      <link>/en/chembl/</link>
+      <pubDate>Tue, 13 May 2025 07:58:35 +0200</pubDate>
+      <guid>/en/chembl/</guid>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;ChEMBL is a database beloved by chemistry professionals. ~~~~(Because it&amp;rsquo;s free)~~~~ However, if we want to collect information in bulk, searching individually through the web interface can be quite troublesome. So, is there a method to obtain molecular information &lt;strong&gt;in bulk&lt;/strong&gt; and &lt;strong&gt;automatically&lt;/strong&gt;?&lt;/p&gt;&#xA;&lt;p&gt;Actually, besides the well-known ChEMBL &lt;a href=&#34;https://www.ebi.ac.uk/chembl/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;website&lt;/a&gt;, ChEMBL thoughtfully provides a ChEMBL web service client that can be used with Python. By simply entering the desired keywords in Python code, we can search in bulk for the content we need and save it as a CSV file for subsequent processing. ~~~~(For example, cyber alchemy,aka Machine Learning)~~~~&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

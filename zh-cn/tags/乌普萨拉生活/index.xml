@@ -1,34 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>乌普萨拉生活 - 标签 - 小恐龙的自留地</title>
-        <link>/zh-cn/tags/%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E7%94%9F%E6%B4%BB/</link>
-        <description>乌普萨拉生活 - 标签 - 小恐龙的自留地</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</lastBuildDate><atom:link href="/zh-cn/tags/%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E7%94%9F%E6%B4%BB/" rel="self" type="application/rss+xml" /><item>
-    <title>乌普萨拉及周边地区的交通（2025更新版）</title>
-    <link>/zh-cn/ul/</link>
-    <pubDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/ul/</guid>
-    <description><![CDATA[乌普萨拉及周边地区的交通（2025更新版） 前言： 本文原先发布在乌普萨拉大学知乎平台。但由于Uppsala省交通收费系统改制故部分内容不再适用，故更新。因为资料复制黏贴的资源不尽相同，可能全文会存在中英瑞三语混用的情况，请谅解。感谢原作者Wadlo的贡献
-转载随意，不可商用，营销号勿偷！
-&mdash;&mdash;小恐龙 2025 DEC
-地理分区和地方交通运营区区别 众所周知，美丽的乌普萨拉坐落在乌普萨拉大学校园之中。但是，&ldquo;Uppsala&quot;既可以是乌普萨拉省（Uppsala län）也可以是乌普萨拉省的乌普萨拉市（Uppsala Kommun）。乌普萨拉省除了乌普萨拉市还包括Enköping，Östhammar，Tierp等城市。斯德哥尔摩的行政区划也类似不过更加复杂，有兴趣的朋友可参考维基百科。
-UL 即Uppsala Lokaltrafik，但是UL的势力范围除了上文提到的乌普萨拉省还包括了位于斯德哥尔摩省的阿兰达机场，耶夫勒堡省首府Gävle，Västmanland省的Sala等。
-Take Home Message： UL等运营范围与乌普萨拉省的范围不完全相同。（图1）
-图1. a) UL官网对于UL交通区域的描述，b) 地理意义上的乌普萨拉省，c）UL的运行范围
-公共交通运营公司 我们可能用到的公交运营公司（不考虑打车）有：
-UL：Uppsala Lokaltrafik，即乌普萨拉本地交通 SL：和UL类似，是斯德哥尔摩本地交通 SJ（Sverige Järnväg，即瑞典铁路）在全瑞典运营铁路交通。可以类比于国内的铁路总公司。但铁路交通不只有SJ在运营 Mälartåg：俗称麻辣烫，也是运营铁路交通的公司 除此之外还有比较长途的：
-Flixbus：一家穷鬼快乐的城市间大巴运营商。可以作为前往机场交通的替代品，也可以作为过夜旅行的省钱之选。例如从斯德哥尔摩前往哥本哈根在大巴上睡一觉（假设真的睡得着）就到了 Vy：一家私营的铁路和大巴公司，在瑞典中北部有很多线路 Flygbussarna：俗称彩虹巴士，主营业务是机场之间的交通 这三种可以自行摸索
-UL和Movingo车票种类 UL车票可以在App上购买，但是注册UL需要有欧盟的手机号。新来的同学可以上车刷卡购买。UL的售票系统根据不同的种类有：
-75-minutersbiljett: 75分钟票，俗称单程票（Enkelbiljett）。单程票并不是只能坐一次，而是75分钟内均有效。例如，需要在中途某个地方转车，此时不需要再购买新的单程票，只要票还在75分钟有效期内就可以接着用。
-75-minutersbiljett till/från Arlanda med buss：往来阿兰达机场的单程票。如果大家要乘坐公交车前往阿兰达机场，需要购买该类型的车票。如果乘坐轨道️交通则还需要缴纳Arlandapassageavgift tåg（阿兰达机场通行费），这一点见后文。
-Periodbiljett：周期票，包括了24小时，72小时，7天，30天和90天票。其中90天票需要在UL App里面安装图2所示购买。持有Periodbiljett且乘坐公交车前往阿兰达机场毋需再额外交费。
-图2. 90日票的购买
-Movingo Movingo是各地区交通票打包出售的一种票，运营范围适用于整个Mälardalen地区，但如果购买可以只选择部分地区（比如只购买SL和UL地区）。持有Movingo可以乘坐SJ、Mälartåg、地区交通（例如UL和SL等）。适用于需要跨省通勤的朋友。详情可见图3。
-图3. Movingo线路图
-车票租借 持有长期车票的朋友可以在自己不使用的时候在微信群内将自己的车票出租给临时偶尔需要使用的同学。
-SL 斯德哥尔摩车票租借 SL车票不可通过App租借。 自2025年12月开始SL车票也可以租借，可参考Att låna ut och att låna biljett，总结就是：
-借出次数：整月月票最多可借出15次 借出时限：每次借出至凌晨04:30，每天只能借给一人 人数限制：每张月票最多可借给5个不同的人 操作方式：通过SL应用发送链接，接收者点击接受即可使用 重要禁令：严禁收费借出月票 （啊这。。。） 注意事项：借出前需完成自己的行程，双方都需安装最新版SL应用 Movingo 车票租借 Movingo可以租借，每24小时切换一次在 Mälardalstrafik 应用 购买的 Movingo 车票可在当天交通日借用。借来的车票每天 03：30 将归还给购票者。]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>乌普萨拉生活 on 小恐龙的自留地</title>
+    <link>/zh-cn/tags/%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 乌普萨拉生活 on 小恐龙的自留地</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 12 Oct 2025 17:41:00 +0200</lastBuildDate>
+    <atom:link href="/zh-cn/tags/%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>乌普萨拉及周边地区的交通（2025更新版）</title>
+      <link>/zh-cn/ul/</link>
+      <pubDate>Sun, 12 Oct 2025 17:41:00 +0200</pubDate>
+      <guid>/zh-cn/ul/</guid>
+      <description>&lt;h1 id=&#34;乌普萨拉及周边地区的交通2025更新版&#34;&gt;乌普萨拉及周边地区的交通（2025更新版）&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;前言：&lt;/strong&gt; 本文原先发布在&lt;a href=&#34;https://zhuanlan.zhihu.com/p/590668337&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;乌普萨拉大学知乎平台&lt;/a&gt;。但由于Uppsala省交通收费系统改制故部分内容不再适用，故更新。因为资料复制黏贴的资源不尽相同，可能全文会存在中英瑞三语混用的情况，请谅解。&lt;strong&gt;感谢原作者Wadlo的贡献&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;转载随意，不可商用，营销号勿偷！&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;mdash;&amp;mdash;小恐龙 2025 DEC&lt;/p&gt;&#xA;&lt;h2 id=&#34;地理分区和地方交通运营区区别&#34;&gt;地理分区和地方交通运营区区别&lt;/h2&gt;&#xA;&lt;p&gt;众所周知，美丽的乌普萨拉坐落在乌普萨拉大学校园之中。但是，&amp;ldquo;Uppsala&amp;quot;既可以是乌普萨拉省（Uppsala län）也可以是乌普萨拉省的乌普萨拉市（Uppsala Kommun）。乌普萨拉省除了乌普萨拉市还包括Enköping，Östhammar，Tierp等城市。斯德哥尔摩的行政区划也类似不过更加复杂，有兴趣的朋友可参考维基百科。&lt;/p&gt;&#xA;&lt;p&gt;UL 即Uppsala Lokaltrafik，但是UL的势力范围除了上文提到的乌普萨拉省还包括了位于斯德哥尔摩省的阿兰达机场，耶夫勒堡省首府Gävle，Västmanland省的Sala等。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img&#xA;        class=&#34;lazyload&#34;&#xA;        src=&#34;/svg/loading.min.svg&#34;&#xA;        data-src=&#34;/img/UL/1.png&#34;&#xA;        data-srcset=&#34;/img/UL/1.png, /img/UL/1.png 1.5x, /img/UL/1.png 2x&#34;&#xA;        data-sizes=&#34;auto&#34;&#xA;        alt=&#34;/img/UL/1.png&#34;&#xA;        title=&#34;UL交通区域描述&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Take Home Message：&lt;/strong&gt; UL等运营范围与乌普萨拉省的范围不完全相同。（&lt;strong&gt;图1&lt;/strong&gt;）&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;图1.&lt;/strong&gt; a) UL官网对于UL交通区域的描述，b) 地理意义上的乌普萨拉省，c）UL的运行范围&lt;/p&gt;&#xA;&lt;h2 id=&#34;公共交通运营公司&#34;&gt;公共交通运营公司&lt;/h2&gt;&#xA;&lt;p&gt;我们可能用到的公交运营公司（不考虑打车）有：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;UL&lt;/strong&gt;：Uppsala Lokaltrafik，即乌普萨拉本地交通&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;SL&lt;/strong&gt;：和UL类似，是斯德哥尔摩本地交通&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;SJ&lt;/strong&gt;（Sverige Järnväg，即瑞典铁路）在全瑞典运营铁路交通。可以类比于国内的铁路总公司。但铁路交通不只有SJ在运营&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mälartåg&lt;/strong&gt;：俗称麻辣烫，也是运营铁路交通的公司&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;除此之外还有比较长途的：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Flixbus&lt;/strong&gt;：一家穷鬼快乐的城市间大巴运营商。可以作为前往机场交通的替代品，也可以作为过夜旅行的省钱之选。例如从斯德哥尔摩前往哥本哈根在大巴上睡一觉（假设真的睡得着）就到了&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Vy&lt;/strong&gt;：一家私营的铁路和大巴公司，在瑞典中北部有很多线路&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Flygbussarna&lt;/strong&gt;：俗称彩虹巴士，主营业务是机场之间的交通&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这三种可以自行摸索&lt;/p&gt;&#xA;&lt;h2 id=&#34;ul和movingo车票种类&#34;&gt;UL和Movingo车票种类&lt;/h2&gt;&#xA;&lt;p&gt;UL车票可以在App上购买，但是注册UL需要有欧盟的手机号。新来的同学可以上车刷卡购买。UL的售票系统根据不同的种类有：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;75-minutersbiljett&lt;/strong&gt;: 75分钟票，俗称单程票（Enkelbiljett）。&lt;strong&gt;单程票并不是只能坐一次，而是75分钟内均有效。例如，需要在中途某个地方转车，此时不需要再购买新的单程票，只要票还在75分钟有效期内就可以接着用。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;75-minutersbiljett till/från Arlanda med buss&lt;/strong&gt;：往来阿兰达机场的单程票。如果大家要&lt;strong&gt;乘坐公交车&lt;/strong&gt;前往阿兰达机场，需要购买该类型的车票。如果乘坐轨道️交通则还需要缴纳Arlandapassageavgift tåg（阿兰达机场通行费），这一点见后文。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Periodbiljett&lt;/strong&gt;：周期票，包括了24小时，72小时，7天，30天和90天票。其中90天票需要在UL App里面安装图2所示购买。持&lt;strong&gt;有Periodbiljett且乘坐公交车前往阿兰达机场毋需再额外交费。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img&#xA;        class=&#34;lazyload&#34;&#xA;        src=&#34;/svg/loading.min.svg&#34;&#xA;        data-src=&#34;/img/UL/2.png&#34;&#xA;        data-srcset=&#34;/img/UL/2.png, /img/UL/2.png 1.5x, /img/UL/2.png 2x&#34;&#xA;        data-sizes=&#34;auto&#34;&#xA;        alt=&#34;/img/UL/2.png&#34;&#xA;        title=&#34;90日票的购买&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;图2.&lt;/strong&gt; 90日票的购买&lt;/p&gt;&#xA;&lt;h3 id=&#34;movingo&#34;&gt;Movingo&lt;/h3&gt;&#xA;&lt;p&gt;Movingo是各地区交通票打包出售的一种票，运营范围适用于整个Mälardalen地区，但如果购买可以只选择部分地区（比如只购买SL和UL地区）。持有Movingo可以乘坐SJ、Mälartåg、地区交通（例如UL和SL等）。适用于需要跨省通勤的朋友。详情可见图3。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

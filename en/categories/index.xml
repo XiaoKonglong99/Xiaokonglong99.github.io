@@ -1,39 +1,40 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Categories - Category - Little Dinosaur&#39;s Corner</title>
-        <link>/en/categories/</link>
-        <description>Categories - Category - Little Dinosaur&#39;s Corner</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</lastBuildDate><atom:link href="/en/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>Life</title>
-    <link>/en/categories/life/</link>
-    <pubDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/en/categories/life/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Academic</title>
-    <link>/en/categories/academic/</link>
-    <pubDate>Tue, 13 May 2025 07:58:35 &#43;0200</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/en/categories/academic/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Basic Knowledge</title>
-    <link>/en/categories/basic-knowledge/</link>
-    <pubDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/en/categories/basic-knowledge/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Courses at Uppsala University</title>
-    <link>/en/categories/courses-at-uppsala-university/</link>
-    <pubDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/en/categories/courses-at-uppsala-university/</guid>
-    <description><![CDATA[]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Little Dinosaur&#39;s Corner</title>
+    <link>/en/categories/</link>
+    <description>Recent content in Categories on Little Dinosaur&#39;s Corner</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 12 Oct 2025 17:41:00 +0200</lastBuildDate>
+    <atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Life</title>
+      <link>/en/categories/life/</link>
+      <pubDate>Sun, 12 Oct 2025 17:41:00 +0200</pubDate>
+      <guid>/en/categories/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Academic</title>
+      <link>/en/categories/academic/</link>
+      <pubDate>Tue, 13 May 2025 07:58:35 +0200</pubDate>
+      <guid>/en/categories/academic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basic Knowledge</title>
+      <link>/en/categories/basic-knowledge/</link>
+      <pubDate>Fri, 28 Mar 2025 17:52:35 +0100</pubDate>
+      <guid>/en/categories/basic-knowledge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Courses at Uppsala University</title>
+      <link>/en/categories/courses-at-uppsala-university/</link>
+      <pubDate>Fri, 28 Mar 2025 17:52:35 +0100</pubDate>
+      <guid>/en/categories/courses-at-uppsala-university/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

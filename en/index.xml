@@ -11,9 +11,11 @@
     <pubDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</pubDate>
     <author>小恐龙 | Little Dinosaur</author>
     <guid>/en/ul/</guid>
-    <description><![CDATA[Transportation in Uppsala and Surrounding Areas (2025 Update) This article was first published on Uppsala University&rsquo;s Zhihu platform (https://zhuanlan.zhihu.com/p/590668337). However, because Uppsala province changed its transport payment system, some content is no longer correct, so we updated it. Thanks to the original author Wadlo for their contribution.
-&ndash;Last Update: 2025 DEC
-Geographic Areas and Local Transport Operating Zones - What&rsquo;s the Difference? The beautiful city of Uppsala sits within Uppsala University campus.]]></description>
+    <description><![CDATA[<h1 id="transportation-in-uppsala-and-surrounding-areas-2025-update">Transportation in Uppsala and Surrounding Areas (2025 Update)</h1>
+<p><em>This article was first published on Uppsala University&rsquo;s Zhihu platform (<a href="https://zhuanlan.zhihu.com/p/590668337%29" target="_blank" rel="noopener noreffer ">https://zhuanlan.zhihu.com/p/590668337)</a>. However, because Uppsala province changed its transport payment system, some content is no longer correct, so we updated it. <strong>Thanks to the original author Wadlo for their contribution.</strong></em></p>
+<p>&ndash;Last Update: 2025 DEC</p>
+<h2 id="geographic-areas-and-local-transport-operating-zones---whats-the-difference">Geographic Areas and Local Transport Operating Zones - What&rsquo;s the Difference?</h2>
+<p>The beautiful city of Uppsala sits within Uppsala University campus. But &ldquo;Uppsala&rdquo; can mean either <strong>Uppsala Province (Uppsala län)</strong> or Uppsala Municipality (Uppsala Kommun) within Uppsala Province. Uppsala Province includes not only Uppsala city but also cities like Enköping, Östhammar, and Tierp.</p>]]></description>
 </item>
 <item>
     <title>Searching Compound Information Using ChEMBL Python API</title>
@@ -21,8 +23,9 @@ Geographic Areas and Local Transport Operating Zones - What&rsquo;s the Differen
     <pubDate>Tue, 13 May 2025 07:58:35 &#43;0200</pubDate>
     <author>小恐龙 | Little Dinosaur</author>
     <guid>/en/chembl/</guid>
-    <description><![CDATA[Introduction ChEMBL is a database beloved by chemistry professionals. (Because it&rsquo;s free) However, if we want to collect information in bulk, searching individually through the web interface can be quite troublesome. So, is there a method to obtain molecular information in bulk and automatically?
-Actually, besides the well-known ChEMBL website, ChEMBL thoughtfully provides a ChEMBL web service client that can be used with Python. By simply entering the desired keywords in Python code, we can search in bulk for the content we need and save it as a CSV file for subsequent processing.]]></description>
+    <description><![CDATA[<h3 id="introduction">Introduction</h3>
+<p>ChEMBL is a database beloved by chemistry professionals. ~~~~(Because it&rsquo;s free)~~~~ However, if we want to collect information in bulk, searching individually through the web interface can be quite troublesome. So, is there a method to obtain molecular information <strong>in bulk</strong> and <strong>automatically</strong>?</p>
+<p>Actually, besides the well-known ChEMBL <a href="https://www.ebi.ac.uk/chembl/" target="_blank" rel="noopener noreffer ">website</a>, ChEMBL thoughtfully provides a ChEMBL web service client that can be used with Python. By simply entering the desired keywords in Python code, we can search in bulk for the content we need and save it as a CSV file for subsequent processing. ~~~~(For example, cyber alchemy,aka Machine Learning)~~~~</p>]]></description>
 </item>
 <item>
     <title>Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes</title>
@@ -30,11 +33,25 @@ Actually, besides the well-known ChEMBL website, ChEMBL thoughtfully provides a 
     <pubDate>Fri, 28 Mar 2025 17:52:35 &#43;0100</pubDate>
     <author>小恐龙 | Little Dinosaur</author>
     <guid>/en/advanced-modelling/</guid>
-    <description><![CDATA[Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes- 2023 Note This is an personal examination preparation note for the course Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University.Converted atuomatically by Claude AI
-Click hereto download the original hand-written notebook.
-Chapter 1: Ligand-Protein Interaction Key Points: Describing the interaction of molecules
-Determining if a molecule is a good target or not Types of Interactions:
-Electrostatics: Follow Coulomb&rsquo;s Law]]></description>
+    <description><![CDATA[<h1 id="advanced-molecular-modelling-applied-to-drug-discovery3fk181uppsala-university-exam-preparation-notes--2023">Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University Exam Preparation Notes- 2023</h1>
+<hr>
+<h2 id="note">Note</h2>
+<p>This is an personal examination preparation note for the course <a href="https://www.uu.se/en/study/syllabus?query=41298" target="_blank" rel="noopener noreffer ">Advanced Molecular Modelling Applied to Drug Discovery(3FK181)，Uppsala University</a>.Converted atuomatically by <a href="https://claude.ai" target="_blank" rel="noopener noreffer ">Claude AI</a></p>
+<p>Click <a href="https://drive.google.com/file/d/1uE6zOciSGgnXPS1vmfuWLrCtRQ5LIVrw/view?usp=share_link" target="_blank" rel="noopener noreffer ">here</a>to download the original hand-written notebook.</p>
+<h2 id="chapter-1-ligand-protein-interaction">Chapter 1: Ligand-Protein Interaction</h2>
+<h3 id="key-points">Key Points:</h3>
+<ol>
+<li>
+<p><strong>Describing the interaction of molecules</strong></p>
+<ul>
+<li>Determining if a molecule is a good target or not</li>
+</ul>
+</li>
+<li>
+<p><strong>Types of Interactions</strong>:</p>
+<ul>
+<li>
+<p><strong>Electrostatics</strong>: Follow Coulomb&rsquo;s Law</p>]]></description>
 </item>
 <item>
     <title>InDraw -- Convert Figures to SMILES with AI</title>
@@ -42,10 +59,11 @@ Electrostatics: Follow Coulomb&rsquo;s Law]]></description>
     <pubDate>Mon, 12 Aug 2024 15:00:01 &#43;0200</pubDate>
     <author>小恐龙 | Little Dinosaur</author>
     <guid>/en/structure-ocr/</guid>
-    <description><![CDATA[InDraw for web is a powerful online chemical structure drawing tool. It can convert chemical figures (in articles, for example) to SMILES so that we can edit the structures ourselves. Currently, it only supports Chinese. Let&rsquo;s see how it works.
-Step 1. Register Step 2. Convert Find a figure of chemical structure, paste it into the canvas。
-Attention: ⚠️
-Don&rsquo;t forget to manually check it before using it! Make sure the backgroud of the figure is clean if possible.]]></description>
+    <description><![CDATA[<p><a href="https://indrawforweb.integle.com" target="_blank" rel="noopener noreffer ">InDraw</a> for web is a powerful online chemical structure drawing tool. It can convert chemical figures (in articles, for example) to SMILES so that we can edit the structures ourselves. Currently, it only supports Chinese. Let&rsquo;s see how it works.</p>
+<h4 id="step-1-register">Step 1. Register</h4>
+<p>
+
+</p>]]></description>
 </item>
 <item>
     <title>Draw TRANSPARENT Chemical Structure with RDKit --With Python Code</title>
@@ -53,8 +71,64 @@ Don&rsquo;t forget to manually check it before using it! Make sure the backgroud
     <pubDate>Mon, 12 Aug 2024 14:21:01 &#43;0200</pubDate>
     <author>小恐龙 | Little Dinosaur</author>
     <guid>/en/transparent/</guid>
-    <description><![CDATA[Background It&rsquo;s hard to remove the white background of molecular 2D figures created directly with RDKit. They don&rsquo;t look good when placed in PowerPoint. This article provided a way to make TRANSPARENT ones.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 from rdkit import Chem from rdkit import rdBase from rdkit.Chem import Draw from rdkit.]]></description>
+    <description><![CDATA[<h3 id="background">Background</h3>
+<p>It&rsquo;s hard to remove the white background of molecular 2D figures created directly with RDKit. They don&rsquo;t look good when placed in PowerPoint. <a href="https://link.springer.com/article/10.1186/s13321-022-00664-x" target="_blank" rel="noopener noreffer ">This article</a> provided a way to make <strong>TRANSPARENT</strong> ones.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">rdkit</span> <span class="kn">import</span> <span class="n">Chem</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">rdkit</span> <span class="kn">import</span> <span class="n">rdBase</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">rdkit.Chem</span> <span class="kn">import</span> <span class="n">Draw</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">rdkit.Chem.Draw</span> <span class="kn">import</span> <span class="n">rdMolDraw2D</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">rdkit.Chem</span> <span class="kn">import</span> <span class="n">rdDepictor</span>
+</span></span><span class="line"><span class="cl"><span class="n">rdDepictor</span><span class="o">.</span><span class="n">SetPreferCoordGen</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">rdkit.Chem</span> <span class="kn">import</span> <span class="n">rdMolDescriptors</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">rdkit.Chem</span> <span class="kn">import</span> <span class="n">rdFMCS</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">rdkit</span> <span class="kn">import</span> <span class="n">DataStructs</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">io</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">show_png</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">bio</span> <span class="o">=</span> <span class="n">io</span><span class="o">.</span><span class="n">BytesIO</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">img</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">bio</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">img</span>
+</span></span><span class="line"><span class="cl"><span class="n">smi</span> <span class="o">=</span> <span class="s2">&#34;CCCCCC&#34;</span> <span class="c1">#Take cyclohexane as an example</span>
+</span></span><span class="line"><span class="cl"><span class="n">drawer</span> <span class="o">=</span> <span class="n">rdMolDraw2D</span><span class="o">.</span><span class="n">MolDraw2DCairo</span><span class="p">(</span><span class="mi">300</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span> <span class="c1">#You can adjust the image size</span>
+</span></span><span class="line"><span class="cl"><span class="n">drawer</span><span class="o">.</span><span class="n">drawOptions</span><span class="p">()</span><span class="o">.</span><span class="n">clearBackground</span> <span class="o">=</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl"><span class="n">drawer</span><span class="o">.</span><span class="n">drawOptions</span><span class="p">()</span><span class="o">.</span><span class="n">addStereoAnnotation</span> <span class="o">=</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl"><span class="n">drawer</span><span class="o">.</span><span class="n">DrawMolecule</span><span class="p">(</span><span class="n">Chem</span><span class="o">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="n">smi</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">drawer</span><span class="o">.</span><span class="n">FinishDrawing</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">mol</span> <span class="o">=</span> <span class="n">drawer</span><span class="o">.</span><span class="n">GetDrawingText</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">show_png</span><span class="p">(</span><span class="n">mol</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Right click and save it, done!
+Cheers!🍺</p>]]></description>
 </item>
 </channel>
 </rss>

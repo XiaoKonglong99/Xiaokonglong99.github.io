@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>欧洲生活 on 小恐龙的自留地</title>
+    <link>/zh-cn/tags/%E6%AC%A7%E6%B4%B2%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 欧洲生活 on 小恐龙的自留地</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 11 Aug 2024 17:25:35 +0200</lastBuildDate>
+    <atom:link href="/zh-cn/tags/%E6%AC%A7%E6%B4%B2%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>欧区🇪🇺Revolut&#43;中银香港🇭🇰资金回国尝试.md</title>
+      <link>/zh-cn/eu_hk_bank/</link>
+      <pubDate>Sun, 11 Aug 2024 17:25:35 +0200</pubDate>
+      <guid>/zh-cn/eu_hk_bank/</guid>
+      <description>&lt;h1 id=&#34;欧区--revolut--中银香港--资金回国操作指南&#34;&gt;欧区 🇪🇺 Revolut + 中银香港 🇭🇰 资金回国操作指南&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-声明&#34;&gt;⚠️ 声明&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;本经验贴适用于&lt;strong&gt;在欧盟境内、持有欧元收入&lt;/strong&gt;，且同时开通了**中国银行（香港）&lt;strong&gt;与&lt;/strong&gt;中国银行（内地）**账户的用户，其他地区用户可酌情参考。&lt;/li&gt;&#xA;&lt;li&gt;本文基于个人实操经验，经整理后发布，&lt;strong&gt;仅供参考&lt;/strong&gt;，笔者不对任何资金损失承担责任。&lt;/li&gt;&#xA;&lt;li&gt;国际汇率实时波动，本文所述路径&lt;strong&gt;不保证汇率最优&lt;/strong&gt;，请结合实际情况判断。&lt;/li&gt;&#xA;&lt;li&gt;请务必遵守所在国及相关司法管辖区的金融法律法规，合规操作。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;前提条件&#34;&gt;前提条件&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Revolut 欧区账户&lt;/strong&gt;：需开通欧洲区注册的 Revolut 账户。相关开户教程网络上已有大量资料，请自行搜索。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;中国银行（香港）账户&lt;/strong&gt;（以下简称 BOCHK）及&lt;strong&gt;中国银行（内地）账户&lt;/strong&gt;：开户方式同上，请自行搜索相关教程。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;step-1revolut-内部换汇eur---hkd-&#34;&gt;Step 1｜Revolut 内部换汇（EUR 🇪🇺 → HKD 🇭🇰）&lt;/h2&gt;&#xA;&lt;p&gt;Revolut 支持设置&lt;strong&gt;限价单（Limit Order）&lt;/strong&gt;，在汇率达到目标值时自动完成换汇，避免手动盯盘。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;操作路径：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;code&gt;Move&lt;/code&gt; → 选择 &lt;code&gt;EUR → HKD&lt;/code&gt; → 点击左下角 &lt;strong&gt;Order Type&lt;/strong&gt;（三滑块图标）→ 选择 &lt;strong&gt;Limit Order&lt;/strong&gt; → 设置目标汇率 → 确认提交&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;注意事项：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;此功能同样适用于其他货币对。&lt;/li&gt;&#xA;&lt;li&gt;换汇所得港元（或其他外币）可绑定 Revolut 借记卡，在线上或线下直接刷卡消费。&lt;/li&gt;&#xA;&lt;li&gt;Revolut &lt;strong&gt;Standard（免费）账户&lt;/strong&gt;每月享有一定额度的&lt;strong&gt;免费换汇&lt;/strong&gt;，超出部分将按比例收取手续费，请注意额度使用情况。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;step-2revolut-跨境汇款revolut-hkd---bochk-港元储蓄账户&#34;&gt;Step 2｜Revolut 跨境汇款（Revolut HKD 🇭🇰 → BOCHK 港元储蓄账户）&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;操作路径：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;底部菜单栏 &lt;code&gt;Payments&lt;/code&gt; → 右上角 &lt;code&gt;＋&lt;/code&gt; → &lt;code&gt;International&lt;/code&gt; → 选择地区 &lt;code&gt;Hong Kong（香港）&lt;/code&gt; → 选择汇款金额 → 填写收款方信息 → 确认汇款&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
