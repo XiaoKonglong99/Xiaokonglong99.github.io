@@ -6,8 +6,15 @@
     <description>Recent content in 黑科技 on 小恐龙的自留地</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 13 Dec 2025 09:49:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 10:40:00 +0100</lastBuildDate>
     <atom:link href="/zh-cn/tags/%E9%BB%91%E7%A7%91%E6%8A%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用AI 大模型繪製ChemDraw 化學結構</title>
+      <link>/zh-cn/chemdraw/</link>
+      <pubDate>Sat, 14 Nov 2026 10:40:00 +0100</pubDate>
+      <guid>/zh-cn/chemdraw/</guid>
+      <description>&lt;p&gt;如题，情况是这样的：&lt;/p&gt;&#xA;&lt;p&gt;我们在用ChemDraw绘制一系列具有相似Scaffold的分子时，如果直接复制粘贴SMILES，或者直接从网上下载mol/sdf文件，往往很难保证它们的骨架排版看起来完全一致。比如，同一个骨架上的某个取代基，有时被画在上方，有时在下方，如果全靠手动调整会非常讨嫌。&lt;/p&gt;&#xA;&lt;p&gt;因此，笔者尝试了能不能借助AI，直接生成一种能无缝导入ChemDraw（或其他结构绘制软件）的统一输出。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img&#xA;        class=&#34;lazyload&#34;&#xA;        src=&#34;/svg/loading.min.svg&#34;&#xA;        data-src=&#34;/img/ChemDraw/1.png&#34;&#xA;        data-srcset=&#34;/img/ChemDraw/1.png, /img/ChemDraw/1.png 1.5x, /img/ChemDraw/1.png 2x&#34;&#xA;        data-sizes=&#34;auto&#34;&#xA;        alt=&#34;/img/ChemDraw/1.png&#34;&#xA;        title=&#34;ChemDraw 中的 Copy As 菜单，其中可以选择 CDXML Text&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;探索ChemDraw后发现，我们在复制分子结构时，除了常见的MOL、SMILES、InChI之外，还可以选择复制为“CDXML Text”。这是ChemDraw专属的编码格式。我们只需把这段CDXML文本配合写好的prompt喂给AI，它生成的结构相当精美——不仅骨架完美对齐，甚至连配色、键长、键宽等细节都能和模板分子一模一样。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img&#xA;        class=&#34;lazyload&#34;&#xA;        src=&#34;/svg/loading.min.svg&#34;&#xA;        data-src=&#34;/img/ChemDraw/2.png&#34;&#xA;        data-srcset=&#34;/img/ChemDraw/2.png, /img/ChemDraw/2.png 1.5x, /img/ChemDraw/2.png 2x&#34;&#xA;        data-sizes=&#34;auto&#34;&#xA;        alt=&#34;/img/ChemDraw/2.png&#34;&#xA;        title=&#34;AI 生成的结构与模板对齐效果&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;供有相似需求的朋友们参考&lt;/p&gt;</description>
+    </item>
     <item>
       <title>支持多币种的iPhone记账快捷方式</title>
       <link>/zh-cn/spend/</link>

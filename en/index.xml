@@ -3,9 +3,18 @@
         <title>Little Dinosaur&#39;s Corner</title>
         <link>/en/</link>
         <description>This is my brand new Hugo website</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sat, 14 Nov 2026 10:40:00 &#43;0100</lastBuildDate>
             <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Drawing ChemDraw Chemical Structures with AI LLMs</title>
+    <link>/en/chemdraw/</link>
+    <pubDate>Sat, 14 Nov 2026 10:40:00 &#43;0100</pubDate>
+    <author>小恐龙 | Little Dinosaur</author>
+    <guid>/en/chemdraw/</guid>
+    <description><![CDATA[<p>As the title says, here is the situation:</p>
+<p>When we use ChemDraw to draw a series of molecules sharing a similar scaffold, copying and pasting SMILES directly, or downloading mol/sdf files straight from the web, often makes it hard to keep their scaffold layouts looking exactly the same. For example, a substituent on the same scaffold is sometimes drawn above and sometimes below; adjusting everything by hand is a real pain.</p>]]></description>
+</item>
+<item>
     <title>Transportation in Uppsala and Surrounding Areas (2025 Update)</title>
     <link>/en/ul/</link>
     <pubDate>Sun, 12 Oct 2025 17:41:00 &#43;0200</pubDate>

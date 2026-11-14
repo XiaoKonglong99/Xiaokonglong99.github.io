@@ -3,7 +3,21 @@
         <title>所有文章 - 小恐龙的自留地</title>
         <link>/zh-cn/posts/</link>
         <description>所有文章 | 小恐龙的自留地</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Mar 2026 21:37:35 &#43;0200</lastBuildDate><atom:link href="/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 14 Nov 2026 10:40:00 &#43;0100</lastBuildDate><atom:link href="/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>用AI 大模型繪製ChemDraw 化學結構</title>
+    <link>/zh-cn/chemdraw/</link>
+    <pubDate>Sat, 14 Nov 2026 10:40:00 &#43;0100</pubDate>
+    <author>小恐龙 | Little Dinosaur</author>
+    <guid>/zh-cn/chemdraw/</guid>
+    <description><![CDATA[<p>如题，情况是这样的：</p>
+<p>我们在用ChemDraw绘制一系列具有相似Scaffold的分子时，如果直接复制粘贴SMILES，或者直接从网上下载mol/sdf文件，往往很难保证它们的骨架排版看起来完全一致。比如，同一个骨架上的某个取代基，有时被画在上方，有时在下方，如果全靠手动调整会非常讨嫌。</p>
+<p>因此，笔者尝试了能不能借助AI，直接生成一种能无缝导入ChemDraw（或其他结构绘制软件）的统一输出。</p>
+<p></p>
+<p>探索ChemDraw后发现，我们在复制分子结构时，除了常见的MOL、SMILES、InChI之外，还可以选择复制为“CDXML Text”。这是ChemDraw专属的编码格式。我们只需把这段CDXML文本配合写好的prompt喂给AI，它生成的结构相当精美——不仅骨架完美对齐，甚至连配色、键长、键宽等细节都能和模板分子一模一样。</p>
+<p></p>
+<p>供有相似需求的朋友们参考</p>]]></description>
+</item>
+<item>
     <title>欧区🇪🇺Revolut&#43;中银香港🇭🇰资金回国尝试</title>
     <link>/zh-cn/eu_hk_bank/</link>
     <pubDate>Mon, 30 Mar 2026 21:37:35 &#43;0200</pubDate>
@@ -425,26 +439,6 @@
 <h2 id="数据分析">数据分析</h2>
 <h3 id="数据库各子项分析">数据库各子项分析</h3>
 <p>最终建立的数据库包含5638条来自不同实验方法的膜渗透性数据,其中84%来自科学文献、4%来自专利文献、11%来自ChEMBL数据库。数据库中的渗透性数据主要来自五类实验方法。其中PAMPA占比最高,达67%(3767条),值得注意的是91%的PAMPA渗透性数据来自同一篇文献。Caco-2细胞实验数据占26%(1502条),包含顶端到基底(P<sub>app</sub>AB)和基底到顶端(P<sub>app</sub>BA)两个方向的表观渗透系数(P<sub>app</sub>）,以及加入转运体抑制剂后的相应值(P<sub>app</sub>AB+Inh. 和P<sub>app</sub>BA+Inh.）。通过计算外排比(ER = Papp BA/Papp AB),可评估化合物是否存在主动外排以及外排的程度。MDCK细胞实验贡献了264条数据,主要用于评估被动和主动跨膜转运特性。</p>]]></description>
-</item>
-<item>
-    <title>InDraw: 用AI把化学结构图片转换成SMILES</title>
-    <link>/zh-cn/structure-ocr/</link>
-    <pubDate>Mon, 12 Aug 2024 15:00:01 &#43;0200</pubDate>
-    <author>小恐龙 | Little Dinosaur</author>
-    <guid>/zh-cn/structure-ocr/</guid>
-    <description><![CDATA[<h3 id="前言">前言</h3>
-<p>鲁迅先生曾经说过：发化学文章不给SMILES等于没有发过。<del>鲁迅：我没说过</del> 但是很多文章里面的化学结构的Supporting Information 里面确实不给SMILES。涉及到全合成或者一大堆手性的化合物如果我们想要自己在ChemDraw里面画出来就极度痛苦。</p>
-<p><a href="https://indrawforweb.integle.com" target="_blank" rel="noopener noreffer ">InDraw</a> for web 是一个在线化学结构式绘制软件，最牛X的是他可以把化学图片结构式识别成SMILES（或者其他软件可读）的格式。</p>
-<h3 id="实例">实例</h3>
-<p>复制一张看起来就很劝退的结构式图片，黏贴在画板里面。选择 <strong>AI 图像识别</strong>
-</p>
-<p>识别完成后，右键，选择想要的格式，搞定！
-</p>
-<p><strong>注意</strong> ⚠️</p>
-<ul>
-<li>在使用之前务必人工校对！</li>
-<li>用于识别的图片并非尺寸越大越好，保证背景干净就行。</li>
-</ul>]]></description>
 </item>
 </channel>
 </rss>

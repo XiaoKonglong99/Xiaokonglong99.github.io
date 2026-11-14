@@ -6,8 +6,15 @@
     <description>Recent content in Academic on Little Dinosaur&#39;s Corner</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 13 May 2025 07:58:35 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 10:40:00 +0100</lastBuildDate>
     <atom:link href="/en/categories/academic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drawing ChemDraw Chemical Structures with AI LLMs</title>
+      <link>/en/chemdraw/</link>
+      <pubDate>Sat, 14 Nov 2026 10:40:00 +0100</pubDate>
+      <guid>/en/chemdraw/</guid>
+      <description>&lt;p&gt;As the title says, here is the situation:&lt;/p&gt;&#xA;&lt;p&gt;When we use ChemDraw to draw a series of molecules sharing a similar scaffold, copying and pasting SMILES directly, or downloading mol/sdf files straight from the web, often makes it hard to keep their scaffold layouts looking exactly the same. For example, a substituent on the same scaffold is sometimes drawn above and sometimes below; adjusting everything by hand is a real pain.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Searching Compound Information Using ChEMBL Python API</title>
       <link>/en/chembl/</link>
